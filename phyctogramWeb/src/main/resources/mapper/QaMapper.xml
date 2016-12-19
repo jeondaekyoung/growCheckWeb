@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace="naree.db.mapper.QaMapper">
+
+	<select id="selectqaByMemberSeq" parameterType="hashmap" resultType="Qa">
+		SELECT qa_seq, title, contents, writng_de, answer, member_seq
+					,IF(ISNULL(answer), '답변대기', '답변완료') as state
+		  FROM qa_tb
+		WHERE member_seq = #{member_seq}
+		ORDER BY writng_de DESC
+		LIMIT #{pageCnt}, 10
+	</select>
+	
+	<insert id="insertQa" parameterType="Qa">
+		INSERT INTO qa_tb (title
+									,contents
+									,member_seq ) VALUES (
+									#{title}
+									,#{contents}
+									,#{member_seq} )
+	</insert>
+	
+	<select id="listQa" parameterType="hashmap" resultType="Qa">
+		SELECT a.qa_seq as qa_seq
+				   ,a.writng_de as writng_de
+			       ,IFNULL(IFNULL(b.name,b.kakao_nickname),b.facebook_name) as name
+			       ,a.title as title
+			       ,a.contents as contents
+			       ,a.answer as answer
+		  FROM qa_tb AS a INNER JOIN member_tb AS b
+			  ON a.member_seq = b.member_seq
+		<if test = "searchState == 'answer'">
+		WHERE a.answer IS NULL
+		</if>
+		ORDER BY writng_de DESC
+		   LIMIT #{pageCnt}, 10
+	</select>
+	
+	<update id="modifyQa" parameterType="hashmap">
+		UPDATE qa_tb
+		     SET answer = #{answer}
+		  WHERE qa_seq = #{qa_seq}
+	</update>
+	
+	<select id="selectByQaSeq" parameterType="Integer" resultType="Qa">
+		SELECT qa_seq, title, contents, writng_de, answer, member_seq
+		  FROM qa_tb
+		WHERE qa_seq = #{qa_seq}
+	</select>
+	
+	<delete id="deleteByMember_seq" parameterType="Integer">
+		DELETE FROM qa_tb WHERE member_seq= #{member_seq}
+	</delete>
+
+</mapper>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace="naree.db.mapper.QaWebMapper">
+	
+	<insert id="insertQaWeb" parameterType="QaWeb">
+		INSERT INTO qa_web_tb (name
+									,email
+									,tel
+									,contents
+									,state ) VALUES (
+									#{name}
+									,#{email}
+									,#{tel}
+									,#{contents}
+									,#{state} )
+	</insert>
+	
+	<select id="listQaWeb" parameterType="hashmap" resultType="QaWeb">
+	SELECT * FROM qa_web_tb 
+	ORDER BY writng_de DESC
+	LIMIT #{pageCnt}, 10
+
+	</select>
+	
+	<update id="modifyQaWeb" parameterType="hashmap">
+		UPDATE qa_web_tb
+		     SET answer = #{answer}
+		  WHERE qa_Web_seq = #{qa_Web_seq}
+	</update>
+	
+	<update id="updateStateQaWeb" parameterType="Integer">
+	UPDATE qa_web_tb
+		     SET state = '답변완료'
+		  WHERE qa_Web_seq = #{qa_Web_seq}
+		  
+	</update>
+	
+	<select id="selectByQaWebSeq" parameterType="Integer" resultType="QaWeb">
+		SELECT *
+		  FROM qa_web_tb
+		WHERE qa_Web_seq = #{qa_Web_seq}
+	</select>
+	
+	<delete id="eraseByqa_web_Seq" parameterType="Integer">
+		DELETE FROM qa_web_tb
+		WHERE qa_Web_seq = #{qa_Web_seq}
+	</delete>
+
+</mapper>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace="naree.db.mapper.UsersMapper">
+
+	<insert id="insertUsers" parameterType="Users">
+		INSERT INTO users_tb (
+						name
+						,initials
+						,lifyea
+						,mt
+						,de
+						,sexdstn
+						,member_seq ) VALUES (
+						#{name},
+						#{initials},
+						#{lifyea}
+						,#{mt},
+						#{de},
+						#{sexdstn},
+						#{member_seq} )
+	</insert>
+	
+	<select id="selectUsersByMemberSeq" parameterType="String" resultType="Users">
+		SELECT user_seq, name, initials, lifyea, mt, de, sexdstn, member_seq 
+	       FROM users_tb
+	     WHERE member_seq = #{member_seq}
+	</select>
+	
+	<delete id="deleteUsersByUserSeq" parameterType="String">
+		DELETE FROM users_tb 
+		WHERE user_seq = #{user_seq}
+	</delete>
+	
+	<update id="updateUsersByUsers" parameterType="Users">
+		UPDATE users_tb SET
+					name = #{name},
+					initials = #{initials},
+					lifyea = #{lifyea},
+					mt = #{mt},
+					de = #{de},
+					sexdstn = #{sexdstn}
+		  WHERE user_seq = #{user_seq}
+	</update>
+	
+	<delete id="deleteUsersByMemberSeq" parameterType="Integer">
+		DELETE FROM users_tb
+		         WHERE member_seq = #{member_seq}
+	</delete>
+	
+	<select id="selectMonthNumAnimalByUserSeq" parameterType="Integer" resultType="Analysis">
+	<![CDATA[
+		SELECT analysis_seq, sexdstn, month_num, height, rank, animal_img
+		  FROM analysis_2007_tb
+        WHERE month_num = IF( ( (SELECT to_days(date_format(max(mesure_date), '%Y%m%d')) FROM height_tb WHERE user_seq = #{user_seq})
+                                          - (SELECT to_days(concat(lifyea,mt,de)) FROM users_tb WHERE user_seq = #{user_seq}) )/30 < 229
+                                        , ceil(  ( (SELECT to_days(date_format(max(mesure_date), '%Y%m%d')) FROM height_tb WHERE user_seq = #{user_seq})
+                                          - (SELECT to_days(concat(lifyea,mt,de)) FROM users_tb WHERE user_seq = #{user_seq}) )/30)
+                                        ,228)
+			AND sexdstn = (SELECT sexdstn FROM users_tb WHERE user_seq = #{user_seq})
+			AND height >= ( SELECT height FROM height_tb WHERE user_seq = #{user_seq}
+                    			   ORDER BY mesure_date DESC LIMIT 1    )
+     ORDER BY analysis_seq
+          LIMIT 1
+	]]>
+	</select>
+	
+		<select id="selectMaxMonthNumAnimalByUserSeq" parameterType="Integer" resultType="Analysis">
+	<![CDATA[
+		SELECT analysis_seq, sexdstn, month_num, height, rank, animal_img
+		  FROM analysis_2007_tb
+        WHERE month_num = IF( ( (SELECT to_days(date_format(max(mesure_date), '%Y%m%d')) FROM height_tb WHERE user_seq = #{user_seq})
+                                          - (SELECT to_days(concat(lifyea,mt,de)) FROM users_tb WHERE user_seq = #{user_seq}) )/30 < 229
+                                        , ceil(  ( (SELECT to_days(date_format(max(mesure_date), '%Y%m%d')) FROM height_tb WHERE user_seq = #{user_seq})
+                                          - (SELECT to_days(concat(lifyea,mt,de)) FROM users_tb WHERE user_seq = #{user_seq}) )/30)
+                                        ,228)
+			AND sexdstn = (SELECT sexdstn FROM users_tb WHERE user_seq = #{user_seq})
+      ORDER BY analysis_seq DESC
+           LIMIT 1
+	]]>
+	</select>
+	
+	
+	
+
+</mapper>

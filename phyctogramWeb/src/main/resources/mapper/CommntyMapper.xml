@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace="naree.db.mapper.CommntyMapper">
+
+	<insert id="insertCommnty" parameterType="Commnty">
+		INSERT INTO commnty_tb (
+							title,
+							contents,
+							writng_de,
+							member_seq) VALUES (
+							#{title},
+							#{contents},
+							now(),
+							#{member_seq} )
+	</insert>
+	
+	<select id="selectCommntyLatest" resultType="SqlCommntyListView" parameterType="Integer">
+		SELECT a1.commnty_seq, a1.title, a1.name, a1.writng_de, a1.hits_co, ifnull(a2.cnt, 0) as cnt FROM 
+  			(SELECT a.commnty_seq, a.title, b.name, a.writng_de, a.hits_co FROM commnty_tb a, 
+    			(SELECT member_seq, case join_route when 'phyctogram' then name when 'facebook' then facebook_name
+                                  when 'kakao' then kakao_nickname end as name FROM member_tb ) b
+  			where a.member_seq = b.member_seq) a1
+		LEFT OUTER JOIN ( SELECT commnty_seq, count(comment_seq) as cnt
+        				            FROM comment_tb GROUP BY commnty_seq ) a2
+		ON a1.commnty_seq = a2.commnty_seq
+		ORDER BY a1.writng_de DESC
+		LIMIT #{pageCntFirstIndex}, 10
+	</select>
+	
+	<select id="selectCommntyPopular" resultType="SqlCommntyListView" parameterType="Integer">
+		SELECT a1.commnty_seq, a1.title, a1.name, a1.writng_de, a1.hits_co, ifnull(a2.cnt, 0) as cnt FROM 
+  			(SELECT a.commnty_seq, a.title, b.name, a.writng_de, a.hits_co FROM commnty_tb a, 
+    			(SELECT member_seq, case join_route when 'phyctogram' then name when 'facebook' then facebook_name
+                                  when 'kakao' then kakao_nickname end as name FROM member_tb ) b
+  			where a.member_seq = b.member_seq) a1
+		LEFT OUTER JOIN ( SELECT commnty_seq, count(comment_seq) as cnt
+        				            FROM comment_tb GROUP BY commnty_seq ) a2
+		ON a1.commnty_seq = a2.commnty_seq
+		ORDER BY a1.hits_co DESC
+		LIMIT #{pageCntFirstIndex}, 10
+	</select>
+	
+	<select id="selectCommntyByCommntySeq" parameterType="Integer" resultType="Commnty">
+		SELECT commnty_seq, title, contents, image_nm, image_server_nm, writng_de, hits_co, member_seq
+		  FROM commnty_tb
+		 WHERE commnty_seq = #{commnty_seq}
+	</select>
+	
+	<update id="updateHitsCoByCommnty" parameterType="Commnty">
+		UPDATE commnty_tb SET hits_co = hits_co+1
+		 WHERE commnty_seq = #{commnty_seq}
+	</update>
+	
+	<select id="selectCommntyPopularTop3" resultType="SqlCommntyListView" >
+		SELECT a1.commnty_seq, a1.title, a1.name, a1.writng_de, a1.hits_co, ifnull(a2.cnt, 0) as cnt FROM 
+  			(SELECT a.commnty_seq, a.title, b.name, a.writng_de, a.hits_co FROM commnty_tb a, 
+    			(SELECT member_seq, case join_route when 'phyctogram' then name when 'facebook' then facebook_name
+                                  when 'kakao' then kakao_nickname end as name FROM member_tb ) b
+  			where a.member_seq = b.member_seq) a1
+		LEFT OUTER JOIN ( SELECT commnty_seq, count(comment_seq) as cnt
+        				            FROM comment_tb GROUP BY commnty_seq ) a2
+		ON a1.commnty_seq = a2.commnty_seq
+		ORDER BY a1.hits_co DESC
+		LIMIT 3
+	</select>
+	
+	<select id="selectCommntyByMemberSeq" parameterType="Integer" resultType="Commnty">
+		SELECT commnty_seq, title, contents, image_nm, image_server_nm, writng_de, hits_co, member_seq 
+          FROM commnty_tb
+        WHERE member_seq = #{member_seq}
+	</select>
+
+	<delete id="deleteCommntyByMemberSeq" parameterType="Integer">
+		DELETE FROM commnty_tb
+		         WHERE member_seq = #{member_seq}
+	</delete>
+	
+	
+	
+	
+	
+</mapper>

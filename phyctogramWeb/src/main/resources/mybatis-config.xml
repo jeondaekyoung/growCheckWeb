@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+  
+  
+<configuration>
+	<settings>
+		<setting name="logImpl" value="LOG4J"/>
+	</settings>
+	
+ 	<typeAliases>
+ 	<package name="naree.db.domain"/>
+		<!-- <typeAlias type="naree.db.domain.Height" alias="Height"/>
+		<typeAlias type="naree.db.domain.Member" alias="Member"/>
+		<typeAlias type="naree.db.domain.Users" alias="Users"/>
+		<typeAlias type="naree.db.domain.Commnty" alias="Commnty"/>
+		<typeAlias type="naree.db.domain.SqlCommntyListView" alias="SqlCommntyListView"/>
+		<typeAlias type="naree.db.domain.Comment" alias="Comment"/>
+		<typeAlias type="naree.db.domain.Diary" alias="Diary"/>
+		<typeAlias type="naree.db.domain.Analysis" alias="Analysis"/>
+		<typeAlias type="naree.db.domain.Admin" alias="Admin"/>
+		<typeAlias type="naree.db.domain.Notice" alias="Notice"/>
+		<typeAlias type="naree.db.domain.Qa" alias="Qa"/>
+		<typeAlias type="naree.db.domain.Qa_Web" alias="Qa_Web"/>  -->
+		
+		
+	</typeAliases>
+
+  <environments default="development">
+    <environment id="development">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/phyctogram_db"/>
+        <!-- <property name="url" value="jdbc:mysql://117.52.89.228:3306/phyctogram_db"/> -->
+        <property name="username" value="phyctogram"/>
+        <property name="password" value="phyctogram123"/>
+        <property name="poolPingQuery" value="select 1"/>
+        <property name="poolPingEnabled" value="true"/>
+        <property name="poolPingConnectionsNotUsedFor" value="43200"/>
+      </dataSource>
+    </environment>
+  </environments>
+  
+  <mappers>
+    <mapper resource="mapper/HeightMapper.xml"/>
+    <mapper resource="mapper/MemberMapper.xml"/>
+    <mapper resource="mapper/UsersMapper.xml"/>
+    <mapper resource="mapper/CommntyMapper.xml"/>
+    <mapper resource="mapper/CommentMapper.xml"/>
+    <mapper resource="mapper/DiaryMapper.xml"/>
+    <mapper resource="mapper/AdminMapper.xml"/>
+    <mapper resource="mapper/NoticeMapper.xml"/>
+    <mapper resource="mapper/QaMapper.xml"/>
+    <mapper resource="mapper/QaWebMapper.xml"/>
+    <mapper resource="mapper/PushMapper.xml"/>
+  </mappers>
+</configuration>
