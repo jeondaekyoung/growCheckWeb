@@ -7,7 +7,7 @@
   <script>
 	 $(function () {
 	     var typewriter = new Typewriter($("#typewriter"));
-	     typewriter.typeText("가장 진보한 유아용 성장 측정·관리 기기");
+	     typewriter.typeText("가장 진보한 유아용 성장 측정·관리 기기.");
 	 });	    
   </script>
   <jsp:include page="/include/head-index.jsp"/>
