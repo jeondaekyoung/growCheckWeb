@@ -12,7 +12,7 @@
   
 	<!-- //start : #section0 -->
 	<div class="section" id="section0">
-        <h1 class="animated fadeInUp">About Us</h1>
+        <h1 class="animated fadeInUp m-mt2 fz-80">About Us</h1>
         
         <div class="row animated fadeInUp dur400">        
             <div class="col-12 timeline">

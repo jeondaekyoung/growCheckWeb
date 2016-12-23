@@ -24,7 +24,7 @@
     </video>
     <div class="modal">
       <div class="layer animated dur400 fadeInUp">
-        <div class="col-12">
+        <div class="col-12 m-col-10 m-suffix-1 m-prefix-1 ">
 	        <h1 id="typewriter"></h1>
 	        <p>Phyctogram measures height and weight easily and accurately, and provides growth solution by automatically analysis</p>
         </div>
@@ -33,27 +33,29 @@
   </div>
 
 	<div class="section row" id="section0">
-	    <div class="headlineProd animated">
+	    <div class="headlineProd animated m-col-10 m-suffix-1 m-prefix-1">
 	      <h3>Easy to use & Simple UI</h3>
 	      <p>Phyctogram provides a simple method to measure height and its aesthetic design aims at simpleness</p>
-	      <img src="<%=application.getContextPath()%>/resources/res/imgs/main_2.png" alt="phyctogram" class="animated fadeInUpBig col-12">
+	      <img src="<%=application.getContextPath()%>/resources/res/imgs/main_2.png" alt="phyctogram" class="animated fadeInUpBig col-12 m-dp-none">
+	      <img src="<%=application.getContextPath()%>/resources/res/imgs/main_m.png" alt="phyctogram" class="animated fadeInUpBig col-12 hidden m-dp-block">
 	    </div>
 	</div>
 	
 	<div class="section row" id="section0-0">
-	    <div class="headlineProd animated section0-0">
+	    <div class="headlineProd animated section0-0 m-col-10 m-suffix-1 m-prefix-1">
 	      <h3>Stadiometer</h3>
 	      <p>We can know user's information by LED Display</p>
 		  <p>Harmlessness Ultrasonic sensor measures child's height</p>
-	      <img src="<%=application.getContextPath()%>/resources/res/imgs/stadio.png" alt="phyctogram-stadiometer" class="col-10 prefix-1 suffix-1">
+	      <img src="<%=application.getContextPath()%>/resources/res/imgs/stadio.png" alt="phyctogram-stadiometer" class="col-10 prefix-1 suffix-1 m-dp-none">
+	      <img src="<%=application.getContextPath()%>/resources/res/imgs/stadio_m.png" alt="phyctogram-stadiometer" class=" col-12 hidden m-dp-block">
 	    </div>
 	</div>
 	
 	<div class="section row" id="section0-1">
-      <div class="col-8 animated scale-img">
-      	<img src="<%=application.getContextPath()%>/resources/res/imgs/scale.jpg" alt="phyctogram-body-scale">
+      <div class="col-8  m-col-12 animated scale-img">
+      	<img src="<%=application.getContextPath()%>/resources/res/imgs/scale.jpg" alt="phyctogram-body-scale"class="m-mt6 m-mb1 col-12">
       </div>
-      <div class="col-3">
+      <div class="col-3 m-col-10 m-suffix-1 m-prefix-1 m-mt0">
 	    <div class="headlineProd animated scale-box">
 	      <h3>Body Scale</h3>
       	  <p>Selected Wi-Fi method for the convenient use compared to existing products</p>
@@ -64,7 +66,7 @@
 	
 	<div class="section" id="section1">
 		<div class="wrap row">
-			<div class="col-7">
+			<div class="col-7 m-col-12">
 				<img src="<%=application.getContextPath()%>/resources/res/imgs/0-en.png" alt="main" id="iphone2" />
 				<img src="<%=application.getContextPath()%>/resources/res/imgs/2-en.png" alt="growth card" id="iphone3" />
 			</div>
@@ -78,12 +80,12 @@
 
 	<div class="section moveDown" id="section2">
 		<div class="wrap">
-			<div class="col-6">
+			<div class="col-6  m-col-10 m-suffix-1 m-prefix-1">
 				<img src="<%=application.getContextPath()%>/resources/res/imgs/4-en.png" alt="report" id="iphone-red" class="animated img-4 dur400"/>
 				<img src="<%=application.getContextPath()%>/resources/res/imgs/3-en.png" alt="check lists" id="iphone-blue" class="animated img-3"/>
 			</div>
 
-			<div class="box box-2 col-6 m-col-12 animated">
+			<div class="box box-2 col-6  m-col-10 m-suffix-1 m-prefix-1 animated">
 				<h2>Provide growth comparison solution and predicted data</h2>
 				<ul>
 		          <li>You can perform statistical analysis based on data all users input on Phyctogram and manage data of your kids specifically</li>
@@ -98,15 +100,15 @@
 				<h2>Offer contents associated growth</h2>
 				You can creating contents about baby book and childcare  including the process of growth
 			</div>
-			<div class="col-8 prefix-2 suffix-2 animated img-last dur500">		
-				<img src="<%=application.getContextPath()%>/resources/res/imgs/11-en.png" alt="baby book" />
+			<div class="col-8 prefix-2 suffix-2 m-col-12 m-mr0 m-ml0 animated img-last dur500">		
+				<img src="<%=application.getContextPath()%>/resources/res/imgs/11-en.png" alt="baby book" class="m-col-12" />
 			</div>
 		</div>
 	</div>
 	
 	<div class="section" id="section4">
         <div class="row contact">        
-            <div class="col-12">
+            <div class="col-12  m-mt6">
               <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=s96duQ89XbZlmLcPnKIc"></script>
 	          <div id="map" class="box-map" style="width:100%;height:450px;"></div>
 	          <script type="text/javascript">
@@ -136,9 +138,9 @@
             
             <div class="col-12">
                 <ul class="contact-info row">
-                    <li class="col-4 animated dur700">Suite 310, Startup Campus Building 3, 20, Pangyo-ro 289beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do, Korea</li>
-                    <li class="col-4 animated dur300">+82 70-8624-4536</li>
-                    <li class="col-4 animated dur500">seek-knowledge@knowledge-seek.com</li>
+                    <li class="col-4 m-col-12 animated dur700">Suite 310, Startup Campus Building 3, 20, Pangyo-ro 289beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do, Korea</li>
+                    <li class="col-4 m-col-12 animated dur300">+82 70-8624-4536</li>
+                    <li class="col-4 m-col-12 animated dur500">seek-knowledge@knowledge-seek.com</li>
                 </ul>
             </div>
             <!-- end: .col-5 -->

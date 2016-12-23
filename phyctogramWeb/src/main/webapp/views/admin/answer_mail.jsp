@@ -84,7 +84,7 @@
           <div class="form-group">
             <label class="control-label col-sm-2" for="sender">보내는주소 <font color='red'>*</font></label>
             <div class="col-sm-10">
-              <input type="text" name="sender" id="sender" class="form-control" placeholder="보내는 분의 이메일 주소를 입력하세요."/>
+              <input type="text" name="sender" id="sender" class="form-control" value="aram@knowledge-seek.com" placeholder="보내는 분의 이메일 주소를 입력하세요."/>
             </div>
           </div>
           <div class="form-group">

@@ -11,7 +11,7 @@
   <div id="fullpage">
     <div class="section container" id="section0">
         <div class="intro row">
-            <div class="col-10 prefix-1">
+            <div class="col-10 prefix-1 m-col-12 m-ml0 m-mr0">
                 <!-- start: .col-6 -->
                 <div class="col-6 animated fadeInUp m-col-12">
                     <ul>
