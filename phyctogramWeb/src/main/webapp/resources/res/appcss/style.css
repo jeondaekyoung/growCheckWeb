@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+@import url(http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+*, *:after, *:before, *::after, *::before{font-family: 'Spoqa Han Sans', sans-serif;}
+
+body {
+	height:100%;
+	width:100%
+}
+.bg-gradient {
+	position:relative;
+	height: 100vh;
+	background: linear-gradient(-135deg, #C2AEE1, #32538F);
+}
+.txt-white {color:#fff}
+.align-center {text-align: center;}
+
+h1.logo {
+	margin-top: 7em;
+	margin-bottom: 7em;
+}
+.login-btn-group img {
+	margin-left:1em;
+	margin-right:1em;
+}
+.copy {
+	position: absolute;
+	bottom: 1em;
+    width:100%;
+    font-size: 1.5rem
+}
