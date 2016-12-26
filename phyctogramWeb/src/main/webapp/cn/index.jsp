@@ -86,9 +86,9 @@
 
 			<div class="box box-2 col-6 m-col-10 m-suffix-1 m-prefix-1 animated">
 				<h2>成长比较解决方案以及<br>提供预测数据</h2>
-				<ul>
+				<!--ul>
 		          <li>儿童的成长情况不是抽象的比较，而是通过实际数据和具体的信息分析ㅡ可以提供成长过程的系统的管理及分析</li>
-		        </ul>
+		        </ul-->
 			</div>
 		</div>
 	</div>

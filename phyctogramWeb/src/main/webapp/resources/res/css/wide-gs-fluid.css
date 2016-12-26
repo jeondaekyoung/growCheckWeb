@@ -36,6 +36,14 @@
 .col-12 { width: 97.91666666666666%; }
 
 @media screen and (max-width: 768px){
+	#fullpage li, #fullpage div, #fullpage p {text-align: justify;}
+	p {font-size:1rem!important;}
+	#typewriter {font-size: 2.3rem!important;}
+	.nav h1 {padding: 0.6em 0 !important;}
+	#header {height:50px}
+	#footer {font-size: 0.75rem}
+	.btn-menu {padding: 15px 10px!important;}
+			
 	.fz-2 {font-size: 2rem}
 	.m-dp-none {display: none !important}
 	.m-dp-inline {display: inline !important}

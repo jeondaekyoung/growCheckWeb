@@ -16,7 +16,7 @@
                 <h1 class="fl"><a href="index.jsp">Phyctogram</a></h1>
             </div>
             <div class="col-9">
-                <button type="button" class="hidden m-block btn-menu fr"><img src="<%=application.getContextPath()%>/resources/res/imgs/menu.svg" width="36" alt="menu"></button>
+                <button type="button" class="hidden m-block btn-menu fr"><img src="<%=application.getContextPath()%>/resources/res/imgs/menu.svg" width="24" alt="menu"></button>
                 <nav class="menu m-hidden">
                     <button type="button" class="hidden btn-close fr"><img src="<%=application.getContextPath()%>/resources/res/imgs/close.svg" width="36" alt="close"></button>
                     <ul class="row">

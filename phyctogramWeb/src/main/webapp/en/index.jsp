@@ -87,9 +87,9 @@
 
 			<div class="box box-2 col-6  m-col-10 m-suffix-1 m-prefix-1 animated">
 				<h2>Provide growth comparison solution and predicted data</h2>
-				<ul>
+				<!--ul>
 		          <li>You can perform statistical analysis based on data all users input on Phyctogram and manage data of your kids specifically</li>
-		        </ul>
+		        </ul-->
 			</div>
 		</div>
 	</div>
