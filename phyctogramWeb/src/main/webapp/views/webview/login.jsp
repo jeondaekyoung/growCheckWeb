@@ -8,6 +8,7 @@
 <link rel="stylesheet" type="text/css" href="<%=application.getContextPath()%>/resources/res/css/wide-gs-fluid.css">
 <link rel="stylesheet" type="text/css" href="<%=application.getContextPath()%>/resources/res/appcss/style.css">
 <title>Login</title>
+<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
 </head>
 <body class="bg-gradient">
 <div>
@@ -17,9 +18,27 @@
 	<div class="align-center login-btn-group">
 		<div>
 			<a href=""><img src="<%=application.getContextPath()%>/resources/res/appimg/login.png" alt="phyctogram"></a>
+
 		</div>
 		<div>
-			<a href=""><img src="<%=application.getContextPath()%>/resources/res/appimg/login_kakao.png" alt="kakao login"></a>
+			<a href="javascript:loginWithKakao()"><img src="<%=application.getContextPath()%>/resources/res/appimg/login_kakao.png" alt="kakao login"></a>
+			<script type='text/javascript'>
+  //<![CDATA[
+    // 사용할 앱의 JavaScript 키를 설정해 주세요.
+    Kakao.init('fb4295a19ebcb9de18a6a57a5db2e9ee');
+    function loginWithKakao() {
+      // 로그인 창을 띄웁니다.
+      Kakao.Auth.login({
+        success: function(authObj) {
+          alert(JSON.stringify(authObj));
+        },
+        fail: function(err) {
+          alert(JSON.stringify(err));
+        }
+      });
+    };
+  //]]>
+</script>
 			<a href=""><img src="<%=application.getContextPath()%>/resources/res/appimg/login_face.png" alt="facebook login"></a>			
 		</div>
 	</div>
