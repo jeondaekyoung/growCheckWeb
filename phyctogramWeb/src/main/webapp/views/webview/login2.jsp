@@ -16,18 +16,21 @@
 <h1 class="align-center logo col-10 prefix-1 suffix-1"><img src="<%=application.getContextPath()%>/resources/res/appimg/login_logo.png" alt="phyctogram"></h1>
 
 <div class="wrap login-wrap">
+	<form action="">
 	<div class=" col-10 prefix-1 suffix-1">
-		<input type="text" placeholder="이메일 주소">
+		<input type="text" name="id" placeholder="이메일 주소">
 	</div>
 	<div class=" col-10 prefix-1 suffix-1">
-		<input type="password" placeholder="비밀번호">
+		<input type="password" name="password"  placeholder="비밀번호">
 	</div>
 	<div class=" col-10 prefix-1 suffix-1">
-		<input type="button" value="로그인">
+		<input type="submit" value="로그인">
 	</div>
+	</form>
 	<div class="align-center txt-white">
 		<a href="" class="txt-white fz-80">비밀번호 찾기</a> | <a href="" class="txt-white fz-80">회원가입</a>
 	</div>
+	
 </div>
 
 <p class="txt-white align-center copy">COPYRIGHT ⓒ 2017 Knowledge-Seek Co., Ltd. All Rights Reserved</p>

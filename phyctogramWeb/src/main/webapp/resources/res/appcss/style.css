@@ -45,7 +45,7 @@ h1.logo img{
 	margin-bottom: 0.5em;
 	font-size:0.875rem;
 }
-.login-wrap input[type="button"] {
+.login-wrap input[type="submit"] {
 	background: #fff;
 	color: #325593;
 }
