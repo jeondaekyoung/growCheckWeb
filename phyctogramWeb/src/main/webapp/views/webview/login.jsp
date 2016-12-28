@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 <link rel="stylesheet" type="text/css" href="<%=application.getContextPath()%>/resources/res/css/ress.min.css">
 <link rel="stylesheet" type="text/css" href="<%=application.getContextPath()%>/resources/res/css/wide-gs-fluid.css">
 <link rel="stylesheet" type="text/css" href="<%=application.getContextPath()%>/resources/res/appcss/style.css">
@@ -17,7 +18,7 @@
 <div class="wrap">
 	<div class="align-center login-btn-group">
 		<div>
-			<a href=""><img src="<%=application.getContextPath()%>/resources/res/appimg/login.png" alt="phyctogram"></a>
+			<a href="login2.jsp"><img src="<%=application.getContextPath()%>/resources/res/appimg/login.png" alt="phyctogram"></a>
 
 		</div>
 		<div>
@@ -72,7 +73,7 @@
 	        FB.login(function(response) {
 	            var fbname;
 	            var accessToken = response.authResponse.accessToken;
-	        }, {scope: "user_about_me,read_friendlists,email,user_birthday"});
+	        }, {scope: "public_profile,email,user_birthday"});
   	
 	}
   function getMyProfile(){
