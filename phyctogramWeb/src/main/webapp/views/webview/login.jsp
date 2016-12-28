@@ -30,7 +30,16 @@
       // 로그인 창을 띄웁니다.
       Kakao.Auth.login({
         success: function(authObj) {
-          alert(JSON.stringify(authObj));
+        	 // 로그인 성공시, API를 호출합니다.
+            Kakao.API.request({
+              url: '/v1/user/me',
+              success: function(res) {
+                alert(JSON.stringify(res));
+              },
+              fail: function(error) {
+                alert(JSON.stringify(error));
+              }
+            });
         },
         fail: function(err) {
           alert(JSON.stringify(err));
@@ -39,7 +48,47 @@
     };
   //]]>
 </script>
-			<a href=""><img src="<%=application.getContextPath()%>/resources/res/appimg/login_face.png" alt="facebook login"></a>			
+			<a href="javascript:facebooklogin()"><img src="<%=application.getContextPath()%>/resources/res/appimg/login_face.png" alt="facebook login"></a>
+<script language="javascript" src="http://connect.facebook.net/ko_KR/all.js"></script>
+<script>				
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '594350060751876',
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/ko_KR/all.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+  
+  function facebooklogin() {
+	    //페이스북 로그인 버튼을 눌렀을 때의 루틴.
+	        FB.login(function(response) {
+	            var fbname;
+	            var accessToken = response.authResponse.accessToken;
+	        }, {scope: "user_about_me,read_friendlists,email,user_birthday"});
+  	
+	}
+  function getMyProfile(){
+	  FB.api('/me',function(user){
+	  var myName= user.name ;
+	            var myEmail = user.email;
+	                    var myId = user.id;
+	   });
+	  FB.api('/me/picture',function(data){//디폴트 - 작은사진, ?type=large 큰사진. 
+	  var myImg = data.data.url;
+	  });
+	   
+	   
+ }
+  
+</script>			
 		</div>
 	</div>
 </div>
