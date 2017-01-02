@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>    
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -14,11 +15,16 @@
 <body class="bg-gradient">
 <div>
 <h1 class="align-center logo col-10 prefix-1 suffix-1"><img src="<%=application.getContextPath()%>/resources/res/appimg/login_logo.png" alt="phyctogram"></h1>
-
+<c:if test="${not empty loginError}" >
+	<script>
+		alert("이메일과 패스워드를 확인해 주세요.");
+	</script>
+</c:if>
 <div class="wrap login-wrap">
-	<form action="">
+	<form action='<c:url value="/app/webView/mlogin.do"/>' method="post">
+		<input type="hidden" name="join_route" value="phyctogram">
 	<div class=" col-10 prefix-1 suffix-1">
-		<input type="text" name="id" placeholder="이메일 주소">
+		<input type="text" name="email" placeholder="이메일 주소">
 	</div>
 	<div class=" col-10 prefix-1 suffix-1">
 		<input type="password" name="password"  placeholder="비밀번호">
