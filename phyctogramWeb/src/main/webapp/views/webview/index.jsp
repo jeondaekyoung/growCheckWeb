@@ -15,15 +15,16 @@
 <div id="profile" class="row">
 	<div class="col-12 bg-alpha">
 		<div id="user-photo">
-			<div id="user-img"><img src="<%=application.getContextPath()%>/resources/res/appimg/sample_img.png" alt="user-img"></div>
-			<div id="user-char"><img src="<%=application.getContextPath()%>/resources/res/appimg/sample_char.png" alt="user-char"></div>
+			<div id="user-img"><img src="<%=application.getContextPath()%>/resources/res/appimg/sample_img.png" alt="user-img">
+				<div id="user-char"><img src="<%=application.getContextPath()%>/resources/res/appimg/sample_char.png" alt="user-char"></div>
+			</div>
 		</div>
 		
 		<div id="user-info-wrap">
 			<div id="user-info">
 				<p id="user-name">Name</p>
 				<p id="user-age">
-					<span>-years old</span>/<span>gender</span>
+					<span>-years old</span> / <span>gender</span>
 				</p>
 			</div>
 			<div id="btn-user-chg">
@@ -40,26 +41,33 @@
 	<div class="row">
 		<div id="height" class="col-6">
 			<span class="title">Current Height</span>
-			<span class="data">138.5</span><span class="data-unit">cm</span>
+			<p class="align-center"><span class="data">138.5</span><span class="data-unit">cm</span></p>
 		</div>
 		<div id="weight" class="col-6">
 			<span class="title">Current Weight</span>
-			<span class="data">32.1</span><span class="data-unit">kg</span>
+			<p class="align-center"><span class="data">32.1</span><span class="data-unit">kg</span></p>
 		</div>
 	</div>
 	
 	<div class="row">
 		<div id="nutrition" class="col-6">
 			<span class="title">Nutrition</span>
-			<span class="nutri-img"><img src="<%=application.getContextPath()%>/resources/res/appimg/nutrition.png" alt="go nutrition"></span>
+			<p class="align-center"><span class="nutri-img"><img src="<%=application.getContextPath()%>/resources/res/appimg/nutrition.png" alt="go nutrition"></span></p>
 		</div>
 		<div id="goal" class="col-6">
 			<span class="title">Goal</span>
 			<span class="label">complete</span>
-			<span class="goal-img"><img src="<%=application.getContextPath()%>/resources/res/appimg/goal01.png" alt="go goal"></span>
+			<p class="align-center"><span class="goal-img"><img src="<%=application.getContextPath()%>/resources/res/appimg/goal01.png" alt="go goal"></span></p>
+			<p class="align-center goal-txt">Drink a cup of milk</p>
 		</div>
 	</div>
 </div>
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <filter id="blur">
+        <feGaussianBlur stdDeviation="8" />
+    </filter>
+</svg>
 
 </body>
 </html>

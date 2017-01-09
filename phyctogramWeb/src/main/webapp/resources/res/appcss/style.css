@@ -1,51 +1,200 @@
 @CHARSET "UTF-8";
 @import url(http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
-*, *:after, *:before, *::after, *::before{font-family: 'Spoqa Han Sans', sans-serif;}
+*, *:after, *:before, *::after, *::before{font-family: 'Spoqa Han Sans';font-weight:400;color:#273A44;}
 
 body {
-	height:100%;
-	width:100%
+   height:100%;
+   width:100%
 }
 .bg-gradient {
-	position:relative;
-	height: 100vh;
-	background: linear-gradient(-135deg, #C2AEE1, #32538F);
+   position:relative;
+   height: 100vh;
+   background: linear-gradient(-135deg, #C2AEE1, #32538F);
 }
 .txt-white {color:#fff}
 .align-center {text-align: center;}
 .fz-80{font-size: 0.875rem}
 
 h1.logo {
-	margin-top: 3em;
-	margin-bottom: 3em;
+   margin-top: 3em;
+   margin-bottom: 3em;
 }
 h1.logo img{
-	width:100%;
+   width:100%;
 }
 .login-btn-group img {
-	margin-left:0.5em;
-	margin-right:0.5em;
-	width: 30%;
+   margin-left:0.5em;
+   margin-right:0.5em;
+   width: 30%;
 }
 .copy {
-	position: absolute;
-	bottom: 1em;
+   position: absolute;
+   bottom: 1em;
     width:100%;
     font-size: 0.65rem!important
 }
 
 .login-wrap input {
-	width:100%;
-	height: 3em;
-	color: #fff;
-	background: transparent;
-	border: 1px solid #fff;
-	border-radius: 50px;
-	padding: 0 1.5em;
-	margin-bottom: 0.5em;
-	font-size:0.875rem;
+   width:100%;
+   height: 3em;
+   color: #fff;
+   background: transparent;
+   border: 1px solid #fff;
+   border-radius: 50px;
+   padding: 0 1.5em;
+   margin-bottom: 0.5em;
+   font-size:0.875rem;
 }
-.login-wrap input[type="submit"] {
-	background: #fff;
-	color: #325593;
+.login-wrap input[type="button"] {
+   background: #fff;
+   color: #325593;
+}
+
+#profile {
+   width:100%;
+   position:relative;
+   border-bottom: 1px solid #EAEFF3;
+}
+#profile:before{
+  content: '';
+  position: absolute;
+  top: 0; left:0; right:0; bottom:0;
+  background: url(../appimg/sample_img.png) center center no-repeat;
+  z-index:-1;
+  filter: blur(8px); 
+  -webkit-filter: blur(8px); 
+  -moz-filter: blur(8px);
+  -o-filter: blur(8px);
+  filter:url(#blur);
+}
+
+.bg-alpha {
+}
+
+#user-img,
+#user-char,
+#user-photo img {
+   border-radius:50%;
+}
+#user-photo {
+	margin: 15px;
+}
+#user-img {
+	position:relative;
+   width:120px;
+   height:120px;
+   margin:0 auto;
+}
+#user-img img{
+   width:120px;
+   height:120px;
+   border: 1px solid #ddd
+}
+#user-char {
+	position: absolute;
+	bottom:0;
+	right:0;
+	background:#00D098;
+	border: 2px solid #fff;
+}
+#user-char img{
+   width:28px;
+   height:28px;
+}
+#user-info-wrap {
+	position: relative;
+	background: url(../appimg/bg-profile.png);
+	background-size:cover;
+	padding:25px 15px 10px;
+}
+#user-info p {
+	text-align: center;
+}
+#user-age,
+#user-age span{
+	font-size: 0.75rem;
+	color: #A3B4C6;
+}
+#btn-user-chg{
+	position: absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:10px;
+}
+#btn-user-chg img {
+	width:18px;
+}
+#btn-next{
+	float: right;
+}
+#edit-child {
+	position: absolute;
+	top:15px;
+	right:15px;
+}
+#edit-child img {
+	width:30px;
+	height:30px;
+}
+
+#dashboard {
+	border-top: 1px solid #EAEFF3;
+}
+#dashboard .row {
+	border-bottom:1px solid #EAEFF3;
+}
+#dashboard .col-6 {
+	padding-top: 1em;
+	height: 10em;
+}
+#height {
+	background: url(../appimg/height.jpg) 0 100% no-repeat;
+	background-size: 170px;
+}
+#weight {
+	background: url(../appimg/weight.jpg) center 100% no-repeat;
+	background-size: 100px;
+}
+#height,
+#nutrition {
+	border-right:1px solid #EAEFF3;
+}
+#height p,
+#weight p {
+	padding: 2em 0;
+}
+#nutrition img,
+#goal img {
+	margin: 1em 0;
+}
+#nutrition img{
+	width:90px;
+}
+#goal img{
+	height:70px;
+}
+#goal .goal-txt {
+	font-size: 0.75rem;
+	color:#A3B4C6;
+}
+#dashboard .title {
+	font-size:0.875rem;
+	margin-left:1em;
+}
+#dashboard .label {
+	margin-right:1em;
+	background: #A3B4C6;
+	border-radius: 20px;
+	font-size:0.5rem;
+	color: #fff;
+	padding:0 0.5em;
+	float:right;
+}
+#dashboard .data {
+	font-size:2rem;
+	font-weight:700;
+}
+#dashboard .data-unit {
+	font-size:1.25rem
 }
