@@ -5,7 +5,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-    <title>Testing websockets</title>
+    <title>websockets</title>
     <script src="<%=application.getContextPath()%>/resources/res/js/jquery.min.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function() {

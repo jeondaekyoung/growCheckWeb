@@ -52,7 +52,7 @@ public class AdminController {
 		ModelAndView mv = new ModelAndView();
 		
 		Admin resultAdmin = adminService.login(admin.getId(), admin.getPw());
-		session.setAttribute("adminName", resultAdmin.getId());
+		session.setAttribute("USERID", resultAdmin.getId());
 		
 		mv.setViewName("admin/noticeList");
 		return mv;

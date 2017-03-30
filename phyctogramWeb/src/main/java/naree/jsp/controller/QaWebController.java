@@ -77,8 +77,8 @@ public class QaWebController {
 		String sender ="nareejdk@naver.com";
 		String sender_pw ="naree123";
 		String receiver ="aram@knowledge-seek.com";
-		String subject ="문의하기가 등록 되었습니다.(픽토그램)";
-		String content ="관리자 폼에서 확인해주세요!";
+		String subject ="문의하기가 등록 되었습니다.( 픽토그램- 관리자)";
+		String content ="<a href='http://117.52.89.229/admin/index.do'>관리자 폼에서 확인해주세요!<a/>";
 		//
 		Sender_mail.send(sender,sender_pw, receiver, subject, content);
 		return "redirect:/contact.jsp";
