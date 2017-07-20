@@ -1,18 +1,18 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<title>Phyctogram : The most advanced growth solution for kids</title>
+<title>그로첵(GrowCheck)</title>
 <meta charset="utf-8">
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 <meta http-equiv="Content-Style-Type" content="text/css">
 <meta http-equiv="x-ua-compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="naver-site-verification" content="b5c6de529108b528bdc4d119fd6a5086e67ad0c3">
+<meta name="naver-site-verification" content="7d9236cf7e95df108ca0bab54628c50d198628cd"/>
 <meta name="robots" content="all">
-<meta name="description" content="키재기, 키재기자, 키재는기계, 아기키재기, 키측정기, 신장계, IoT, IoT제품, 키재기스티커" />
-<meta property="og:description" content="키재기, 키재기자, 키재는기계, 아기키재기, 키측정기, 신장계, IoT, IoT제품, 키재기스티커" >
-<meta property="og:title" content="픽토그램 : 가장 진보한 유아용 성장 솔루션" >
-<meta property="og:url" content="http://www.phyctogram.com" >
+<meta name="description" content="체중계, 스마트체중계, 샤오미체중계, 건강관리, 키재기, 키재기자, 아기키재기, 출산선물, 아기용품" />
+<meta property="og:description" content="체중계, 스마트체중계, 샤오미체중계, 건강관리, 키재기, 키재기자, 아기키재기, 출산선물, 아기용품" >
+<meta property="og:title" content="그로첵(GrowCheck)" >
+<meta property="og:url" content="http://i-growcheck.com" >
 <meta property="og:image" content="<%=application.getContextPath()%>/resources/res/imgs/mobile.jpg">
 <link rel="shortcut icon" href="<%=application.getContextPath()%>/resources/res/imgs/favicon.ico">
 <link rel="stylesheet" type="text/css" href="<%=application.getContextPath()%>/resources/res/css/ress.min.css">

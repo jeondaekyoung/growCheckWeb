@@ -94,7 +94,7 @@
 
 	<div class="section moveDown" id="section3">
 		<div class="wrap">
-			<div class="animated box box-3">
+			<div class="animated box box-3 m-col-12">
 				<h2>성장 관련 콘텐츠 제공</h2>
 				성장 과정을 포함한 육아일기 및 관련 콘텐츠 작성이 가능합니다
 			</div>
