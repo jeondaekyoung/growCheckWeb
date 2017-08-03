@@ -1,154 +1,195 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
-<head>	
-  <jsp:include page="/include/head.jsp"/>
-  <script src="<%=application.getContextPath()%>/resources/res/js/typewriter.js"></script>
-  <script>
-	 $(function () {
-	     var typewriter = new Typewriter($("#typewriter"));
-	     typewriter.typeText("가장 진보한 유아용 성장 측정·관리 기기");
-	 });	    
-  </script>
-  <jsp:include page="/include/head-index.jsp"/>
+<html lang="en" class="has-smooth-scroll">
+<head>
+	<jsp:include page="/include/head.jsp" flush="true"></jsp:include> 
 </head>
+    
+<body class="is-volley-grid is-windows search-has-results is-loaded">
 
-<body>
-  <jsp:include page="include/nav.jsp"/>
-  
-<div id="fullpage">
-	<div class="section " id="section00">
-	    <video autoplay loop muted id="myVideo">
-	      <source src="<%=application.getContextPath()%>/resources/res/imgs/video-phyctogram.mp4" type="video/mp4">
-	    </video>
-	    <div class="modal">
-	      <div class="layer animated dur400 fadeInUp">
-	        <div class="col-12 m-col-10 m-suffix-1 m-prefix-1 ">
-				<h1 id="typewriter"></h1>
-		        <p>픽토그램은 자녀의 키와 체중을 쉽고 정확하게 측정하고, 자동으로 분석하여 성장 솔루션을 제공합니다</p>        
-	        </div>
-	      </div>
-	    </div> 
-	</div> 
-	<div class="section row" id="section0">
-	    <div class="headlineProd animated m-col-10 m-suffix-1 m-prefix-1">
-	      <h3>단 한 번의 터치로 손쉬운 측정</h3>
-	      <p>간편한 조작 방법과 간결한 디자인으로 사용자에게 편리함과 심미적 가치를 제공합니다</p>
-	      <img src="<%=application.getContextPath()%>/resources/res/imgs/main_2.png" alt="phyctogram" class="animated fadeInUpBig col-12 m-dp-none">
-	      <img src="<%=application.getContextPath()%>/resources/res/imgs/main_m.png" alt="phyctogram" class="animated fadeInUpBig col-12 hidden m-dp-block">
-	    </div>
-	</div>
-	
-	<div class="section row" id="section0-0">
-	    <div class="headlineProd animated section0-0 m-col-10 m-suffix-1 m-prefix-1">
-	      <h3>스마트 키재기</h3>
-	      <p>LED 디스플레이로 사용자의 측정 정보를 알 수 있습니다</p>
-		  <p>인체에 무해한 초음파 센서로 아이의 키를 측정합니다</p>
-	      <img src="<%=application.getContextPath()%>/resources/res/imgs/stadio.png" alt="phyctogram-stadiometer" class="col-10 prefix-1 suffix-1 m-dp-none">
-	      <img src="<%=application.getContextPath()%>/resources/res/imgs/stadio_m.png" alt="phyctogram-stadiometer" class=" col-12 hidden m-dp-block">
-	    </div>
-	</div>
-	
-	<div class="section row" id="section0-1">
-      <div class="col-8  m-col-12 animated scale-img">
-      	<img src="<%=application.getContextPath()%>/resources/res/imgs/scale.jpg" alt="phyctogram-body-scale" class="m-mt6 m-mb1 col-12">
-      </div>
-      <div class="col-3  m-col-10 m-suffix-1 m-prefix-1 m-mt0">
-	    <div class="headlineProd animated scale-box">
-	      <h3>스마트 체중계</h3>
-      	  <p>고객의 편의성을 높이기 위해 W-Fi 통신 방식을 채택함으로써 스마트폰 페어링 과정 없이 데이터 관리가 가능합니다</p>
-		  <p>간결하면서 고급스러운 디자인으로, 시각적인 만족감을 선사합니다</p>
-		</div>
-      </div>
-	</div>
-	
-	<div class="section" id="section1">
-		<div class="wrap row">
-			<div class="col-7  m-col-12">
-				<img src="<%=application.getContextPath()%>/resources/res/imgs/0.png" id="iphone2" alt="메인 이미지" />
-				<img src="<%=application.getContextPath()%>/resources/res/imgs/2.png" id="iphone3" alt="성장카드 페이지" />
-			</div>
+<div class="o-barba js-barba" id="js-barba-wrapper" aria-live="polite">
+    <div class="js-barba-container o-barba_container" data-template="home">
+        
+        <jsp:include page="/include/nav.jsp" flush="true"></jsp:include>
+        
+        <div class="o-scroll js-scroll is-show" data-scrollbar="" tabindex="1" style="overflow: hidden; outline: none;">        
+        <article class="scroll-content" style="transform: translate3d(0px, 0px, 0px);">
+            <header class="c-navigation-header">
+                <div class="c-navigation-header_backgrounds">
+                    <div class="o-background js-scroll is-show" data-speed="-1" data-position="top" style="background-image: url(<%=application.getContextPath()%>/resources/res2/img/banner.jpg);background transform: translate3d(0px, 0px, 0px);"></div>
+                    <div class="c-navigation-header_overlay"></div>
+                </div>
 
-			<div class="col-5 animated box box-1 m-col-12">
-				<h2>어플리케이션을 통한<br>스마트 성장관리 서비스</h2>
-				측정된 키·체중 데이터는 Wi-Fi를 통해 자동으로 어플리케이션에 연동되어 아이의 성장을 체계적으로 관리할 수 있게 합니다
-			</div>
-		</div>
-	</div>
+                <div class="c-navigation-header-content">
+                    <h1 class="c-navigation-header-content_title js-header-title js-scroll is-show" data-position="top" data-speed="2" style="transform: translate3d(0px, 0px, 0px);">
+                        <span class="c-navigation-header-content_title_inner" style="margin-top:1em;background:rgba(35,165,255,0.5)">Grow Check</span>
+                    </h1>
+                    <!--<p class="c-white" style="font-size:48px;margin:25px 0 10px;line-height:1.3">The most advanced<br>weight &amp; height<br>measuring device</p>-->
+                    <p class="c-white" style="font-size:1.1em;margin:1.5em 0;font-weight:300">GrowCheck is IoT based vertical type body scale &amp; stadiometer.<br>It gives you convenience &amp; joy! Enjoy various performance.</p>
+                </div>
+                <div class="go-kickstart">
+                    <span >You can purchase growCheck on</span><img src="<%=application.getContextPath()%>/resources/res2/img/logo-kickStarter.png" alt="kickStarter"><a class="btn02" href="https://www.kickstarter.com/">GO</a>
+                </div>        
+            </header>
+            <!-- No Navigation header -->
 
-	<div class="section moveDown" id="section2"> 
-		<div class="wrap row">
-			<div class="col-6  m-col-10 m-suffix-1 m-prefix-1">
-				<img src="<%=application.getContextPath()%>/resources/res/imgs/4.png" alt="리포트" id="iphone-red" class="animated img-4 dur400"/>
-				<img src="<%=application.getContextPath()%>/resources/res/imgs/3.png" alt="체크리스트" id="iphone-blue" class="animated img-3" />
-			</div>
+            <div class="o-grid-wrap">
+           
+<main class="o-main">
 
-			<div class="col-6  m-col-10 m-suffix-1 m-prefix-1 animated box box-2">
-				<h2>성장비교 솔루션 및 예측 수치 제공</h2>
-				<ul>
-		          <li>아이의 성장 정도를 추상적인 비교가 아닌 실제 데이터를 기반으로 제공하여, 성장 과정의 체계적인 관리·분석이 가능합니다</li>
-		        </ul>
-			</div>
-		</div>
-	</div>
+    <section class="c-home">
+        <div class="c-home_intro o-grid">
+            <div class="c-home_intro_card_bio_wrapper">
+                <div class="js-scroll  is-show" data-speed="-0.6" data-position="top" style="transform: translate3d(0px, 0px, 0px);">
+                    <section class="c-card-bio">
+                        <a href="">
+                            <div class="c-card-bio_overflow">
+                                <div class="c-card-bio_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/main.jpg);"></div>
+                                <div class="c-card-bio_overlay"></div>
+                            </div>
+                            <div class="c-card-bio_content">
+                                <p class="c-card-bio_content_text"></p>
+                            </div>
+                            <div class="c-card-bio_infos">
+                                <p class="c-card-bio_infos_surtitle"></p>
+                                <h3 class="c-card-bio_infos_name">A slant<br>perspective</h3>
+                                <p class="c-card-bio_infos_type">The first vertical bodyscale</p>
+                                <div class="c-card-bio_infos_view">
+                                    <div class="c-card-bio_infos_view_line"></div>
+                                    <p class="c-card-bio_infos_view_label" data-letters="Read more">Read more</p>
+                                </div>
+                            </div>
+                        </a>
+                    </section>
 
-	<div class="section moveDown" id="section3">
-		<div class="wrap">
-			<div class="animated box box-3 m-col-12">
-				<h2>성장 관련 콘텐츠 제공</h2>
-				성장 과정을 포함한 육아일기 및 관련 콘텐츠 작성이 가능합니다
-			</div>
-			<div class="col-8 prefix-2 suffix-2 m-col-12 m-mr0 m-ml0 animated img-last dur500 ">	
-				<img src="<%=application.getContextPath()%>/resources/res/imgs/11.png" alt="리포트 분석 페이지" class="m-col-12"/>
-			</div>
-		</div>
-	</div>
-	
-	<div class="section" id="section4">
-        <div class="row contact">        
-            <div class="col-12  m-mt6 ">
-              <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=s96duQ89XbZlmLcPnKIc"></script>
-	          <div id="map" class="box-map" style="width:100%;height:450px;"></div>
-	          <script type="text/javascript">
-	            var position = new naver.maps.LatLng(37.4045237, 127.1064496);
-
-                var map = new naver.maps.Map('map', {
-                    center: position,
-                    scrollWheel : false,
-                    scaleControl: false,
-                    logoControl: false,
-                    mapDataControl: false,
-                    zoomControl: true,
-                    minZoom: 1,
-                    zoom: 13
-                });
-
-                var markerOptions = {
-                    position: position,
-                    map: map
-                };
-
-                var marker = new naver.maps.Marker(markerOptions);
-                
-	            /* 이미지 마커 추가 예정 */
-	          </script>
+                    <section class="c-card-bio">
+                        <a href="">
+                            <div class="c-card-bio_overflow">
+                                <div class="c-card-bio_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/main.jpg);"></div>
+                                <div class="c-card-bio_overlay"></div>
+                            </div>
+                            <div class="c-card-bio_content">
+                                <p class="c-card-bio_content_text"></p>
+                            </div>
+                            <div class="c-card-bio_infos">
+                                <p class="c-card-bio_infos_surtitle"></p>
+                                <h3 class="c-card-bio_infos_name">We made<br>all-in-one</h3>
+                                <p class="c-card-bio_infos_type">It can measure height by laser</p>
+                                <div class="c-card-bio_infos_view">
+                                    <div class="c-card-bio_infos_view_line"></div>
+                                    <p class="c-card-bio_infos_view_label" data-letters="Read more">Read more</p>
+                                </div>
+                            </div>
+                        </a>
+                    </section>
+                </div>
             </div>
-            <!-- end: .col-7 -->
-            
-            <div class="col-12">
-                <ul class="contact-info row">
-                    <li class="col-4 m-col-12 animated dur700">경기도 성남시 분당구 판교로289번길 20, 3동 310호<br>(삼평동, 스타트업캠퍼스)</li>
-                    <li class="col-4 m-col-12 animated dur300">070-8624-4536</li>
-                    <li class="col-4 m-col-12 animated dur500">seek-knowledge@knowledge-seek.com</li>
-                </ul>
-            </div>
-            <!-- end: .col-5 -->
         </div>
-        <!-- end: .contact -->
-	</div>
-    <!-- end: #section4 -->
-  </div><!-- 끝: #fullpage -->
-  
-  <jsp:include page="include/footer.jsp"/>
-</body>
-</html>
+
+        <div class="c-home_news js-scroll o-grid is-show">
+            <div class="o-g33_mobile js-scroll is-show" data-speed="1" data-position="middle" >
+                <section class="c-card-news ">
+                    <a class="c-card-news_link" href="app.jsp">
+                        <div class="c-card-news_overflow">
+                            <div class="c-card-news_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/feature1.jpg);"></div>
+                            <div class="c-card-news_overlay"></div>
+                        </div>
+                        <div class="c-card-news_infos">
+                            <div class="c-card-news_infos_head">
+                                <span class="c-card-news_infos_date">01</span>
+                                <span class="c-card-news_infos_category"></span>
+                            </div>
+                            <h3 class="c-card-news_infos_title">Personal Care</h3>
+                            <div class="c-card-news_infos_readmore">
+                                <div class="c-card-news_infos_readmore_line"></div>
+                                <p class="c-card-news_infos_readmore_label" data-letters="Read More">
+                                    Read More</p>
+                            </div>
+                        </div>
+                    </a>
+                </section>
+            </div>
+            <div class="o-g33_mobile js-scroll is-show" data-speed="1" data-position="middle" >
+                <section class="c-card-news ">
+                    <a class="c-card-news_link" href="app.jsp">
+                        <div class="c-card-news_overflow">
+                            <div class="c-card-news_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/feature2.jpg);"></div>
+                            <div class="c-card-news_overlay"></div>
+                        </div>
+                        <div class="c-card-news_infos">
+                            <div class="c-card-news_infos_head">
+                                <span class="c-card-news_infos_date">02</span>
+                                <span class="c-card-news_infos_category"></span>
+                            </div>
+                            <h3 class="c-card-news_infos_title">Children Care</h3>
+                            <div class="c-card-news_infos_readmore">
+                                <div class="c-card-news_infos_readmore_line"></div>
+                                <p class="c-card-news_infos_readmore_label" data-letters="Read More">
+                                    Read More</p>
+                            </div>
+                        </div>
+                    </a>
+                </section>
+            </div>
+            <div class="o-g33_mobile js-scroll is-show" data-speed="1" data-position="middle" >
+                <section class="c-card-news ">
+                    <a class="c-card-news_link" href="app.jsp">
+                        <div class="c-card-news_overflow">
+                            <div class="c-card-news_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/feature3.jpg);"></div>
+                            <div class="c-card-news_overlay"></div>
+                        </div>
+                        <div class="c-card-news_infos">
+                            <div class="c-card-news_infos_head">
+                                <span class="c-card-news_infos_date">03</span>
+                                <span class="c-card-news_infos_category"></span>
+                            </div>
+                            <h3 class="c-card-news_infos_title">Following Others</h3>
+                            <div class="c-card-news_infos_readmore">
+                                <div class="c-card-news_infos_readmore_line"></div>
+                                <p class="c-card-news_infos_readmore_label" data-letters="Read More">
+                                    Read More</p>
+                            </div>
+                        </div>
+                    </a>
+                </section>
+            </div>
+        </div>
+
+        <div class="c-home_calltoaction js-scroll js-anim is-show">
+            <section class="c-card-calltoaction js-scroll is-show">
+                <div class="c-card-calltoaction_overflow">
+                    <div class="c-card-calltoaction_background o-background js-scroll is-show" data-speed="0.5" style="background-image: url(<%=application.getContextPath()%>/resources/res2/img/open.jpg); "></div>
+                    <div class="c-card-calltoaction_overlay"></div>
+                </div>
+                <a class="c-card-calltoaction_content" href="spec.jsp">
+                    <h3 class="c-card-calltoaction_title">Shop Now</h3>
+                    <p class="c-card-calltoaction_text">Start health care with GrowCheck</p>
+                </a>
+            </section>
+        </div>
+    </section>
+        
+</main>
+
+<div class="js-sticky-stop">
+	<jsp:include page="include/footer.jsp" flush="true"></jsp:include>
+</div>
+                </div> 
+            </article>
+        <aside class="scrollbar-track scrollbar-track-x" style="display: none;">
+            <div class="scrollbar-thumb scrollbar-thumb-x" style="width: 1920px; transform: translate3d(0px, 0px, 0px);"></div>
+        </aside>
+        <aside class="scrollbar-track scrollbar-track-y" style="display: block;">
+            <div class="scrollbar-thumb scrollbar-thumb-y" style="height: 121.141px; transform: translate3d(0px, 0px, 0px);"></div>
+        </aside>
+        <canvas class="overscroll-glow" style="display: none; pointer-events: none;"></canvas>
+    </div> 
+        </div> 
+    </div> 
+   <script src="<%=application.getContextPath()%>/resources/res2/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="<%=application.getContextPath()%>/resources/res2/js/jquery-3.0.0.min.js"><\/script>')</script>
+    <script src="<%=application.getContextPath()%>/resources/res2/js/vendors.js"></script>
+    <script src="<%=application.getContextPath()%>/resources/res2/js/app.js"></script>
+
+</body></html>

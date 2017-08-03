@@ -1,100 +1,205 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<html>
+<html lang="en" class="has-smooth-scroll">
 <head>
-  <jsp:include page="include/head.jsp"/>	
-  <jsp:include page="include/head-about.jsp"/>
-<body>
-  <jsp:include page="include/nav.jsp"/>
-  
-  <div id="fullpage">
-  
-	<!-- //start : #section0 -->
-	<div class="section" id="section0">
-        <h1 class="animated fadeInUp m-mt2 fz-2">About Us</h1>
-        
-        <div class="row animated fadeInUp dur400">        
-            <div class="col-12 timeline">
-                <article class="timeline-item">
-                    <div class="timeline-caption">
-                      <div class="panel panel-default">
-                        <div class="panel-body">
-                          <span class="arrow left"></span>
-                          <span class="timeline-icon"><i class="time-icon bg-primary"></i></span>
-                          <span class="timeline-date">2013</span>
-                          <h5>㈜나리지식앤컴퍼니 법인 설립</h5>
-                        </div>       
-                      </div>
-                    </div>
-                </article>
-                <article class="timeline-item alt">
-                    <div class="timeline-caption">                
-                      <div class="panel panel-default">
-                        <div class="panel-body">
-                          <span class="arrow right"></span>
-                          <span class="timeline-icon"><i class="time-icon bg-white"></i></span>
-                          <span class="timeline-date">2014</span>
-                          <h5>벤처기업 인증 / 연구개발전담부서 설립</h5>
-                        </div>
-                      </div>
-                    </div>
-                </article>
-                <<!-- article class="timeline-item">
-                    <div class="timeline-caption">
-                      <div class="panel panel-default">
-                        <div class="panel-body">
-                          <span class="arrow left"></span>
-                          <span class="timeline-icon"><i class="time-icon bg-primary"></i></span>
-                          <span class="timeline-date">2014</span>
-                          <h5>(특허) 지식정보 유료 거래 시스템</h5>
-                        </div>       
-                      </div>
-                    </div>
-                </article>
-                <article class="timeline-item alt">
-                    <div class="timeline-caption">                
-                      <div class="panel panel-default">
-                        <div class="panel-body">
-                          <span class="arrow right"></span>
-                          <span class="timeline-icon"><i class="time-icon bg-white"></i></span>
-                          <span class="timeline-date">2015</span>
-                          <h5>(특허) 시스템, 성장관리 시스템</h5>
-                        </div>
-                      </div>
-                    </div>
-                </article> -->
-                <article class="timeline-item">
-                    <div class="timeline-caption">
-                      <div class="panel panel-default">
-                        <div class="panel-body">
-                          <span class="arrow left"></span>
-                          <span class="timeline-icon"><i class="time-icon bg-primary"></i></span>
-                          <span class="timeline-date">2015</span>
-                          <h5>중소기업진흥공단 청년창업사관학교 선정</h5>
-                        </div>       
-                      </div>
-                    </div>
-                </article>
-                <article class="timeline-item alt">
-                    <div class="timeline-caption">                
-                      <div class="panel panel-default">
-                        <div class="panel-body">
-                          <span class="arrow right"></span>
-                          <span class="timeline-icon"><i class="time-icon bg-white"></i></span>
-                          <span class="timeline-date">2016</span>
-                          <h5>판교 테크노밸리 스타트업캠퍼스 입주사 선정</h5>
-                        </div>
-                      </div>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </div>
-	<!-- //end : #section0 -->
+	<jsp:include page="include/head.jsp" flush="true"></jsp:include>
+</head>
     
-  </div>
-  
-  <jsp:include page="include/footer.jsp"/>
-</body>
-</html>
+<body class="is-volley-grid is-windows search-has-results is-loaded">
+
+<div class="o-barba js-barba" id="js-barba-wrapper" aria-live="polite">
+    <div class="js-barba-container o-barba_container" data-template="home">
+        
+        <jsp:include page="include/nav.jsp" flush="true"></jsp:include>
+        
+        <div class="o-scroll js-scroll is-show" data-scrollbar="" tabindex="1" style="overflow: hidden; outline: none;">        
+        <article class="scroll-content" style="transform: translate3d(0px, 0px, 0px);">
+           
+            <div class="o-grid-wrap">
+           
+<main class="o-main">
+
+    <section class="c-home" style="text-align:center; margin-top:3em">
+        <h3 class="fz60 thin">About Grow Check</h3>
+        <p class="fz18">Grow Check is started from small idea.<br>Body scale on the market is an inconvenience that the user may hit the toe or fall over. 
+<br>So we usually hide the scale.<br><br>We have had many meetings about how to solve it, Finally the first vertical body scale was created.<br>
+Grow Check doesn't need to hide and put in a corner anymore. <br>Check your weight everyday and keep it close<br><br><br><br><br></p>
+
+        <h3 class="fz60 thin">Our Performance</h3>
+    	<div class="jt_grid_container row">
+             <div id="jt_grid" class="jt_grid">
+                 
+                 <!-- .jt_grid_item -->
+                 <div class="jt_grid_item animated fadeInUp dur2">
+                     <div class="jt_grid_thumb">
+                         <a class="jt_grid_thumb_anchor" href="http://www.futurekorea.co.kr/news/articleView.html?idxno=41439">
+			                   <figure class="jt_grid_thumb_figure">
+			                       <img src="<%=application.getContextPath()%>/resources/res2/img/about_06.png" class="animation_scale wp-post-image" alt="">
+			                       <span class="jt_grid_thumb_border animation_border"></span>                               
+			                   </figure>
+			             </a>
+                     </div><!-- .jt_grid_thumb -->
+                 </div><!-- .jt_grid_item -->
+                
+                 <!-- .jt_grid_item -->
+                 <div class="jt_grid_item animated fadeInUp dur2">
+                     <div class="jt_grid_thumb">
+                          <a class="jt_grid_thumb_anchor" href="http://www.venturesquare.net/742814">
+			                   <figure class="jt_grid_thumb_figure">
+			                       <img src="<%=application.getContextPath()%>/resources/res2/img/about_05.png" class="animation_scale wp-post-image" alt="">
+			                       <span class="jt_grid_thumb_border animation_border"></span>                               
+			                   </figure>
+			              </a>
+                     </div><!-- .jt_grid_thumb -->
+                 </div><!-- .jt_grid_item -->
+                 
+                 <!-- .jt_grid_item -->
+                 <div class="jt_grid_item animated fadeInUp dur2">
+                     <div class="jt_grid_thumb">
+                         <a class="jt_grid_thumb_anchor" href="http://www.venturesquare.net/739663">
+			                 <figure class="jt_grid_thumb_figure">
+			                     <img src="<%=application.getContextPath()%>/resources/res2/img/about_04.png" class="animation_scale wp-post-image" alt="">
+			                     <span class="jt_grid_thumb_border animation_border"></span>                               
+			                 </figure>
+			             </a>
+                     </div><!-- .jt_grid_thumb -->
+                 </div><!-- .jt_grid_item -->
+                
+                 <!-- .jt_grid_item -->
+                 <div class="jt_grid_item animated fadeInUp dur2">
+                     <div class="jt_grid_thumb">
+                         <a class="jt_grid_thumb_anchor" href="http://www.etnews.com/20160614000081">
+			                 <figure class="jt_grid_thumb_figure">
+			                     <img src="<%=application.getContextPath()%>/resources/res2/img/about_03.png" class="animation_scale wp-post-image" alt="">
+			                     <span class="jt_grid_thumb_border animation_border"></span>                               
+			                 </figure>
+			             </a>
+                     </div><!-- .jt_grid_thumb -->
+                 </div><!-- .jt_grid_item -->
+                 
+                 <!-- .jt_grid_item -->
+                 <div class="jt_grid_item animated fadeInUp dur2">
+                     <div class="jt_grid_thumb">
+                         <a class="jt_grid_thumb_anchor" href="http://www.venturesquare.net/737130">
+			                   <figure class="jt_grid_thumb_figure">
+			                       <img src="<%=application.getContextPath()%>/resources/res2/img/about_02.png" class="animation_scale wp-post-image" alt="">
+			                       <span class="jt_grid_thumb_border animation_border"></span>                               
+			                   </figure>
+			              </a>
+                     </div><!-- .jt_grid_thumb -->
+                 </div><!-- .jt_grid_item -->
+                 
+                 <!-- .jt_grid_item -->
+                 <div class="jt_grid_item animated fadeInUp dur2">
+                     <div class="jt_grid_thumb">
+                         <a class="jt_grid_thumb_anchor" href="http://platum.kr/archives/73832">
+			                   <figure class="jt_grid_thumb_figure">
+			                       <img src="<%=application.getContextPath()%>/resources/res2/img/about_01.png" class="animation_scale wp-post-image" alt="">
+			                       <span class="jt_grid_thumb_border animation_border"></span>                               
+			                   </figure>
+			              </a>
+                     </div><!-- .jt_grid_thumb -->
+                 </div><!-- .jt_grid_item -->
+             </div>                    
+        </div>
+        
+        <h3 class="fz60 thin">Our History</h3>
+            
+            <section id="timeline">
+  <article>
+    <div class="inner">
+      <span class="date">
+      <span class="day">1st</span>
+        <span class="month">Jan</span>
+        <span class="year">2017</span>
+      </span>
+      <p class="alt"><img src="<%=application.getContextPath()%>/resources/res2/img/history06.jpg"><br>
+      Attracted investement from Balancers co., ltd.</p>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date">
+      <span class="day">29th</span>
+        <span class="month">Dec</span>
+        <span class="year">2016</span>
+      </span>
+      <p><img src="<%=application.getContextPath()%>/resources/res2/img/history05.jpg"><br>
+      Selected as K-Global 300 company</p>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date">
+      <span class="day">11th</span>
+        <span class="month">Jun</span>
+        <span class="year">2016</span>
+      </span>
+      <p class="alt"><img src="<%=application.getContextPath()%>/resources/res2/img/history04.jpg"><br>
+      Pittsburgh USA INPEX 4 gold medals</p>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date">
+      <span class="day">23rd</span>
+        <span class="month">Nov</span>
+        <span class="year">2015</span>
+      </span>
+      <p><img src="<%=application.getContextPath()%>/resources/res2/img/history03.jpg"><br>
+      Acquired patents on Physical information measuring device and managing system</p>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date">
+      <span class="day">22nd</span>
+        <span class="month">May</span>
+        <span class="year">2014</span>
+      </span>
+      <p class="alt"><img src="<%=application.getContextPath()%>/resources/res2/img/history02.jpg"><br>
+      Acquired patents on Knowledge Pay-per-transaction system</p>
+    </div>
+  </article>  
+  <article>
+    <div class="inner">
+      <span class="date">
+      <span class="day">4th</span>
+        <span class="month">oct</span>
+        <span class="year">2013</span>
+      </span>
+      <p><img src="<%=application.getContextPath()%>/resources/res2/img/history01.jpg"><br>
+      Established Knowledge-seek co., ltd.</p>
+    </div>
+  </article>
+</section>
+
+        <br><br><br><br><br><br><br>
+        <br><br><br><br><br>
+    </section>
+        
+</main>
+
+<div class="js-sticky-stop">
+	<jsp:include page="include/footer.jsp" flush="true"></jsp:include>
+</div>
+                </div> 
+            </article>
+        <aside class="scrollbar-track scrollbar-track-x" style="display: none;">
+            <div class="scrollbar-thumb scrollbar-thumb-x" style="width: 1920px; transform: translate3d(0px, 0px, 0px);"></div>
+        </aside>
+        <aside class="scrollbar-track scrollbar-track-y" style="display: block;">
+            <div class="scrollbar-thumb scrollbar-thumb-y" style="height: 121.141px; transform: translate3d(0px, 0px, 0px);"></div>
+        </aside>
+        <canvas class="overscroll-glow" style="display: none; pointer-events: none;"></canvas>
+    </div> 
+        </div> 
+    </div> 
+    <script src="<%=application.getContextPath()%>/resources/res2/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="<%=application.getContextPath()%>/resources/res2/js/jquery-3.0.0.min.js"><\/script>')</script>
+    <script src="<%=application.getContextPath()%>/resources/res2/js/vendors.js"></script>
+    <script src="<%=application.getContextPath()%>/resources/res2/js/app.js"></script>
+
+
+</body></html>
