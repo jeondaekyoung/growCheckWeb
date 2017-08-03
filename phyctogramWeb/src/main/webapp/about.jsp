@@ -22,9 +22,9 @@
 
     <section class="c-home" style="text-align:center; margin-top:3em">
         <h3 class="fz60 thin">About Grow Check</h3>
-        <p class="fz18">Grow Check is started from small idea.<br>Body scale on the market is an inconvenience that the user may hit the toe or fall over. 
-<br>So we usually hide the scale.<br><br>We have had many meetings about how to solve it, Finally the first vertical body scale was created.<br>
-Grow Check doesn't need to hide and put in a corner anymore. <br>Check your weight everyday and keep it close<br><br><br><br><br></p>
+        <p class="fz18">Grow Check is started from small idea.<br>Traditional body scales are inconvenient and can be sometimes dangerous because consumers experience trip and fall accidents because of the device.  
+<br>So most of the consumers tend to hide the device.<br><br>That’s how we started to think about creating something new and multi-functional, and Grow Check idea was born.<br>
+With Grow Check you can now check your weight and daily habits, manage the growth of your child, get solutions and more! <br>Grow Check is here to meet your needs, give it a chance.<br><br><br><br><br></p>
 
         <h3 class="fz60 thin">Our Performance</h3>
     	<div class="jt_grid_container row">

@@ -9069,7 +9069,7 @@ html:not(.has-smooth-scroll) .is-ios .c-article-navigation {
 
 @media (max-width: 999px) {
   .c-article-content_link {
-    font-size: 0.75rem;
+    font-size: 0.55rem;
     left: calc(4.6911649726vw + 32px);
   }
 }

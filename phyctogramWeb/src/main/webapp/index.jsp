@@ -29,7 +29,7 @@
                     <p class="c-white" style="font-size:1.1em;margin:1.5em 0;font-weight:300">GrowCheck is IoT based vertical type body scale &amp; stadiometer.<br>It gives you convenience &amp; joy! Enjoy various performance.</p>
                 </div>
                 <div class="go-kickstart">
-                    <span >You can purchase growCheck on</span><img src="<%=application.getContextPath()%>/resources/res2/img/logo-kickStarter.png" alt="kickStarter"><a class="btn02" href="https://www.kickstarter.com/">GO</a>
+                    <span >You can purchase GrowCheck on</span><img src="<%=application.getContextPath()%>/resources/res2/img/logo-kickStarter.png" alt="kickStarter"><a class="btn02" href="https://www.kickstarter.com/">GO</a>
                 </div>        
             </header>
             <!-- No Navigation header -->
@@ -74,7 +74,7 @@
                             </div>
                             <div class="c-card-bio_infos">
                                 <p class="c-card-bio_infos_surtitle"></p>
-                                <h3 class="c-card-bio_infos_name">We made<br>all-in-one</h3>
+                                <h3 class="c-card-bio_infos_name">all-in-one</h3>
                                 <p class="c-card-bio_infos_type">It can measure height by laser</p>
                                 <div class="c-card-bio_infos_view">
                                     <div class="c-card-bio_infos_view_line"></div>
@@ -191,5 +191,13 @@
     <script>window.jQuery || document.write('<script src="<%=application.getContextPath()%>/resources/res2/js/jquery-3.0.0.min.js"><\/script>')</script>
     <script src="<%=application.getContextPath()%>/resources/res2/js/vendors.js"></script>
     <script src="<%=application.getContextPath()%>/resources/res2/js/app.js"></script>
+		<script type="text/javascript">
+    $(document).ready(function(){
+		if(location.host == 'phyctogram.com'||location.host == 'www.phyctogram.com'){
+			location.href ="http://i-growcheck.com/";
+		}    	 
+		
+    });
 
+    </script>
 </body></html>
