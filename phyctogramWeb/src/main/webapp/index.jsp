@@ -13,7 +13,7 @@
         
         <jsp:include page="/include/nav.jsp" flush="true"></jsp:include>
         
-        <div class="o-scroll js-scroll is-show" data-scrollbar="" tabindex="1" style="overflow: hidden; outline: none;">        
+        <div class="o-scroll js-scroll is-show" data-scrollbar="" tabindex="1" style="overflow: scroll; outline: none;">        
         <article class="scroll-content" style="transform: translate3d(0px, 0px, 0px);">
             <header class="c-navigation-header">
                 <div class="c-navigation-header_backgrounds">
@@ -162,7 +162,7 @@
                     <div class="c-card-calltoaction_background o-background js-scroll is-show" data-speed="0.5" style="background-image: url(<%=application.getContextPath()%>/resources/res2/img/open.jpg); "></div>
                     <div class="c-card-calltoaction_overlay"></div>
                 </div>
-                <a class="c-card-calltoaction_content" href="spec.jsp">
+                <a class="c-card-calltoaction_content" href="hw.jsp">
                     <h3 class="c-card-calltoaction_title">Shop Now</h3>
                     <p class="c-card-calltoaction_text">Start health care with GrowCheck</p>
                 </a>
