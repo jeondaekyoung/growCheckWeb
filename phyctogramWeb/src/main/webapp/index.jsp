@@ -13,7 +13,7 @@
         
         <jsp:include page="/include/nav.jsp" flush="true"></jsp:include>
         
-        <div class="o-scroll js-scroll is-show" data-scrollbar="" tabindex="1" style="overflow: scroll; outline: none;">        
+        <div class="o-scroll js-scroll is-show" data-scrollbar="" tabindex="1" style="overflow: scroll;">        
         <article class="scroll-content" style="transform: translate3d(0px, 0px, 0px);">
             <header class="c-navigation-header">
                 <div class="c-navigation-header_backgrounds">
@@ -29,7 +29,11 @@
                     <p class="c-white" style="font-size:1.1em;margin:1.5em 0;font-weight:300">GrowCheck is IoT based vertical type body scale &amp; stadiometer.<br>It gives you convenience &amp; joy! Enjoy various performance.</p>
                 </div>
                 <div class="go-kickstart">
-                    <span >You can purchase GrowCheck on</span><img src="<%=application.getContextPath()%>/resources/res2/img/logo-kickStarter.png" alt="kickStarter"><a class="btn02" href="https://www.kickstarter.com/">GO</a>
+                    <span >You can purchase GrowCheck on</span>
+                    <img src="<%=application.getContextPath()%>/resources/res2/img/logo-kickStarter.png" alt="kickStarter">
+                    <a class="btn02" href="https://www.kickstarter.com/">
+                    	September 25th
+                    </a>
                 </div>        
             </header>
             <!-- No Navigation header -->
@@ -43,7 +47,6 @@
             <div class="c-home_intro_card_bio_wrapper">
                 <div class="js-scroll  is-show" data-speed="-0.6" data-position="top" style="transform: translate3d(0px, 0px, 0px);">
                     <section class="c-card-bio">
-                        <a href="">
                             <div class="c-card-bio_overflow">
                                 <div class="c-card-bio_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/main.jpg);"></div>
                                 <div class="c-card-bio_overlay"></div>
@@ -60,11 +63,9 @@
                                     <p class="c-card-bio_infos_view_label" data-letters="Read more">Read more</p>
                                 </div>
                             </div>
-                        </a>
                     </section>
 
                     <section class="c-card-bio">
-                        <a href="">
                             <div class="c-card-bio_overflow">
                                 <div class="c-card-bio_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/main.jpg);"></div>
                                 <div class="c-card-bio_overlay"></div>
@@ -81,7 +82,6 @@
                                     <p class="c-card-bio_infos_view_label" data-letters="Read more">Read more</p>
                                 </div>
                             </div>
-                        </a>
                     </section>
                 </div>
             </div>
@@ -162,10 +162,10 @@
                     <div class="c-card-calltoaction_background o-background js-scroll is-show" data-speed="0.5" style="background-image: url(<%=application.getContextPath()%>/resources/res2/img/open.jpg); "></div>
                     <div class="c-card-calltoaction_overlay"></div>
                 </div>
-                <a class="c-card-calltoaction_content" href="hw.jsp">
+                <div class="c-card-calltoaction_content">
                     <h3 class="c-card-calltoaction_title">Shop Now</h3>
                     <p class="c-card-calltoaction_text">Start health care with GrowCheck</p>
-                </a>
+                </div>
             </section>
         </div>
     </section>

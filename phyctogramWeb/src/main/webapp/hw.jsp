@@ -22,7 +22,7 @@
 				        <h3 class="fz60 thin">The first <span style="color:#0099ff">Vertical</span> body scale</h3>
 				        <img src="<%=application.getContextPath()%>/resources/res2/img/open.jpg">
 				        
-				        <h4 class="fz36 uppercase">정밀한 측정</h4>
+				        <h4 class="fz36 uppercase">accurate measurement</h4>
 				      </section>
 				      
 				      <section class="c-home">
