@@ -13,7 +13,7 @@
         
         <jsp:include page="/include/nav.jsp" flush="true"></jsp:include>
         
-        <div class="o-scroll js-scroll is-show" data-scrollbar="" tabindex="1" style="overflow: scroll;">        
+        <div class="o-scroll js-scroll is-show" data-scrollbar="" tabindex="1" style="overflow: scroll; outline: none;">        
         <article class="scroll-content" style="transform: translate3d(0px, 0px, 0px);">
             <header class="c-navigation-header">
                 <div class="c-navigation-header_backgrounds">
@@ -31,7 +31,7 @@
                 <div class="go-kickstart">
                     <span >You can purchase GrowCheck on</span>
                     <img src="<%=application.getContextPath()%>/resources/res2/img/logo-kickStarter.png" alt="kickStarter">
-                    <a class="btn02" href="https://www.kickstarter.com/">
+                    <a class="btn02" >
                     	September 25th
                     </a>
                 </div>        

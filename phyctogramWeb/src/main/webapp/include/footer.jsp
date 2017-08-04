@@ -54,7 +54,7 @@
             </li>
         </ul>
         <div class="c-footer-infos_locomotive o-g33">
-            <a href="" target="_blank">Korean</a>
+            <a target="_blank">Korean</a>
         </div>
     </div>
 
