@@ -20,7 +20,7 @@
            
 <main class="o-main">
 
-    <section class="c-home">
+    <section class="c-home p1em">
         <h3 class="fz60">Terms and Conditions</h3>
         
 		<h4 class="fz36 thin c-blue upper">Legal notice</h4>

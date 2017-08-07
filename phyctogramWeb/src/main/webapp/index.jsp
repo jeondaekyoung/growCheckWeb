@@ -26,13 +26,13 @@
                         <span class="c-navigation-header-content_title_inner" style="margin-top:1em;background:rgba(35,165,255,0.5)">Grow Check</span>
                     </h1>
                     <!--<p class="c-white" style="font-size:48px;margin:25px 0 10px;line-height:1.3">The most advanced<br>weight &amp; height<br>measuring device</p>-->
-                    <p class="c-white" style="font-size:1.1em;margin:1.5em 0;font-weight:300">GrowCheck is IoT based vertical type body scale &amp; stadiometer.<br>It gives you convenience &amp; joy! Enjoy various performance.</p>
+                    <p class="c-white m-opacity" style="font-size:1.1em;margin:1.5em 0;font-weight:300">GrowCheck is IoT based vertical type body scale &amp; stadiometer.<br>It gives you convenience &amp; joy! Enjoy various performance.</p>
                 </div>
                 <div class="go-kickstart">
                     <span >You can purchase GrowCheck on</span>
                     <img src="<%=application.getContextPath()%>/resources/res2/img/logo-kickStarter.png" alt="kickStarter">
                     <a class="btn02" >
-                    	September 25th
+                    	SEP 25th
                     </a>
                 </div>        
             </header>

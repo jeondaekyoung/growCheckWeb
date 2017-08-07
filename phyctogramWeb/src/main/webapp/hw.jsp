@@ -76,14 +76,14 @@
 				    </section>    
 				        
 				    <section class="c-home" style="text-align:center; margin-top:3em">
-					    <h3 class="fz60">Spec</h3>
-		        		<img src="<%=application.getContextPath()%>/resources/res2/img/spec.jpg?ver=0.3" style="display:block; margin: auto" alt="size:410x330x90, weight:max 180kg, height:max 5m, display:LCD 6 digit, wifi signaling time:802.11b 54Mbps, wifi processing time 11Mbps, charging voltage:12V 1800mA, charging time:3 hours, usage time:100 hours">
+					    <h3 class="fz36 uppercase">Spec</h3>
+		        		<img src="<%=application.getContextPath()%>/resources/res2/img/spec.jpg?ver=0.5" style="display:block; margin: auto" alt="size:410x330x90, weight:max 180kg, height:max 5m, display:LCD 6 digit, wifi signaling time:802.11b 54Mbps, wifi processing time 11Mbps, charging voltage:12V 1800mA, charging time:3 hours, usage time:100 hours">
 	       
 				        <h4 class="fz36 uppercase">Daily Check</h4>
 				        <p class="fz18">You don't need to hide bodyscale anymore. It will always stand in your room</p>
 				        
 				        <div style="position:relative"><img src="<%=application.getContextPath()%>/resources/res2/img/banner.jpg">
-				        <a class="btn02 fz48 c-white" style="text-decoration:none;position:absolute;top:50%;right:50%;margin-top:-1em" target="_blank">Now on Kickstarter</a></div>
+				        <a class="btn02 fz48 c-white m-m-fz2rem m-s-fz1rem" style="text-decoration:none;position:absolute;top:50%;right:50%;margin-top:-1em" target="_blank">Now on Kickstarter</a></div>
 				        
 				        <br><br><br><br><br><br><br><br><br>
 				    </section>

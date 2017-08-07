@@ -25,7 +25,7 @@
 
         <section class="c-home">
             <div class="row contact">
-                <div class="col-6 bg-blue">
+                <div class="col-6 m-col-12 bg-blue">
                     <h3 class="fz80 medium">CONTACT</h3>
                     <p class="fz18 ic01">3-310, 20, Pangyo-ro 289beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do, Republic of Korea</p>
                     <p class="fz18 ic02">+82 70-8624-4536</p>
@@ -33,7 +33,7 @@
                     <a class="btn_info" href="mailto:seek-knowledge@knowledge-seek.com">info@knowledge-seek.com</a>
                 </div>
                 
-                <div class="col-6">
+                <div class="col-6 m-col-12">
                   <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=s96duQ89XbZlmLcPnKIc"></script>
                   <div id="map" class="box-map" style="width:100%;height:800px;"></div>
                   <script type="text/javascript">

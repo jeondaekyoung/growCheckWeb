@@ -1,9 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <section class="c-transitions-loader js-loader" data-module="Loader" data-delay="0.8">
-            <div class="c-transitions-loader_logo js-loader-logo" >
-                
-                <img class="c-transitions-loader_logo_image" src="<%=application.getContextPath()%>/resources/res2/img/logo.svg">
+            <div class="c-transitions-loader_logo js-loader-logo" >                
+                <img class="c-transitions-loader_logo_image" src="<%=application.getContextPath()%>/resources/res2/img/logo-loading.svg">
             </div>
             <div class="c-grid-loader">
                 <div data-grid="gh-l1" class="js-loader-line c-grid-loader_line c-grid-loader_h -lh1" style="transform-origin: left center 0px; transform: matrix(1, 0, 0, 1, 0, 0);"></div>
@@ -35,7 +34,7 @@
             <div class="c-transitions_mask o-grid_item -big"></div>
             <div class="c-transitions_mask o-grid_item -small"></div>
             <figure class="c-transitions-masks_logo">
-                <img src="<%=application.getContextPath()%>/resources/res2/img/logo.svg" class="c-header_logo_image" alt="그로우첵">
+                <img src="<%=application.getContextPath()%>/resources/res2/img/logo-loading.svg" class="c-header_logo_image" alt="그로우첵">
             </figure>
         </div>
         <div class="c-header_wrapper js-header-wrapper" data-module="HeaderCategories">

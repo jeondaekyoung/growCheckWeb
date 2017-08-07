@@ -24,4 +24,4 @@
 <link rel="icon" href="<%=application.getContextPath()%>/resources/res2/img/favicon.ico">
 <link rel="manifest" href="<%=application.getContextPath()%>/resources/res2/js/manifest.json">
 <link rel="mask-icon" href="<%=application.getContextPath()%>/resources/res2/img/logo.svg" color="#00AEFF">
-<link rel="stylesheet" href="<%=application.getContextPath()%>/resources/res2/css/main.css?ver=2.5">
+<link rel="stylesheet" href="<%=application.getContextPath()%>/resources/res2/css/main.css?ver=0.3.1">

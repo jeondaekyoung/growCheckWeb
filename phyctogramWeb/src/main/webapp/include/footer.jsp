@@ -38,19 +38,19 @@
         </div>
         <ul class="c-footer-infos_social o-g33">
             <li class="c-footer-infos_social_item">
-                <a class="c-footer-infos_social_link" href="" target="_blank"></a>
+                <a class="c-footer-infos_social_link" href="http://knowledge-seek.com/" target="_blank"><img src="<%=application.getContextPath()%>/resources/res2/img/sns_know.jpg?ver=0.3"></a>
             </li>
             <li class="c-footer-infos_social_item">
-                <a class="c-footer-infos_social_link" href="" target="_blank"></a>
+                <a class="c-footer-infos_social_link" href="https://twitter.com/growcheck" target="_blank"><img src="<%=application.getContextPath()%>/resources/res2/img/sns_twit.jpg"></a>
             </li>
             <li class="c-footer-infos_social_item">
-                <a class="c-footer-infos_social_link" href="" target="_blank"></a>
+                <a class="c-footer-infos_social_link" href="https://www.facebook.com/growcheck/ " target="_blank"><img src="<%=application.getContextPath()%>/resources/res2/img/sns_face.jpg"></a>
             </li>
             <li class="c-footer-infos_social_item">
-                <a class="c-footer-infos_social_link" href="" target="_blank"></a>
+                <a class="c-footer-infos_social_link" href="https://www.instagram.com/grow_check/" target="_blank"><img src="<%=application.getContextPath()%>/resources/res2/img/sns_insta.jpg"></a>
             </li>
             <li class="c-footer-infos_social_item">
-                <a class="c-footer-infos_social_link" href="" target="_blank"></a>   
+                <a class="c-footer-infos_social_link" href="https://www.youtube.com/channel/UCKzPFy2eWVDctvtbhp7J1Mg" target="_blank"><img src="<%=application.getContextPath()%>/resources/res2/img/sns_utube.jpg"></a>   
             </li>
         </ul>
         <div class="c-footer-infos_locomotive o-g33">

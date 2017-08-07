@@ -19,7 +19,7 @@
            
 <main class="o-main">
 
-    <section class="c-home">
+    <section class="c-home p1em">
         <h3 class="fz60">Privacy Policy</h3>
         <h4 class="fz36 thin c-blue upper">1. the purpose of the processing of personal data.</h4>
 		<p class="thin mb5em">GrowCheck (‘http://i-growcheck.com’ less than ‘grow check’) and processing of personal information for the purpose of the following purposes other than the purpose of the following :Not to use. <br>
