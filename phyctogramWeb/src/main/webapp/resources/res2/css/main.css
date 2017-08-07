@@ -1586,7 +1586,7 @@ scrollbar .scrollbar-track-x {
 scrollbar .scrollbar-track-y {
   top: 0;
   right: 0;
-  width: 5px;
+  width: 10px;
   height: 100%;
 }
 
@@ -1596,7 +1596,7 @@ scrollbar .scrollbar-thumb {
   position: absolute;
   top: 0;
   left: 0;
-  width: 5px;
+  width: 10px;
   height: 8px;
   background: rgba(0, 0, 0, 0.2);
 }
@@ -3351,7 +3351,7 @@ scrollbar .overscroll-glow {
 
 @media (min-width: 1000px) {
   .c-header_wrap {
-    height: 8.4254870985vw;
+    height: 130px;
     border-width: 0 1px 0 1px;
     border-style: solid;
     border-color: #ebebeb;

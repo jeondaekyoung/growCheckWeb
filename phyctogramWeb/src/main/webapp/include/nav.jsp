@@ -92,7 +92,28 @@
                                         <div class="c-header-navigation-dropdown js-dropdown-content">
                                         </div>
                                     </li>
-                                    
+                            </ul>
+                            <ul class="c-header-mobile_list">
+                                <li class="c-header-mobile_item -nav">
+                                    <a class="c-header-mobile_link" href="contact.jsp">
+                                        <span class="c-header-mobile_label">Contact Us</span>
+                                    </a>
+                                </li>
+                                <li class="c-header-mobile_item -nav">
+                                    <a class="c-header-mobile_link" href="terms.jsp">
+                                        <span class="c-header-mobile_label">Terms and Conditions</span>
+                                    </a>
+                                </li>
+                                <li class="c-header-mobile_item -nav">
+                                    <a class="c-header-mobile_link" href="privacy.jsp">
+                                        <span class="c-header-mobile_label">Privacy</span>
+                                    </a>
+                                </li>
+                                <li class="c-header-mobile_item -nav">
+                                    <a class="c-header-mobile_link" href="https://www.kickstarter.com/">
+                                        <span class="c-header-mobile_label">Kickstarter</span>
+                                    </a>
+                                </li>
                             </ul>
             
                             <p class="c-header-mobile_copyright">© Grow Check, 2017</p>
