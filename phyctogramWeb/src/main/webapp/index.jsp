@@ -199,7 +199,7 @@
     <script>window.jQuery || document.write('<script src="<%=application.getContextPath()%>/resources/res2/js/jquery-3.0.0.min.js"><\/script>')</script>
     <script src="<%=application.getContextPath()%>/resources/res2/js/vendors.js"></script>
     <script src="<%=application.getContextPath()%>/resources/res2/js/app.js"></script>
- 		<script type="text/javascript">
+ 		<!-- <script type="text/javascript">
     $(document).ready(function(){
 		if(location.host == 'phyctogram.com'||location.host == 'www.phyctogram.com'){
 			location.href ="http://i-growcheck.com/";
@@ -207,5 +207,5 @@
 		
     });
 
-    </script>
+    </script> -->
 </body></html>
