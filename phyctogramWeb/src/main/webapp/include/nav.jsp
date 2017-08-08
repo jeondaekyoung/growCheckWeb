@@ -117,6 +117,13 @@
             
                             <p class="c-header-mobile_copyright">© Grow Check, 2017</p>
                         </div>
+                        <div class="c-header-tools">
+	                        <ul class="c-header-tools_list">
+	                            <li class="c-header-tools_item -lang">
+	                                <a class="c-header-tools_link js-no-page-transitions" target="_blank">KR</a>
+	                            </li>
+	                        </ul>
+	                    </div>
                     </nav>
                 </div>
             </header>

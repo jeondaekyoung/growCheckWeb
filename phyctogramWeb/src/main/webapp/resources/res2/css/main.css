@@ -4355,7 +4355,7 @@ scrollbar .overscroll-glow {
 
 @media (min-width: 1000px) {
   .c-header-navigation_label {
-    font-size: 0.75rem;
+    font-size: 0.815rem;
     letter-spacing: 1px;
     text-transform: uppercase;
   }

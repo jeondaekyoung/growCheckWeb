@@ -77,7 +77,7 @@
 				        
 				    <section class="c-home" style="text-align:center; margin-top:3em">
 					    <h3 class="fz36 uppercase">Spec</h3>
-		        		<img src="<%=application.getContextPath()%>/resources/res2/img/spec.jpg?ver=0.5" style="display:block; margin: auto" alt="size:410x330x90, weight:max 180kg, height:max 5m, display:LCD 6 digit, wifi signaling time:802.11b 54Mbps, wifi processing time 11Mbps, charging voltage:12V 1800mA, charging time:3 hours, usage time:100 hours">
+		        		<img src="<%=application.getContextPath()%>/resources/res2/img/spec.jpg?ver=0.6" style="display:block; margin: auto" alt="size:410x330x90, weight:max 180kg, height:max 5m, display:LCD 6 digit, wifi signaling time:802.11b 54Mbps, wifi processing time 11Mbps, charging voltage:12V 1800mA, charging time:3 hours, usage time:100 hours">
 	       
 				        <h4 class="fz36 uppercase">Daily Check</h4>
 				        <p class="fz18">You don't need to hide bodyscale anymore. It will always stand in your room</p>
@@ -94,14 +94,7 @@
 				</div>
             </div> 
         </article>
-    <aside class="scrollbar-track scrollbar-track-x" style="display: none;">
-        <div class="scrollbar-thumb scrollbar-thumb-x" style="width: 1920px; transform: translate3d(0px, 0px, 0px);"></div>
-    </aside>
-    <aside class="scrollbar-track scrollbar-track-y" style="display: block;">
-        <div class="scrollbar-thumb scrollbar-thumb-y" style="height: 121.141px; transform: translate3d(0px, 0px, 0px);"></div>
-    </aside>
-    <canvas class="overscroll-glow" style="display: none; pointer-events: none;"></canvas>
-</div> 
+		</div> 
     </div> 
 </div> 
   <script src="<%=application.getContextPath()%>/resources/res2/js/jquery.min.js"></script>
