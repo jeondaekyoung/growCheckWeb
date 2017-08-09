@@ -26,7 +26,7 @@
         <section class="c-home">
             <div class="row contact">
                 <div class="col-6 m-col-12 bg-blue">
-                    <h3 class="fz80 medium">CONTACT</h3>
+                    <h3 class="fz60 thin">CONTACT</h3>
                     <p class="fz18 ic01">3-310, 20, Pangyo-ro 289beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do, Republic of Korea</p>
                     <p class="fz18 ic02">+82 70-8624-4536</p>
                     <p class="fz18 ic03">+82 50-4194-4532</p>

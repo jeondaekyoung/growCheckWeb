@@ -22,7 +22,7 @@
         <jsp:include page="/include/nav.jsp" flush="true"></jsp:include>
         
         <div class="o-scroll js-scroll is-show" data-scrollbar="" tabindex="1" style="overflow: scroll; outline: none;">        
-        <article class="scroll-content" style="transform: translate3d(0px, 0px, 0px);">
+        <article class="scroll-content" style="transform: translate3d(0px, 0px, 0px);z-index:-1;">
             <header class="c-navigation-header">
                 <div class="c-navigation-header_backgrounds">
                     <div class="o-background js-scroll is-show" data-speed="-1" data-position="top" style="background-image: url(<%=application.getContextPath()%>/resources/res2/img/banner.jpg);background transform: translate3d(0px, 0px, 0px);"></div>
