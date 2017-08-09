@@ -57,5 +57,33 @@
             <a target="_blank"></a>
         </div>
     </div>
-
+ <script src="<%=application.getContextPath()%>/resources/res2/js/jquery.min.js"></script>
+    <%-- <script>window.jQuery || document.write('<script src="<%=application.getContextPath()%>/resources/res2/js/jquery-3.0.0.min.js"><\/script>')</script> --%>
+    <script src="<%=application.getContextPath()%>/resources/res2/js/jquery-3.0.0.min.js"></script>
+    <script src="<%=application.getContextPath()%>/resources/res2/js/vendors.js"></script>
+    <script src="<%=application.getContextPath()%>/resources/res2/js/app.js"></script>
+<script type="text/javascript" src="http://openapi.map.naver.com/openapi/v3/maps.js?clientId=s96duQ89XbZlmLcPnKIc"></script>
+<script type="text/javascript">
+                   $(document).ready(function(){ 
+                	  
+                  var position = new naver.maps.LatLng(37.4047786, 127.1059992);
+                    var map = new naver.maps.Map('map', {
+                        center: position,
+                        scrollWheel : false,
+                        scaleControl: false,
+                        logoControl: false,
+                        mapDataControl: false,
+                        zoomControl: true,
+                        minZoom: 1,
+                        zoom: 12
+                    });
+                    var markerOptions = {
+                        position: position,
+                        map: map
+                    };
+                    var marker = new naver.maps.Marker(markerOptions);
+                    map.refresh();
+                  }); 
+            
+                  </script>
 </footer>
