@@ -3,7 +3,7 @@
 <%
  if(!request.getServerName().contains("i-growcheck.com")){
 	 response.setStatus(301);
-	 response.setHeader( "Location", "http://www.i-growCheck.com/" );
+	 response.setHeader( "Location", "http://www.i-growCheck.com/");
 	 response.setHeader( "Connection", "close" );
  }
 %>
