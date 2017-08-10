@@ -189,10 +189,4 @@ With Grow Check you can now check your weight and daily habits, manage the growt
     		</div>
         </div>
     </div>
-    <%-- <script src="<%=application.getContextPath()%>/resources/res2/js/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="<%=application.getContextPath()%>/resources/res2/js/jquery-3.0.0.min.js"><\/script>')</script>
-    <script src="<%=application.getContextPath()%>/resources/res2/js/vendors.js"></script>
-    <script src="<%=application.getContextPath()%>/resources/res2/js/app.js"></script> --%>
-
-
 </body></html>
