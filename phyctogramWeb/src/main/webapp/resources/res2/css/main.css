@@ -13626,6 +13626,7 @@ html:not(.has-smooth-scroll) .is-ios .c-article-navigation {
 
 @media screen and (max-width:414px){
 .contact .bg-blue {padding: 4em 1em}
+.contact .box-map {height: 400px!important}
 }
 
 .spec h3 {font-weight: 300; border-bottom: 2px solid #333; padding-bottom: 0.5em; padding-top: 2em}

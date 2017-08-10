@@ -34,7 +34,7 @@
                 </div>
                 
                 <div class="col-6 m-col-12">
-                  <div id="map" class="box-map" style="width:100%;height:800px;"></div>
+                  <div id="map" class="box-map" style="width:100%;height:752px;"></div>
                 </div>
             </div>
         </section>
@@ -43,16 +43,10 @@
                         <div class="js-sticky-stop">                            
                                 <jsp:include page="include/footer.jsp" flush="true"></jsp:include>
                         </div>
+                        
                 </div> 
             </article>
-        <aside class="scrollbar-track scrollbar-track-x" style="display: none;">
-            <div class="scrollbar-thumb scrollbar-thumb-x" style="width: 1920px; transform: translate3d(0px, 0px, 0px);"></div>
-        </aside>
-        <aside class="scrollbar-track scrollbar-track-y" style="display: block;">
-            <div class="scrollbar-thumb scrollbar-thumb-y" style="height: 121.141px; transform: translate3d(0px, 0px, 0px);"></div>
-        </aside>
-        <canvas class="overscroll-glow" style="display: none; pointer-events: none;"></canvas>
-    </div> 
+    		</div> 
         </div> 
     </div> 
 
