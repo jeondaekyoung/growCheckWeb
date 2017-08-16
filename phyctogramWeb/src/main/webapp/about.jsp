@@ -21,12 +21,11 @@
 <main class="o-main">
 
     <section class="c-home" style="text-align:center; margin-top:3em">
-        <h3 class="fz60 thin">About Grow Check</h3>
-        <p class="fz18">Grow Check is started from small idea.<br>Traditional body scales are inconvenient and can be sometimes dangerous because consumers experience trip and fall accidents because of the device.  
-<br>So most of the consumers tend to hide the device.<br><br>That’s how we started to think about creating something new and multi-functional, and Grow Check idea was born.<br>
-With Grow Check you can now check your weight and daily habits, manage the growth of your child, get solutions and more! <br>Grow Check is here to meet your needs, give it a chance.<br><br><br><br><br></p>
+        <h3 class="fz60 thin m-s-fz3rem">About GrowCheck</h3>
+        <p class="fz18">For many of us, especially women, weight is always something to worry about. That’s why we are weighing ourselves almost every day. So we decided to break the rules and create something different: Grow Check the world’s first vertical smart body scale ever!
+<br><br><br></p>
 
-        <h3 class="fz60 thin">Our Performance</h3>
+        <h3 class="fz60 thin m-s-fz3rem">Our Performance</h3>
     	<div class="jt_grid_container row">
              <div id="jt_grid" class="jt_grid">
                  
@@ -104,7 +103,7 @@ With Grow Check you can now check your weight and daily habits, manage the growt
              </div>                    
         </div>
         
-        <h3 class="fz60 thin">Our History</h3>
+        <h3 class="fz60 thin m-s-fz3rem">Our History</h3>
             
             <section id="timeline">
   <article>

@@ -1,12 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%
- if(!request.getServerName().contains("i-growcheck.com")){
-	 response.setStatus(301);
-	 response.setHeader( "Location", "http://www.i-growCheck.com/");
-	 response.setHeader( "Connection", "close" );
- }
-%>
 
 <!DOCTYPE html>
 <html lang="en" class="has-smooth-scroll">
@@ -37,11 +30,7 @@
                     <p class="c-white m-opacity" style="font-size:1.1em;margin:1.5em 0;font-weight:300">GrowCheck is IoT based vertical type body scale &amp; stadiometer.<br>It gives you convenience &amp; joy! Enjoy various performance.</p>
                 </div>
                 <div class="go-kickstart">
-                    <span >You can purchase GrowCheck on</span>
-                    <img src="<%=application.getContextPath()%>/resources/res2/img/logo-kickStarter.png" alt="kickStarter">
-                    <a class="btn02" >
-                    	SEP 25th
-                    </a>
+                    <span>Launching on</span><img src="<%=application.getContextPath()%>/resources/res2/img/logo-kickStarter.png" alt="kickStarter"><span>SEP 25th</span>
                 </div>        
             </header>
             <!-- No Navigation header -->
@@ -84,7 +73,7 @@
                             <div class="c-card-bio_infos">
                                 <p class="c-card-bio_infos_surtitle"></p>
                                 <h3 class="c-card-bio_infos_name">all-in-one</h3>
-                                <p class="c-card-bio_infos_type">It can measure height by laser</p>
+                                <p class="c-card-bio_infos_type">It can measure height by laser sensor</p>
                                 <div class="c-card-bio_infos_view">
                                     <div class="c-card-bio_infos_view_line"></div>
                                     <p class="c-card-bio_infos_view_label" data-letters="Read more">Read more</p>
@@ -188,24 +177,5 @@
     	 	</div>
         </div>
     </div>
-    <script type="text/javascript">
-	
-	var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android',
-			'Windows CE', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson',
-			'Windows Phone');
 
-	for ( var word in mobileKeyWords) {
-
-		if (navigator.userAgent.match(mobileKeyWords[word]) != null) {
-			if(location.host == 'phyctogram.com'||location.host == 'www.phyctogram.com'){
-				
-			location.href = "http://i-growCheck.com";
-			}
-
-			break;
-
-		}
-
-	}
-</script>
 </body></html>
