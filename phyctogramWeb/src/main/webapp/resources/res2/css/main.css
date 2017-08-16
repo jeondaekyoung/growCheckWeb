@@ -13669,7 +13669,7 @@ html:not(.has-smooth-scroll) .is-ios .c-article-navigation {
 
 /* company-history */
 section#timeline {
-  width: 80%;
+  width: 100%;
   margin: 20px auto;
   position: relative;
 }
@@ -13729,7 +13729,7 @@ section#timeline article div.inner span.date span.year {
   font-size: 10px; line-height: 1.2
 }
 section#timeline article div.inner p {
-  padding: 15px;
+  padding: 1em 0;
   margin: 0;
   font-size: 14px;
   color: #00aaff;
