@@ -55,42 +55,42 @@
                     <nav class="c-header-navigation js-header-navigation" data-module="HeaderNavigation">
                         <div class="c-header-navigation_wrap">
                             <ul class="c-header-navigation_list">
-                                    <li class="c-header-navigation_item js-dropdown">
-                                        <a class="c-header-navigation_link js-dropdown-toggle " href="index.jsp">
-                                            <span class="c-header-navigation_label">Home</span>
-                                        </a>
-                                        <div class="c-header-navigation-dropdown js-dropdown-content">
-                                        </div>
-                                    </li>
-                                    <li class="c-header-navigation_item js-dropdown">
-                                        <a class="c-header-navigation_link js-dropdown-toggle " href="hw.jsp">
-                                            <span class="c-header-navigation_label">Hardware</span>
-                                        </a>
-                                        <div class="c-header-navigation-dropdown js-dropdown-content">
-                                        </div>
-                                    </li>
-                                    <li class="c-header-navigation_item js-dropdown">
-                                        <a class="c-header-navigation_link js-dropdown-toggle " href="app.jsp">
-                                            <span class="c-header-navigation_label">App</span>
-                                        </a>
-                                        <div class="c-header-navigation-dropdown js-dropdown-content">
-                                        </div>
-                                    </li>
-                                    <li class="c-header-navigation_item js-dropdown">
-                                        <a class="c-header-navigation_link js-dropdown-toggle " href="about.jsp">
-                                            <span class="c-header-navigation_label">About</span>
-                                        </a>
-                                        <div class="c-header-navigation-dropdown js-dropdown-content">
-                                        </div>
-                                    </li>
-                                    <li class="c-header-navigation_item js-dropdown">
-                                        <!-- <a class="c-header-navigation_link js-dropdown-toggle " href="faq.jsp"> -->
-                                        <a class="c-header-navigation_link" href="javascript:alert('Page is under construction.')">
-                                            <span class="c-header-navigation_label">FAQ</span>
-                                        </a>
-                                        <div class="c-header-navigation-dropdown js-dropdown-content">
-                                        </div>
-                                    </li>
+                                <li class="c-header-navigation_item js-dropdown">
+                                    <a class="c-header-navigation_link js-dropdown-toggle " href="index.jsp">
+                                        <span class="c-header-navigation_label">Home</span>
+                                    </a>
+                                    <div class="c-header-navigation-dropdown js-dropdown-content">
+                                    </div>
+                                </li>
+                                <li class="c-header-navigation_item js-dropdown">
+                                    <a class="c-header-navigation_link js-dropdown-toggle " href="hw.jsp">
+                                        <span class="c-header-navigation_label">Hardware</span>
+                                    </a>
+                                    <div class="c-header-navigation-dropdown js-dropdown-content">
+                                    </div>
+                                </li>
+                                <li class="c-header-navigation_item js-dropdown">
+                                    <a class="c-header-navigation_link js-dropdown-toggle " href="app.jsp">
+                                        <span class="c-header-navigation_label">App</span>
+                                    </a>
+                                    <div class="c-header-navigation-dropdown js-dropdown-content">
+                                    </div>
+                                </li>
+                                <li class="c-header-navigation_item js-dropdown">
+                                    <a class="c-header-navigation_link js-dropdown-toggle " href="about.jsp">
+                                        <span class="c-header-navigation_label">About</span>
+                                    </a>
+                                    <div class="c-header-navigation-dropdown js-dropdown-content">
+                                    </div>
+                                </li>
+                                <li class="c-header-navigation_item js-dropdown">
+                                    <!-- <a class="c-header-navigation_link js-dropdown-toggle " href="faq.jsp"> -->
+                                    <a class="c-header-navigation_link" href="javascript:alert('Page is under construction.')">
+                                        <span class="c-header-navigation_label">FAQ</span>
+                                    </a>
+                                    <div class="c-header-navigation-dropdown js-dropdown-content">
+                                    </div>
+                                </li>
                             </ul>
                             <ul class="c-header-mobile_list">
                                 <li class="c-header-mobile_item -nav">

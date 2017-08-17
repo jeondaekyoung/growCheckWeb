@@ -4,12 +4,7 @@
  *
  * @package Boilerplate
  */
-/**
- * Convert a mockup measurement from px to vw
- * @param  {string} $width  Desired px measurement from the mockup
- * @param  {string} $range  Mockup identifier for mapping with size map.
- * @return {string}         vw conversion
- */
+
 .u-ratio {
   overflow: hidden;
   position: relative;
@@ -658,7 +653,7 @@ body {
 }
 
 .has-smooth-scroll body, body.has-header-search {
-  overflow-y: hidden;
+  
 }
 
 body.has-header-search.is-ios {
@@ -706,7 +701,6 @@ body.has-header-search.is-ios {
 .is-volley-grid .o-scroll {
   height: 100%;
   position: relative;
-  overflow: hidden;
 }
 
 @media print {
@@ -3242,9 +3236,10 @@ scrollbar .overscroll-glow {
 
 .c-header_wrapper {
   position: fixed;
-  height: auto;
+  top:0;
+  left:0;
   width: 100%;
-  z-index: 2000;
+  z-index: 999;
   -webkit-transition: height 0s 0.6s;
   transition: height 0s 0.6s;
 }
@@ -3288,7 +3283,7 @@ scrollbar .overscroll-glow {
 }
 
 .c-header_wrap {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
@@ -4355,7 +4350,7 @@ scrollbar .overscroll-glow {
 
 @media (min-width: 1000px) {
   .c-header-navigation_label {
-    font-size: 0.815rem;
+    font-size: 1rem;
     letter-spacing: 1px;
     text-transform: uppercase;
   }

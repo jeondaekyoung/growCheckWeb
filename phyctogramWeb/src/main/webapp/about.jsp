@@ -13,7 +13,7 @@
         
         <jsp:include page="include/nav.jsp" flush="true"></jsp:include>
         
-        <div class="o-scroll js-scroll is-show" data-scrollbar="" tabindex="1" style="overflow: scroll; outline: none;">        
+        <div class="o-scroll js-scroll is-show" data-scrollbar="" tabindex="1" style="outline: none;">        
         <article class="scroll-content" style="transform: translate3d(0px, 0px, 0px);">
            
             <div class="o-grid-wrap">
@@ -22,7 +22,8 @@
 
     <section class="c-home" style="text-align:center; margin-top:3em; padding:0 1em">
         <h3 class="fz60 thin m-s-fz3rem">About GrowCheck</h3>
-        <p class="fz18">For many of us, especially women, weight is always something to worry about. That’s why we are weighing ourselves almost every day. So we decided to break the rules and create something different: Grow Check the world’s first vertical smart body scale ever!
+        <p class="fz18">For many of us, especially women, weight is always something to worry about. That’s why we are weighing ourselves almost every day.
+        <br>So we decided to break the rules and create something different: Grow Check the world’s first vertical smart body scale ever!
 <br><br><br></p>
 
         <h3 class="fz60 thin m-s-fz3rem">Our Performance</h3>

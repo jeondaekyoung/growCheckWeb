@@ -13,7 +13,7 @@
         
         <jsp:include page="include/nav.jsp" flush="true"></jsp:include>
         
-        <div class="o-scroll js-scroll is-show" data-scrollbar="" tabindex="1" style="overflow: scroll; outline: none;">
+        <div class="o-scroll js-scroll is-show" data-scrollbar="" tabindex="1" style="outline: none;">
         <article class="scroll-content" style="transform: translate3d(0px, 0px, 0px);">
                     
             <div></div>            

@@ -13,7 +13,7 @@
         
         <jsp:include page="include/nav.jsp" flush="true"></jsp:include>
         
-        <div class="o-scroll js-scroll is-show" data-scrollbar="" tabindex="1" style="overflow: scroll; outline: none;">        
+        <div class="o-scroll js-scroll is-show" data-scrollbar="" tabindex="1" style="outline: none;">        
         <article class="scroll-content" style="transform: translate3d(0px, 0px, 0px);">
             
             <div class="o-grid-wrap">
@@ -22,7 +22,7 @@
 				        <h3 class="fz60 thin">The first <span style="color:#0099ff">Vertical</span> body scale</h3>
 				        <img src="<%=application.getContextPath()%>/resources/res2/img/open.jpg">
 				        
-				        <h4 class="fz36 uppercase mt1em">accurate measurement</h4>
+				        <h4 class="fz60 thin m-s-fz3rem mt1em">accurate measurement</h4>
 				      </section>
 				      
 				      <section class="c-home">
@@ -76,7 +76,7 @@
 				    </section>    
 				        
 				    <section class="c-home" style="text-align:center; padding-top:3em">
-					    <h3 class="fz36 uppercase mt1em">Spec</h3>
+					    <h3 class="fz60 thin m-s-fz3rem mt1em">Spec</h3>
 		        		<img src="<%=application.getContextPath()%>/resources/res2/img/spec.jpg?ver=0.6" style="display:block; margin: auto" alt="size:410x330x90, weight:max 180kg, height:max 5m, display:LCD 6 digit, wifi signaling time:802.11b 54Mbps, wifi processing time 11Mbps, charging voltage:12V 1800mA, charging time:3 hours, usage time:100 hours">
 	       
 				        <h4 class="fz36 uppercase mt1em">Daily Check</h4>
