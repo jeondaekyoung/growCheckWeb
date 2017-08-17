@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en" class="has-smooth-scroll">
 <head>
-	<jsp:include page="include/head.jsp" flush="true"></jsp:include>
+	<jsp:include page="../include/head.jsp" flush="true"></jsp:include>
 </head>
     
 <body class="is-volley-grid is-windows search-has-results is-loaded">
@@ -11,7 +11,7 @@
 <div class="o-barba js-barba" id="js-barba-wrapper" aria-live="polite">
     <div class="js-barba-container o-barba_container" data-template="home">
         
-        <jsp:include page="include/nav.jsp" flush="true"></jsp:include>
+        <jsp:include page="../include/nav-kr.jsp" flush="true"></jsp:include>
         
         <div class="o-scroll js-scroll is-show" data-scrollbar="" tabindex="1" style="outline: none;">        
         <article class="scroll-content" style="transform: translate3d(0px, 0px, 0px);">
@@ -21,12 +21,11 @@
 <main class="o-main">
 
     <section class="c-home" style="text-align:center; margin-top:3em; padding:0 1em">
-        <h3 class="fz60 thin m-s-fz3rem">About GrowCheck</h3>
-        <p class="fz18">For many of us, especially women, weight is always something to worry about. That’s why we are weighing ourselves almost every day.
-        <br>So we decided to break the rules and create something different: Grow Check the world’s first vertical smart body scale ever!
-<br><br><br></p>
+        <h3 class="fz60 thin m-s-fz3rem">그로첵 스토리</h3>
+        <p class="fz18">현대 사람들, 특히 여성이라면 항상 체중 관리에 근심을 합니다. 그래서인지 우리는 스스로 매일 체중을 재지요.
+        <br>그래서 우리는 룰을 깨고 조금 특별한 것을 만들어 내기로 결심했습니다. 최초의 세로형 스마트 체중계 그로첵을요!<br><br><br></p>
 
-        <h3 class="fz60 thin m-s-fz3rem">Our Performance</h3>
+        <h3 class="fz60 thin m-s-fz3rem">업적</h3>
     	<div class="jt_grid_container row">
              <div id="jt_grid" class="jt_grid">
                  
@@ -104,7 +103,7 @@
              </div>                    
         </div>
         
-        <h3 class="fz60 thin m-s-fz3rem">Our History</h3>
+        <h3 class="fz60 thin m-s-fz3rem">연혁</h3>
             
             <section id="timeline">
   <article>
@@ -115,7 +114,7 @@
         <span class="year">2017</span>
       </span>
       <p class="alt"><img src="<%=application.getContextPath()%>/resources/res2/img/history06.jpg"><br>
-      Attracted investement from Balancers co., ltd.</p>
+      주식회사 밸런서즈로부터 투자 유치</p>
     </div>
   </article>
   <article>
@@ -126,7 +125,7 @@
         <span class="year">2016</span>
       </span>
       <p><img src="<%=application.getContextPath()%>/resources/res2/img/history05.jpg"><br>
-      Selected as K-Global 300 company</p>
+      ICT 유망기업 K-Global 300 선정</p>
     </div>
   </article>
   <article>
@@ -137,7 +136,7 @@
         <span class="year">2016</span>
       </span>
       <p class="alt"><img src="<%=application.getContextPath()%>/resources/res2/img/history04.jpg"><br>
-      Pittsburgh USA INPEX 4 gold medals</p>
+      미국 피츠버그 세계발명전시회 INPEX에서 4관 수상</p>
     </div>
   </article>
   <article>
@@ -148,7 +147,7 @@
         <span class="year">2015</span>
       </span>
       <p><img src="<%=application.getContextPath()%>/resources/res2/img/history03.jpg"><br>
-      Acquired patents on Physical information measuring device and managing system</p>
+      신체정보측정기기 및 관리 시스템 특허 출원</p>
     </div>
   </article>
   <article>
@@ -159,7 +158,7 @@
         <span class="year">2014</span>
       </span>
       <p class="alt"><img src="<%=application.getContextPath()%>/resources/res2/img/history02.jpg"><br>
-      Acquired patents on Knowledge Pay-per-transaction system</p>
+      지식유료거래시스템 특허 출원</p>
     </div>
   </article>  
   <article>
@@ -170,19 +169,17 @@
         <span class="year">2013</span>
       </span>
       <p><img src="<%=application.getContextPath()%>/resources/res2/img/history01.jpg"><br>
-      Established Knowledge-seek co., ltd.</p>
+      주식회사 나리지식앤컴퍼니 설립</p>
     </div>
   </article>
 </section>
-
         <br><br><br><br><br><br><br>
-        <br><br><br><br><br>
     </section>
         
 </main>
 
 <div class="js-sticky-stop">
-	<jsp:include page="include/footer-kr.jsp" flush="true"></jsp:include>
+	<jsp:include page="../include/footer-kr.jsp" flush="true"></jsp:include>
 </div>
                 </div>
             </article>

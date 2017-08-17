@@ -120,7 +120,7 @@
                         <div class="c-header-tools">
 	                        <ul class="c-header-tools_list">
 	                            <li class="c-header-tools_item -lang">
-	                                <a class="c-header-tools_link js-no-page-transitions" href="<%=application.getContextPath()%>/kr/index.jsp">KR</a>
+	                                <a class="c-header-tools_link js-no-page-transitions" href="<%=application.getContextPath()%>/index.jsp">US</a>
 	                            </li>
 	                        </ul>
 	                    </div>
