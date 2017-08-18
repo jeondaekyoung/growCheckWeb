@@ -85,7 +85,7 @@
                                 </li>
                                 <li class="c-header-navigation_item js-dropdown">
                                     <!-- <a class="c-header-navigation_link js-dropdown-toggle " href="faq.jsp"> -->
-                                    <a class="c-header-navigation_link" href="javascript:alert('Page is under construction.')">
+                                    <a class="c-header-navigation_link" href="javascript:alert('이 페이지는 준비중 입니다.')">
                                         <span class="c-header-navigation_label">FAQ</span>
                                     </a>
                                     <div class="c-header-navigation-dropdown js-dropdown-content">
