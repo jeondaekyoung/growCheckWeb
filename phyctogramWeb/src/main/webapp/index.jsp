@@ -18,7 +18,7 @@
         <article class="scroll-content" style="transform: translate3d(0px, 0px, 0px);z-index:-1;">
             <header class="c-navigation-header">
                 <div class="c-navigation-header_backgrounds">
-                    <div class="o-background js-scroll is-show" data-speed="-1" data-position="top" style="background-image: url(<%=application.getContextPath()%>/resources/res2/img/banner.jpg);background transform: translate3d(0px, 0px, 0px);"></div>
+                    <div class="o-background js-scroll is-show" data-speed="-1" data-position="top" style="background-image: url(<%=application.getContextPath()%>/resources/res2/img/banner.jpg?ver=0.1);background transform: translate3d(0px, 0px, 0px);"></div>
                     <div class="c-navigation-header_overlay"></div>
                 </div>
 
@@ -45,7 +45,7 @@
                 <div class="js-scroll  is-show" data-speed="-0.6" data-position="top" style="transform: translate3d(0px, 0px, 0px);">
                     <section class="c-card-bio">
                             <div class="c-card-bio_overflow">
-                                <div class="c-card-bio_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/main.jpg);"></div>
+                                <div class="c-card-bio_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/main1.jpg);"></div>
                                 <div class="c-card-bio_overlay"></div>
                             </div>
                             <div class="c-card-bio_content">
@@ -64,7 +64,7 @@
 
                     <section class="c-card-bio">
                             <div class="c-card-bio_overflow">
-                                <div class="c-card-bio_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/main.jpg);"></div>
+                                <div class="c-card-bio_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/main2.jpg);"></div>
                                 <div class="c-card-bio_overlay"></div>
                             </div>
                             <div class="c-card-bio_content">
@@ -156,7 +156,7 @@
         <div class="c-home_calltoaction js-scroll js-anim is-show">
             <section class="c-card-calltoaction js-scroll is-show">
                 <div class="c-card-calltoaction_overflow">
-                    <div class="c-card-calltoaction_background o-background js-scroll is-show" data-speed="0.5" style="background-image: url(<%=application.getContextPath()%>/resources/res2/img/open.jpg); "></div>
+                    <div class="c-card-calltoaction_background o-background js-scroll is-show" data-speed="0.5" style="background-image: url(<%=application.getContextPath()%>/resources/res2/img/open.jpg?ver=0.1); "></div>
                     <div class="c-card-calltoaction_overlay"></div>
                 </div>
                 <div class="c-card-calltoaction_content">

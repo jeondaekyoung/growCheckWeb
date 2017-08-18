@@ -7,12 +7,12 @@
 <meta http-equiv="Pragma" content="no-cache"/>
 <meta http-equiv="Expires" content="0"/>
 <meta property="og:title" content="그로첵(GrowCheck)">
-<meta property="og:description" content="체중계, 스마트체중계, 샤오미체중계, 건강관리, 키재기, 키재기자, 아기키재기, 출산선물, 아기용품">
+<meta property="og:description" content="The first vertical smart scale, Weight, Height measure, 스마트체중계, 키재기">
 <meta property="og:url" content="http://www.i-growcheck.com">
 <meta property="og:image" content="<%=application.getContextPath()%>/resources/res2/img/sns.jpg">
 <meta property="og:type" content="article">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="description" content="체중계, 스마트체중계, 샤오미체중계, 건강관리, 키재기, 키재기자, 아기키재기, 출산선물, 아기용품">
+<meta name="description" content="The first vertical smart scale, Weight, Height measure, 스마트체중계, 키재기">
 <meta name="twitter:card" content="photo">
 <meta name="twitter:title" content="그로첵(GrowCheck)">
 <meta name="twitter:url" content="http://www.i-growcheck.com">
@@ -28,7 +28,7 @@
 <link rel="icon" href="<%=application.getContextPath()%>/resources/res2/img/favicon.ico">
 <link rel="manifest" href="<%=application.getContextPath()%>/resources/res2/js/manifest.json">
 <link rel="mask-icon" href="<%=application.getContextPath()%>/resources/res2/img/logo.svg" color="#00AEFF">
-<link rel="stylesheet" href="<%=application.getContextPath()%>/resources/res2/css/main.css?ver=0.5.8">
+<link rel="stylesheet" href="<%=application.getContextPath()%>/resources/res2/css/main.css?ver=0.5.9">
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

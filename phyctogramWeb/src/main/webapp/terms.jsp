@@ -38,7 +38,7 @@
 		<h4 class="fz36 thin c-blue upper m-s-fz2rem">Changes in notices</h4>
 		<p class="thin mb5em">All users of our service provided by our homepage shall be deemed to consent to the content of this notice. We have the right to inform customers of a change in the detailed items stated in this notice and conditions for use with a reasonable notice or change the content of this notice from time to time without prior notice per generally accepted practices in the Internet industry. Accordingly, you shall familiarize yourselves with a change in conditions for use by periodically checking relevant details.	
 		<br><br>
-		These Terms and Conditions shall take effect on December 1, 2017.<br><br><br><br><br><br><br></p>
+		These Terms and Conditions shall take effect on August 1, 2017.<br><br><br><br><br><br><br></p>
     </section>
         
 </main>
