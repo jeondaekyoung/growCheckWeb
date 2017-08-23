@@ -24,7 +24,7 @@
         <h3 class="fz60 thin mt1em m-s-fz3rem">Terms and Conditions</h3>
         
 		<h4 class="fz36 thin c-blue upper m-s-fz2rem">Legal notice</h4>
-		<p class="thin mb5em">Welcome to the homepage of GrowCheck(“we/us/our”). Please familiarize yourselves with these legal notices about your use of our homepage lest you should face difficulties with using it.</p>
+		<p class="thin mb5em">Welcome to the homepage of Growcheck(“we/us/our”). Please familiarize yourselves with these legal notices about your use of our homepage lest you should face difficulties with using it.</p>
 		
 		<h4 class="fz36 thin c-blue upper m-s-fz2rem">Copyright</h4>
 		<p class="thin mb5em">Our homepage is part of our valuable assets. All copyrights concerning or arising from the homepage shall revert to us. All services, materials and information (“information and the like”) provided by us are for non-commercial or personal use and thus information and the like provided including texts, images, voices, downloaded files, links, and source codes shall not be downloaded or used for a commercial or public purpose or amended or distributed without our prior written consent.</p>

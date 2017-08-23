@@ -53,7 +53,7 @@
                     </div>
                     <div class="c-card-carousel_content js-carousel-content is-current">
                         <h3 class="c-card-carousel_content_title">Stadiometer</h3>
-                        <p class="c-card-carousel_content_text">You can measure height by laser sensor with the bar inside Grow Check.<br>The data send automatically to your phone and then check your children's growth in app.</p>
+                        <p class="c-card-carousel_content_text">You can measure height by laser sensor with the bar inside Growcheck.<br>The data send automatically to your phone and then check your children's growth in app.</p>
                         <a class="c-card-carousel_content_btn">
                             <div class="c-card-carousel_content_btn_line"></div>
                             <p class="c-card-carousel_content_btn_label" data-letters="Find out more">Shop now</p>

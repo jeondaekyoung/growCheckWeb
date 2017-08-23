@@ -43,7 +43,7 @@
                     <h3 class="thin fz80 m-s-fz3rem">Self Check</h3>
                     <div class="underline"></div>
                     <p class="fz24">Check Your Habit Everyday</p>
-                    <p class="fz18">Check your daily data and get healthy habits. GrowCheck app. allows you to track your meal, exercise and sleep habits.</p>
+                    <p class="fz18">Check your daily data and get healthy habits. Growcheck app. allows you to track your meal, exercise and sleep habits.</p>
                 </div>
                 </div>
                 
@@ -65,7 +65,7 @@
                     <h3 class="thin fz80 m-s-fz3rem">Connection</h3>
                     <div class="underline"></div>
                     <p class="fz24">Connect Device Easily</p>
-                    <p class="fz18">GrowCheck app. is easy to use; all measured data is synchronized through BT. </p>
+                    <p class="fz18">Growcheck app. is easy to use; all measured data is synchronized through BT. </p>
                 </div>
                 </div>
                 

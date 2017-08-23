@@ -115,7 +115,7 @@
                                 </li>
                             </ul>
             
-                            <p class="c-header-mobile_copyright">© Grow Check, 2017</p>
+                            <p class="c-header-mobile_copyright">© Growcheck, 2017</p>
                         </div>
                         <div class="c-header-tools">
 	                        <ul class="c-header-tools_list">
