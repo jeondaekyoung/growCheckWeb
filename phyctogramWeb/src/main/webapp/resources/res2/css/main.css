@@ -9329,8 +9329,8 @@ html:not(.has-smooth-scroll) .is-ios .c-article-navigation {
 
 @media (min-width: 1000px) {
   .c-card-bio_infos {
-    bottom: -2.169562196vw;
-    right: -1.8068102849vw;
+    bottom: 0;
+    right: 0;
     width: 21.8207088256vw;
   }
 }
