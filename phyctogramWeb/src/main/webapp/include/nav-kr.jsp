@@ -38,95 +38,38 @@
             </figure>
         </div>
         <div class="c-header_wrapper js-header-wrapper" data-module="HeaderCategories">
-            <header class="c-header js-navigation">
-                <div class="c-header_wrap">
-                    <button class="c-header-burger js-header-burger" data-module="HeaderBurger" title="Menu" type="button">
-                        <span class="c-header-burger_lines">
-                            <span class="c-header-burger_line"></span>
-                            <span class="c-header-burger_line"></span>
-                            <span class="c-header-burger_line"></span>
-                        </span>
-                    </button>
-                    <div class="c-header_logo">
-                        <a class="c-header_logo_link " href="index.jsp">
-                            <img src="<%=application.getContextPath()%>/resources/res2/img/logo.svg" class="c-header_logo_image" alt="그로우첵">
-                        </a>
-                    </div>
-                    <nav class="c-header-navigation js-header-navigation" data-module="HeaderNavigation">
-                        <div class="c-header-navigation_wrap">
-                            <ul class="c-header-navigation_list">
-                                <li class="c-header-navigation_item js-dropdown">
-                                    <a class="c-header-navigation_link js-dropdown-toggle " href="index.jsp">
-                                        <span class="c-header-navigation_label">Home</span>
-                                    </a>
-                                    <div class="c-header-navigation-dropdown js-dropdown-content">
-                                    </div>
-                                </li>
-                                <li class="c-header-navigation_item js-dropdown">
-                                    <a class="c-header-navigation_link js-dropdown-toggle " href="hw.jsp">
-                                        <span class="c-header-navigation_label">Hardware</span>
-                                    </a>
-                                    <div class="c-header-navigation-dropdown js-dropdown-content">
-                                    </div>
-                                </li>
-                                <li class="c-header-navigation_item js-dropdown">
-                                    <a class="c-header-navigation_link js-dropdown-toggle " href="app.jsp">
-                                        <span class="c-header-navigation_label">App</span>
-                                    </a>
-                                    <div class="c-header-navigation-dropdown js-dropdown-content">
-                                    </div>
-                                </li>
-                                <li class="c-header-navigation_item js-dropdown">
-                                    <a class="c-header-navigation_link js-dropdown-toggle " href="about.jsp">
-                                        <span class="c-header-navigation_label">About</span>
-                                    </a>
-                                    <div class="c-header-navigation-dropdown js-dropdown-content">
-                                    </div>
-                                </li>
-                                <li class="c-header-navigation_item js-dropdown">
-                                    <!-- <a class="c-header-navigation_link js-dropdown-toggle " href="faq.jsp"> -->
-                                    <a class="c-header-navigation_link" href="javascript:alert('이 페이지는 준비중 입니다.')">
-                                        <span class="c-header-navigation_label">FAQ</span>
-                                    </a>
-                                    <div class="c-header-navigation-dropdown js-dropdown-content">
-                                    </div>
-                                </li>
-                            </ul>
-                            <ul class="c-header-mobile_list">
-                                <li class="c-header-mobile_item -nav">
-                                    <a class="c-header-mobile_link" href="contact.jsp">
-                                        <span class="c-header-mobile_label">Contact Us</span>
-                                    </a>
-                                </li>
-                                <li class="c-header-mobile_item -nav">
-                                    <a class="c-header-mobile_link" href="terms.jsp">
-                                        <span class="c-header-mobile_label">Terms and Conditions</span>
-                                    </a>
-                                </li>
-                                <li class="c-header-mobile_item -nav">
-                                    <a class="c-header-mobile_link" href="privacy.jsp">
-                                        <span class="c-header-mobile_label">Privacy</span>
-                                    </a>
-                                </li>
-                                <li class="c-header-mobile_item -nav">
-                                    <a class="c-header-mobile_link" href="https://www.kickstarter.com/">
-                                        <span class="c-header-mobile_label">Kickstarter</span>
-                                    </a>
-                                </li>
-                            </ul>
-            
-                            <p class="c-header-mobile_copyright">© Growcheck, 2017</p>
-                        </div>
-                        <div class="c-header-tools">
-	                        <ul class="c-header-tools_list">
-	                            <li class="c-header-tools_item -lang">
-	                                <a class="c-header-tools_link js-no-page-transitions" href="<%=application.getContextPath()%>/index.jsp">US</a>
-	                            </li>
-	                        </ul>
-	                    </div>
-                    </nav>
-                </div>
-            </header>
+            <div class="nav_wrap">
+		        <button class="c-header-burger js-header-burger" data-module="HeaderBurger" title="Menu" type="button">
+		          <span class="c-header-burger_lines">
+		            <span class="c-header-burger_line"></span>
+		            <span class="c-header-burger_line"></span>
+		            <span class="c-header-burger_line"></span>
+		          </span>
+		        </button>
+		        <div class="logo">
+		          <a class="logo-lg" href="index.jsp"><img src="<%=application.getContextPath()%>/resources/res2/img/logo-hzt.svg"></a>
+		          <a class="logo-sm" href="index.jsp"><img src="<%=application.getContextPath()%>/resources/res2/img/logo.svg"></a>
+		        </div>
+		        <nav class="nav">
+		          <ul>
+		            <li><a href="index.jsp">HOME</a></li>
+		            <li><a href="hw.jsp">HARDWARE</a></li>
+		            <li><a href="app.jsp">APP</a></li>
+		            <li><a href="about.jsp">ABOUT</a></li>
+		            <li><a href="javascript:alert('이 페이지는 준비중입니다.')">FAQ</a></li>
+		          </ul>
+		            <ul class="mobile_list">
+		                <li><a href="contact.jsp">contact Us</a></li>
+		                <li><a href="terms.jsp">Term and Conditions</a></li>
+		                <li><a href="privacy.jsp">Privacy</a></li>
+		                <li><a href="https://www.kickstarter.com/">Kickstarter</a></li>
+		            </ul>
+		            <p class="mobile_copyright">© Growcheck, 2017</p>
+		        </nav>
+		        <div class="language">
+			        <a><img src="<%=application.getContextPath()%>/resources/res2/img/lang_ko.png" alt="korean"></a>
+			        <a href="<%=application.getContextPath()%>/index.jsp"><img src="<%=application.getContextPath()%>/resources/res2/img/lang_en.png" alt="english" style="opacity: 0.3"></a></div>
+		      </div>
             
             <div class="c-header_overlay js-header-overlay"></div>
                 

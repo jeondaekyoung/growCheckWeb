@@ -30,19 +30,19 @@
             <section class="c-card-carousel" data-module="Carousel">
                 <div class="c-card-carousel_overflow_wrapper">
                     <section class="c-card-carousel_overflow">
-                        <div class="c-card-carousel_background o-background js-carousel-background js-scroll is-show" data-speed="0.6" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/fix01.jpg?ver=0.2); transform: translate3d(0px, 56.9761px, 0px);"></div>
+                        <div class="c-card-carousel_background o-background js-carousel-background js-scroll is-show is-current" data-speed="0.6" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/fix01.jpg?ver=0.2); transform: translate3d(0px, 56.9761px, 0px);"></div>
                         <div class="c-card-carousel_background o-background js-carousel-background js-scroll is-show" data-speed="0.6" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/fix02.jpg?ver=0.2); transform: translate3d(0px, 56.9761px, 0px);"></div>
                         <div class="c-card-carousel_overlay"></div>
                     </section>
                 </div>
 
                 <section class="c-card-carousel_labels">
-                    <p class="c-card-carousel_label js-carousel-label">01</p>
+                    <p class="c-card-carousel_label js-carousel-label is-current">01</p>
                     <p class="c-card-carousel_label js-carousel-label">02</p>
                 </section>
 
                 <section class="c-card-carousel_wrap">
-                    <div class="c-card-carousel_content js-carousel-content">
+                    <div class="c-card-carousel_content js-carousel-content is-current">
                         <h3 class="c-card-carousel_content_title">체중계</h3>
                         <p class="c-card-carousel_content_text">네 개의 압력 센서가 아주 작은 체중 변화까지 측정합니다<br>
 					        스마트폰으로 자동으로 전송되어 아이의 성장을 어플리케이션으로 확인할 수 있습니다</p>
@@ -51,7 +51,7 @@
                             <p class="c-card-carousel_content_btn_label" data-letters="Play now">구매하기</p>
                         </a>
                     </div>
-                    <div class="c-card-carousel_content js-carousel-content is-current">
+                    <div class="c-card-carousel_content js-carousel-content">
                         <h3 class="c-card-carousel_content_title">키재기</h3>
                         <p class="c-card-carousel_content_text">체중계에 내장된 바와 레이저 센서를 통해 키를 잴 수 있습니다<br>스마트폰으로 자동으로 전송되어 아이의 성장을 어플리케이션으로 확인할 수 있습니다</p>
                         <a class="c-card-carousel_content_btn">
@@ -62,11 +62,11 @@
                 </section>
 
                 <section class="c-card-carousel_categories">
-                    <div class="c-card-carousel_category js-carousel-category">
+                    <div class="c-card-carousel_category js-carousel-category is-current">
                         <p class="c-card-carousel_category_label" data-letters="Play">Body scale</p>
                         <div class="c-card-carousel_category_line"></div>
                     </div>
-                    <div class="c-card-carousel_category js-carousel-category is-current">
+                    <div class="c-card-carousel_category js-carousel-category">
                         <p class="c-card-carousel_category_label" data-letters="Coach">Stadiometer</p>
                         <div class="c-card-carousel_category_line"></div>
                     </div>

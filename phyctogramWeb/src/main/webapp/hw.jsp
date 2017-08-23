@@ -30,19 +30,19 @@
             <section class="c-card-carousel" data-module="Carousel">
                 <div class="c-card-carousel_overflow_wrapper">
                     <section class="c-card-carousel_overflow">
-                        <div class="c-card-carousel_background o-background js-carousel-background js-scroll is-show" data-speed="0.6" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/fix01.jpg?ver=0.2); transform: translate3d(0px, 56.9761px, 0px);"></div>
+                        <div class="c-card-carousel_background o-background js-carousel-background js-scroll is-show is-current" data-speed="0.6" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/fix01.jpg?ver=0.2); transform: translate3d(0px, 56.9761px, 0px);"></div>
                         <div class="c-card-carousel_background o-background js-carousel-background js-scroll is-show" data-speed="0.6" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/fix02.jpg?ver=0.2); transform: translate3d(0px, 56.9761px, 0px);"></div>
                         <div class="c-card-carousel_overlay"></div>
                     </section>
                 </div>
 
                 <section class="c-card-carousel_labels">
-                    <p class="c-card-carousel_label js-carousel-label">01</p>
+                    <p class="c-card-carousel_label js-carousel-label is-current">01</p>
                     <p class="c-card-carousel_label js-carousel-label">02</p>
                 </section>
 
                 <section class="c-card-carousel_wrap">
-                    <div class="c-card-carousel_content js-carousel-content">
+                    <div class="c-card-carousel_content js-carousel-content is-current">
                         <h3 class="c-card-carousel_content_title">Body Scale</h3>
                         <p class="c-card-carousel_content_text">Four higher-precision pressure sensors measure your very small weight changes.<br>
 					        The data send automatically to your phone and then check your children's growth in app.</p>
@@ -51,7 +51,7 @@
                             <p class="c-card-carousel_content_btn_label" data-letters="Play now">Shop now</p>
                         </a>
                     </div>
-                    <div class="c-card-carousel_content js-carousel-content is-current">
+                    <div class="c-card-carousel_content js-carousel-content">
                         <h3 class="c-card-carousel_content_title">Stadiometer</h3>
                         <p class="c-card-carousel_content_text">You can measure height by laser sensor with the bar inside Growcheck.<br>The data send automatically to your phone and then check your children's growth in app.</p>
                         <a class="c-card-carousel_content_btn">
@@ -62,11 +62,11 @@
                 </section>
 
                 <section class="c-card-carousel_categories">
-                    <div class="c-card-carousel_category js-carousel-category">
+                    <div class="c-card-carousel_category js-carousel-category is-current">
                         <p class="c-card-carousel_category_label" data-letters="Play">Body scale</p>
                         <div class="c-card-carousel_category_line"></div>
                     </div>
-                    <div class="c-card-carousel_category js-carousel-category is-current">
+                    <div class="c-card-carousel_category js-carousel-category">
                         <p class="c-card-carousel_category_label" data-letters="Coach">Stadiometer</p>
                         <div class="c-card-carousel_category_line"></div>
                     </div>

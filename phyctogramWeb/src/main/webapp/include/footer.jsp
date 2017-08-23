@@ -57,31 +57,53 @@
             <a target="_blank"></a>
         </div>
     </div>
- <script src="<%=application.getContextPath()%>/resources/res2/js/jquery.min.js"></script>
-    <script src="<%=application.getContextPath()%>/resources/res2/js/vendors.js"></script>
-    <script src="<%=application.getContextPath()%>/resources/res2/js/app.js"></script>
+<script src="<%=application.getContextPath()%>/resources/res2/js/jquery.min.js"></script>
 <script type="text/javascript" src="http://openapi.map.naver.com/openapi/v3/maps.js?clientId=s96duQ89XbZlmLcPnKIc"></script>
 <script type="text/javascript">
-                 $(document).ready(function(){ 
-                	  
-                  var position = new naver.maps.LatLng(37.4047786, 127.1059992);
-                    var map = new naver.maps.Map('map', {
-                        center: position,
-                        scrollWheel : false,
-                        scaleControl: false,
-                        logoControl: false,
-                        mapDataControl: false,
-                        zoomControl: true,
-                        minZoom: 1,
-                        zoom: 12
-                    });
-                    var markerOptions = {
-                        position: position,
-                        map: map
-                    };
-                    var marker = new naver.maps.Marker(markerOptions);
-                    map.refresh();
-                  }); 
-            
-                  </script>
+$(window).scroll(function(){
+    if($(this).scrollTop()>=60){
+      $('.nav_wrap').css({height:60});
+    } else {
+      $('.nav_wrap').css({height:130});
+    }
+  });
+$(document).ready(function(){
+	$('.c-header-burger').click(function(){
+		$('body').toggleClass('has-header-navigation-opened');
+		$('.nav').toggle();
+		$('.language').toggle();
+	});
+	
+	$('.c-card-carousel_categories div:first-child').click(function(){
+		$('.c-home_carousel section div:first-child').addClass('is-current');
+		$('.c-home_carousel section p:first-child').addClass('is-current');
+		$('.c-home_carousel section div:nth-child(2)').removeClass('is-current');
+		$('.c-home_carousel section p:nth-child(2)').removeClass('is-current');
+	});
+	$('.c-card-carousel_categories div:last-child').click(function(){
+		$('.c-home_carousel section div:first-child').removeClass('is-current');
+		$('.c-home_carousel section p:first-child').removeClass('is-current');
+		$('.c-home_carousel section div:nth-child(2)').addClass('is-current');
+		$('.c-home_carousel section p:nth-child(2)').addClass('is-current');
+	});
+	
+   var position = new naver.maps.LatLng(37.4047786, 127.1059992);
+   var map = new naver.maps.Map('map', {
+       center: position,
+       scrollWheel : false,
+       scaleControl: false,
+       logoControl: false,
+       mapDataControl: false,
+       zoomControl: true,
+       minZoom: 1,
+       zoom: 12
+   });
+   var markerOptions = {
+       position: position,
+       map: map
+   };
+   var marker = new naver.maps.Marker(markerOptions);
+   map.refresh();
+});
+</script>
 </footer>
