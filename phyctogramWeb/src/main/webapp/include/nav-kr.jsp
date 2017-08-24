@@ -64,7 +64,7 @@
 		                <li><a href="privacy.jsp">Privacy</a></li>
 		                <li><a href="https://www.kickstarter.com/">Kickstarter</a></li>
 		            </ul>
-		            <p class="mobile_copyright">© Growcheck, 2017</p>
+		            <p class="mobile_copyright">copyright © 2017 by Growcheck</p>
 		        </nav>
 		        <div class="language">
 			        <a><img src="<%=application.getContextPath()%>/resources/res2/img/lang_ko.png" alt="korean"></a>

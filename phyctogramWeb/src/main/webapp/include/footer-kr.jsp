@@ -34,7 +34,7 @@
     </nav>
     <div class="c-footer-infos o-grid">
         <div class="c-footer-infos_copyright o-g33">
-            <p>© Grow Check, 2017</p>
+            <p>copyright © 2017 Growcheck All rights reserved</p>
         </div>
         <ul class="c-footer-infos_social o-g33">
             <li class="c-footer-infos_social_item">
@@ -75,7 +75,7 @@ $(document).ready(function(){
 			$('body').removeClass('is-transitions-masks');
 			$('.o-scroll').show();
 			$('.c-header_wrapper').show();
-		}, 2000);
+		}, 1200);
 	}	remove();
 	
 	$('.c-header-burger').click(function(){

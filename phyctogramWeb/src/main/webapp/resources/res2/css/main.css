@@ -880,6 +880,7 @@ h6, .o-h6 {
 
 .nav_wrap .language {position: absolute; top: 50%; right: 5vw; margin-top: -15px}
 .nav_wrap .language img {width: 30px; margin: 0 0.5vw}
+.nav_wrap .language img:hover {opacity:1!important}
 
 @media screen and (max-width:999px){            
     .nav_wrap {height: 60px!important}
@@ -893,15 +894,15 @@ h6, .o-h6 {
     .nav ul li {float: none; margin: 2.5vw 0;
     -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
-  -webkit-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
           transition-duration: 0.5s;
     }
-    .nav ul li a {font-size: 10vw; font-weight: 500}
+    .nav ul li a {font-size: 6vw; font-weight: 500}
     .nav ul.mobile_list {border-bottom: 1px solid #eee; border-top: 1px solid #eee}
     .nav ul.mobile_list li {
     -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
-  -webkit-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
           transition-duration: 0.5s;
     }
     .nav ul.mobile_list li a {font-size: 1rem;}
@@ -909,7 +910,7 @@ h6, .o-h6 {
     .mobile_list {display: block; font-size: 1rem}
     .mobile_copyright {margin-left: 40px; font-weight: 300; }
 
-    .nav_wrap .language {position: absolute; top: 95vh; display: none}
+    .nav_wrap .language {position: absolute; top: 95vh; left: 40px!important; display: none}
     .nav_wrap .language img {width: 30px; margin: 0 0.5vw}
         
   .c-header-burger {
