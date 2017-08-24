@@ -43,10 +43,20 @@
 		            <p class="mobile_copyright">copyright © 2017 by Growcheck</p>
 		        </nav>
 		        <div class="language">
-			        <a href="<%=application.getContextPath()%>/kr/index.jsp"><img src="<%=application.getContextPath()%>/resources/res2/img/lang_ko.png" alt="korean" style="opacity: 0.3"></a>
+			        <a href="javascript:langToggle()"><img src="<%=application.getContextPath()%>/resources/res2/img/lang_ko.png" alt="korean" style="opacity: 0.3"></a>
 			        <a><img src="<%=application.getContextPath()%>/resources/res2/img/lang_en.png" alt="english"></a></div>
 		      </div>
             
             <div class="c-header_overlay js-header-overlay"></div>
                 
         </div>
+        <script>
+        
+        function langToggle() {
+        	String.prototype.replaceAt=function(index, replacement) {
+        	    return this.substr(0, index) + replacement+ this.substr(index , this.length);
+        	}
+        	var path=location.pathname.replaceAt(location.pathname.lastIndexOf("/"),"/kr");
+			window.location.href=path;
+		}
+        </script>

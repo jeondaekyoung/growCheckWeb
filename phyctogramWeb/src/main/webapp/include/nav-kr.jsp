@@ -68,9 +68,16 @@
 		        </nav>
 		        <div class="language">
 			        <a><img src="<%=application.getContextPath()%>/resources/res2/img/lang_ko.png" alt="korean"></a>
-			        <a href="<%=application.getContextPath()%>/index.jsp"><img src="<%=application.getContextPath()%>/resources/res2/img/lang_en.png" alt="english" style="opacity: 0.3"></a></div>
+			        <a href="javascript:langToggle()"><img src="<%=application.getContextPath()%>/resources/res2/img/lang_en.png" alt="english" style="opacity: 0.3"></a></div>
 		      </div>
             
             <div class="c-header_overlay js-header-overlay"></div>
                 
         </div>
+        <script>
+        function langToggle(e) {
+        	var path=location.pathname.replace("/kr","");
+			window.location.href=path;
+			
+		}
+        </script>
