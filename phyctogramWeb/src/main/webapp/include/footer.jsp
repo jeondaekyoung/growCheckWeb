@@ -34,7 +34,7 @@
     </nav>
     <div class="c-footer-infos o-grid">
         <div class="c-footer-infos_copyright o-g33">
-            <p>copyright © 2017 Growcheck All rights reserved</p>
+            <p>Copyright © 2017 Knowledge-seek &amp; Company All rights reserved</p>
         </div>
         <ul class="c-footer-infos_social o-g33">
             <li class="c-footer-infos_social_item">
