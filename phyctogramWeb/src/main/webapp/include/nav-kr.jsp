@@ -59,7 +59,7 @@
 		            <li><a href="javascript:alert('이 페이지는 준비중입니다.')">FAQ</a></li>
 		          </ul>
 		            <ul class="mobile_list">
-		                <li><a href="contact.jsp">contact Us</a></li>
+		                <li><a href="contact.jsp">Contact Us</a></li>
 		                <li><a href="terms.jsp">Term and Conditions</a></li>
 		                <li><a href="privacy.jsp">Privacy</a></li>
 		                <li><a href="https://www.kickstarter.com/">Kickstarter</a></li>

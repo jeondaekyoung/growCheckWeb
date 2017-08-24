@@ -68,6 +68,16 @@ $(window).scroll(function(){
     }
   });
 $(document).ready(function(){
+	$('body').addClass('is-transitions-masks');
+	
+	function remove(){
+		setTimeout(function(){
+			$('body').removeClass('is-transitions-masks');
+			$('.o-scroll').show();
+			$('.c-header_wrapper').show();
+		}, 2000);
+	}	remove();
+	
 	$('.c-header-burger').click(function(){
 		$('body').toggleClass('has-header-navigation-opened');
 		$('.nav').toggle();
