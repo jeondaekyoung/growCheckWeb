@@ -32,7 +32,7 @@
             }
             //로컬인지 아닌지 판단
             if( window.location.host =='localhost:8080'){
-          	    var rootPath = window.location.host+'/phyctogramWeb';  
+          	    var rootPath = window.location.host+'/growcheckWeb';  
             }
             else{
             	var rootPath = window.location.host+":8080";	

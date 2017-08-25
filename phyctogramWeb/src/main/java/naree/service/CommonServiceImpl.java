@@ -10,7 +10,7 @@ import org.apache.commons.io.IOUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import naree.util.exception.PhyctogramWebException;
+import naree.util.exception.GrowCheckWebException;
 
 @Service
 public class CommonServiceImpl implements CommonService {
@@ -29,9 +29,9 @@ public class CommonServiceImpl implements CommonService {
 		String serverPath = null;
 		if(System.getProperty("os.name").contains("Windows")){
 			System.out.println("현재 운영체제 : " + System.getProperty("os.name"));
-			tempPath = "C:\\phyctogram\\workspace\\phyctogramWeb\\src\\main\\webapp\\fileupload\\temp\\" + image_nm;
+			tempPath = "D:\\growcheckWeb\\workspace\\growcheck\\src\\main\\webapp\\fileupload\\temp\\" + image_nm;
 			if(gubun.equals("diary")){
-				serverPath = "C:\\alanglang\\workspace\\knowledge-seek\\src\\main\\webapp\\fileupload\\diary\\" + image_server_nm;
+				serverPath = "D:\\knowledge-seek\\workspace\\knowledge-seek\\src\\main\\webapp\\fileupload\\diary\\" + image_server_nm;
 			} 
 			
 		} else {
@@ -59,7 +59,7 @@ public class CommonServiceImpl implements CommonService {
 			myfile.transferTo(file1);
 			
 		} catch (IOException e) {
-			throw new PhyctogramWebException("파일 업로드에 실패하였습니다.");
+			throw new GrowCheckWebException("파일 업로드에 실패하였습니다.");
 		} finally {
 			IOUtils.closeQuietly(out);
 			

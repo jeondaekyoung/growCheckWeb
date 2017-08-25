@@ -51,7 +51,6 @@ public class TestRestController {
 		return m;
 	}
 	
-	//http://192.168.123.103:8080/phyctogramWeb/rest/test/testget4?id=100
 	@RequestMapping(value = "testget4", method = RequestMethod.GET)
 	public Member testget4(@RequestParam(value = "id", required = false, defaultValue = "1") Integer id){
 		logger.info("testget4 - 실행 ");
@@ -59,7 +58,6 @@ public class TestRestController {
 		Member m = new Member();
 		m.setMember_seq(id);
 		System.out.println(m.getMember_seq());			// 100 출력
-		//http://192.168.123.103:8080/phyctogramWeb/rest/test/testget4 이와같이 값이 없을 경우는 1출력
 		return m;
 	}
 	
@@ -95,7 +93,6 @@ public class TestRestController {
 	}
 	
 	
-	//http://192.168.123.103:9090/phyctogramWeb/rest/test/testget8
 	//Payload의 (Headers가 아니다) Raw에  { "aaa":"aaa@aaa.aaa", "bbb":"bbb@@bbb.bbb"}를 입력했다.
 	//따옴표가 없으면 에러가 난다.
 	@RequestMapping(value = "testget8", method = RequestMethod.POST)
