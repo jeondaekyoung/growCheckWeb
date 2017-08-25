@@ -22,7 +22,7 @@
 				        <h3 class="fz60 thin">The first <span style="color:#0099ff">Vertical</span> body scale</h3>
 				        <img src="<%=application.getContextPath()%>/resources/res2/img/open.jpg?ver=0.2">
 				        
-				        <h4 class="fz60 thin m-s-fz3rem mt1em">accurate measurement</h4>
+				        <h4 class="fz60 thin m-s-fz3rem mt1em">Multi-player Body scale</h4>
 				      </section>
 				      
 				      <section class="c-home">
@@ -36,38 +36,39 @@
                     </section>
                 </div>
 
-                <section class="c-card-carousel_labels">
+               <!--  <section class="c-card-carousel_labels">
                     <p class="c-card-carousel_label js-carousel-label is-current">01</p>
                     <p class="c-card-carousel_label js-carousel-label">02</p>
-                </section>
+                </section> -->
 
                 <section class="c-card-carousel_wrap">
                     <div class="c-card-carousel_content js-carousel-content is-current">
-                        <h3 class="c-card-carousel_content_title">Body Scale</h3>
-                        <p class="c-card-carousel_content_text">Four higher-precision pressure sensors measure your very small weight changes.<br>
-					        The data send automatically to your phone and then check your children's growth in app.</p>
-                        <a class="c-card-carousel_content_btn">
-                            <div class="c-card-carousel_content_btn_line"></div>
-                            <p class="c-card-carousel_content_btn_label" data-letters="Play now">Shop now</p>
-                        </a>
-                    </div>
-                    <div class="c-card-carousel_content js-carousel-content">
-                        <h3 class="c-card-carousel_content_title">Stadiometer</h3>
-                        <p class="c-card-carousel_content_text">You can measure height by laser sensor with the bar inside Growcheck.<br>The data send automatically to your phone and then check your children's growth in app.</p>
+                     <h3 class="c-card-carousel_content_title">Stadiometer</h3>
+                        <p class="c-card-carousel_content_text">You can also measure height and weight simultaneously with the height measuring bar and laser sensor.<br>
+                        Data is automatically synchronized with smart phones to manage and check your child's growth.</p>
                         <a class="c-card-carousel_content_btn">
                             <div class="c-card-carousel_content_btn_line"></div>
                             <p class="c-card-carousel_content_btn_label" data-letters="Find out more">Shop now</p>
+                        </a>
+                    </div>
+                    <div class="c-card-carousel_content js-carousel-content">                        
+                        <h3 class="c-card-carousel_content_title">Body Scale</h3>
+                        <p class="c-card-carousel_content_text">When sliding part opens fully, you can weigh yourself.<br>
+                        You can also compare the growth of your child by checking growth distribution.</p>
+                        <a class="c-card-carousel_content_btn">
+                            <div class="c-card-carousel_content_btn_line"></div>
+                            <p class="c-card-carousel_content_btn_label" data-letters="Play now">Shop now</p>
                         </a>
                     </div>
                 </section>
 
                 <section class="c-card-carousel_categories">
                     <div class="c-card-carousel_category js-carousel-category is-current">
-                        <p class="c-card-carousel_category_label" data-letters="Play">Body scale</p>
+                        <p class="c-card-carousel_category_label" data-letters="Play">Stadiometer</p>
                         <div class="c-card-carousel_category_line"></div>
                     </div>
                     <div class="c-card-carousel_category js-carousel-category">
-                        <p class="c-card-carousel_category_label" data-letters="Coach">Stadiometer</p>
+                        <p class="c-card-carousel_category_label" data-letters="Coach">Body scale</p>
                         <div class="c-card-carousel_category_line"></div>
                     </div>
                 </section>

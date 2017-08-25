@@ -72,8 +72,8 @@
                             </div>
                             <div class="c-card-bio_infos">
                                 <p class="c-card-bio_infos_surtitle"></p>
-                                <h3 class="c-card-bio_infos_name">all-in-one</h3>
-                                <p class="c-card-bio_infos_type">It can measure height by laser sensor</p>
+                                <h3 class="c-card-bio_infos_name">All-in-one</h3>
+                                <p class="c-card-bio_infos_type">It can measure height and weight simultaneously</p>
                                 <div class="c-card-bio_infos_view">
                                     <div class="c-card-bio_infos_view_line"></div>
                                     <p class="c-card-bio_infos_view_label" data-letters="Read more">Read more</p>
@@ -119,7 +119,7 @@
                                 <span class="c-card-news_infos_date">02</span>
                                 <span class="c-card-news_infos_category"></span>
                             </div>
-                            <h3 class="c-card-news_infos_title">Children Care</h3>
+                            <h3 class="c-card-news_infos_title">Child Care</h3>
                             <div class="c-card-news_infos_readmore">
                                 <div class="c-card-news_infos_readmore_line"></div>
                                 <p class="c-card-news_infos_readmore_label" data-letters="Read More">

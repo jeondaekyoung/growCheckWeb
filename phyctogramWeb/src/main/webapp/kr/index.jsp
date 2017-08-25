@@ -73,7 +73,7 @@
                             <div class="c-card-bio_infos">
                                 <p class="c-card-bio_infos_surtitle"></p>
                                 <h3 class="c-card-bio_infos_name">올인원</h3>
-                                <p class="c-card-bio_infos_type">레이저 센서로 키를 측정할 수 있습니다</p>
+                                <p class="c-card-bio_infos_type">키와 몸무게를 동시에 측정할 수 있습니다</p>
                                 <div class="c-card-bio_infos_view">
                                     <div class="c-card-bio_infos_view_line"></div>
                                     <p class="c-card-bio_infos_view_label" data-letters="Read more">Read more</p>

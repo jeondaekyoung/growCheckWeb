@@ -22,7 +22,7 @@
 				        <h3 class="fz60 thin">최초의 <span style="color:#0099ff">세로형</span> 체중계</h3>
 				        <img src="<%=application.getContextPath()%>/resources/res2/img/open.jpg?ver=0.2">
 				        
-				        <h4 class="fz60 thin m-s-fz3rem mt1em">정밀한 측정</h4>
+				        <h4 class="fz60 thin m-s-fz3rem mt1em">멀티플레이 체중계</h4>
 				      </section>
 				      
 				      <section class="c-home">
@@ -36,24 +36,20 @@
                     </section>
                 </div>
 
-                <section class="c-card-carousel_labels">
-                    <p class="c-card-carousel_label js-carousel-label is-current">01</p>
-                    <p class="c-card-carousel_label js-carousel-label">02</p>
-                </section>
-
                 <section class="c-card-carousel_wrap">
                     <div class="c-card-carousel_content js-carousel-content is-current">
-                        <h3 class="c-card-carousel_content_title">체중계</h3>
-                        <p class="c-card-carousel_content_text">네 개의 압력 센서가 아주 작은 체중 변화까지 측정합니다<br>
-					        스마트폰으로 자동으로 전송되어 아이의 성장을 어플리케이션으로 확인할 수 있습니다</p>
+                        <h3 class="c-card-carousel_content_title">키재기</h3>
+                        <p class="c-card-carousel_content_text">체중계에 내장된 바(bar)와 레이저 센서로 키와 체중을 동시에 잴 수 있습니다<br>
+                        데이터는 스마트폰으로 자동으로 전송되어 아이의 성장을 관리할 수 있습니다</p>
                         <a class="c-card-carousel_content_btn">
                             <div class="c-card-carousel_content_btn_line"></div>
                             <p class="c-card-carousel_content_btn_label" data-letters="Play now">구매하기</p>
                         </a>
                     </div>
                     <div class="c-card-carousel_content js-carousel-content">
-                        <h3 class="c-card-carousel_content_title">키재기</h3>
-                        <p class="c-card-carousel_content_text">체중계에 내장된 바와 레이저 센서를 통해 키를 잴 수 있습니다<br>스마트폰으로 자동으로 전송되어 아이의 성장을 어플리케이션으로 확인할 수 있습니다</p>
+                        <h3 class="c-card-carousel_content_title">체중계</h3>
+                        <p class="c-card-carousel_content_text">슬라이딩 되어 발판이 내려오면 체중을 잴 수 있습니다.<br>
+					        그리고 스마트폰으로 통계 데이터와 비교하여 자녀가 잘 자라고 있는지 확인할 수 있습니다</p>
                         <a class="c-card-carousel_content_btn">
                             <div class="c-card-carousel_content_btn_line"></div>
                             <p class="c-card-carousel_content_btn_label" data-letters="Find out more">Shop now</p>
@@ -63,11 +59,11 @@
 
                 <section class="c-card-carousel_categories">
                     <div class="c-card-carousel_category js-carousel-category is-current">
-                        <p class="c-card-carousel_category_label" data-letters="Play">Body scale</p>
+                        <p class="c-card-carousel_category_label" data-letters="Play">키재기</p>
                         <div class="c-card-carousel_category_line"></div>
                     </div>
                     <div class="c-card-carousel_category js-carousel-category">
-                        <p class="c-card-carousel_category_label" data-letters="Coach">Stadiometer</p>
+                        <p class="c-card-carousel_category_label" data-letters="Coach">체중계</p>
                         <div class="c-card-carousel_category_line"></div>
                     </div>
                 </section>
