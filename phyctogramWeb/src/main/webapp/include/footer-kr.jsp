@@ -11,7 +11,7 @@
                 </li>
                 <li class="c-footer-navigation_item -nav">
                     <a class="c-footer-navigation_link" href="privacy.jsp">
-                        <span class="c-footer-navigation_label">개인정보 취급방침</span>
+                        <span class="c-footer-navigation_label">개인정보방침</span>
                     </a>
                 </li>
                 <li class="c-footer-navigation_item -logo">
@@ -21,7 +21,7 @@
                 </li>
                 <li class="c-footer-navigation_item -nav">
                     <a class="c-footer-navigation_link" href="javascript:alert('이 페이지는 준비중입니다.')">
-                        <span class="c-footer-navigation_label">FAQ</span>
+                        <span class="c-footer-navigation_label">자주묻는질문</span>
                     </a>
                 </li>
                 <li class="c-footer-navigation_item -nav">

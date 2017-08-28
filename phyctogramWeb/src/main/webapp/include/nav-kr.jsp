@@ -61,7 +61,7 @@
 		                <li><a href="contact.jsp">문의하기</a></li>
 		                <li><a href="terms.jsp">이용약관</a></li>
 		                <li><a href="privacy.jsp">개인정보방침</a></li>
-		            	<li><a href="javascript:alert('이 페이지는 준비중입니다.')">FAQ</a></li>
+		            	<li><a href="javascript:alert('이 페이지는 준비중입니다.')">자주묻는질문</a></li>
 		            </ul>
 		            <p class="mobile_copyright">Copyright ⓒ 2017 by Knowledge-seek &amp; Company</p>
 		        </nav>
