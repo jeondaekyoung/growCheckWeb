@@ -49,7 +49,8 @@
             <div class="c-header_overlay js-header-overlay"></div>
                 
         </div>
-        <form name = "frm">
+        
+        <form name = "frm" method="post">
 		<input type = "hidden" name = "nowScroll" value = "">
 		</form>
         <script>
@@ -61,10 +62,11 @@
         	var path=location.pathname.replaceAt(location.pathname.lastIndexOf("/"),"/kr");
         	var nowScroll = getNowScroll();
         	var frm = document.frm;
+        	frm.action=path;
         	frm.nowScroll.value = nowScroll.Y;
         	frm.submit();
-       		window.location.href=path;
 		}
+        
         var getNowScroll = function(){
         	var de = document.documentElement;
         	var b = document.body;
@@ -73,6 +75,5 @@
         	now.Y = document.all ? (!de.scrollTop ? b.scrollTop : de.scrollTop) : (window.pageYOffset ? window.pageYOffset : window.scrollY);
 
         	return now;
-
         	}
         </script>

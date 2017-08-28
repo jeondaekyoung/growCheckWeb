@@ -75,8 +75,15 @@ $(document).ready(function(){
 			$('body').removeClass('is-transitions-masks');
 			$('.o-scroll').show();
 			$('.c-header_wrapper').show();
+			scrollControl();
 		}, 1200);
 	}	remove();
+	
+	function scrollControl() {
+		var scroll='<%= request.getParameter("nowScroll") %>';
+    	console.log(scroll);
+    	$('html, body').animate({scrollTop : scroll}, 400);
+	}
 	
 	$('.c-header-burger').click(function(){
 		$('body').toggleClass('has-header-navigation-opened');
