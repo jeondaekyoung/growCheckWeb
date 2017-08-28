@@ -40,7 +40,7 @@
 		                <li><a href="privacy.jsp">Privacy</a></li>
 		                <li><a href="https://www.kickstarter.com/">Kickstarter</a></li>
 		            </ul>
-		            <p class="mobile_copyright">copyright © 2017 by Growcheck</p>
+		            <p class="mobile_copyright">Copyright ⓒ 2017 by Knowledge-seek &amp; Company</p>
 		        </nav>
 		        <div class="language">
 			        <a href="javascript:langToggle()"><img src="<%=application.getContextPath()%>/resources/res2/img/lang_ko.png" alt="korean" style="opacity: 0.3"></a>
@@ -50,6 +50,9 @@
             <div class="c-header_overlay js-header-overlay"></div>
                 
         </div>
+        <form name = "frm">
+		<input type = "hidden" name = "nowScroll" value = "">
+		</form>
         <script>
         
         function langToggle() {
@@ -57,6 +60,20 @@
         	    return this.substr(0, index) + replacement+ this.substr(index , this.length);
         	}
         	var path=location.pathname.replaceAt(location.pathname.lastIndexOf("/"),"/kr");
-			window.location.href=path;
+        	var nowScroll = getNowScroll();
+        	var frm = document.frm;
+        	frm.nowScroll.value = nowScroll.Y;
+        	frm.submit();
+       		window.location.href=path;
 		}
+        var getNowScroll = function(){
+        	var de = document.documentElement;
+        	var b = document.body;
+        	var now = {};
+        	now.X = document.all ? (!de.scrollLeft ? b.scrollLeft : de.scrollLeft) : (window.pageXOffset ? window.pageXOffset : window.scrollX);
+        	now.Y = document.all ? (!de.scrollTop ? b.scrollTop : de.scrollTop) : (window.pageYOffset ? window.pageYOffset : window.scrollY);
+
+        	return now;
+
+        	}
         </script>

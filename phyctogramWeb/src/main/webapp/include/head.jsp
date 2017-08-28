@@ -1,12 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<title>그로첵(Growcheck)</title>
+<title>Growcheck</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta http-equiv="Cache-Control" content="no-cache"/> 
 <meta http-equiv="Pragma" content="no-cache"/>
 <meta http-equiv="Expires" content="0"/>
-<meta property="og:title" content="그로첵(Growcheck)">
+<meta property="og:title" content="Growcheck">
 <meta property="og:description" content="The first vertical smart scale, Weight, Height measure, 스마트체중계, 키재기">
 <meta property="og:url" content="http://www.i-growcheck.com">
 <meta property="og:image" content="<%=application.getContextPath()%>/resources/res2/img/sns.jpg">
