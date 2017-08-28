@@ -185,7 +185,7 @@
 </main>
 
 <div class="js-sticky-stop">
-	<jsp:include page="include/footer-kr.jsp" flush="true"></jsp:include>
+	<jsp:include page="include/footer.jsp" flush="true"></jsp:include>
 </div>
                 </div>
             </article>

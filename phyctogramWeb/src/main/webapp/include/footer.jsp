@@ -20,8 +20,8 @@
                     </a>
                 </li>
                 <li class="c-footer-navigation_item -nav">
-                    <a class="c-footer-navigation_link" href="https://www.kickstarter.com/" target="_blank">
-                        <span class="c-footer-navigation_label">Kickstarter</span>
+                    <a class="c-footer-navigation_link" href="javascript:alert('Page is under construction.')">
+                        <span class="c-footer-navigation_label">FAQ</span>
                     </a>
                 </li>
                 <li class="c-footer-navigation_item -nav">

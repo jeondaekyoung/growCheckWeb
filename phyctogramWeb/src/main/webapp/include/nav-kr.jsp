@@ -56,13 +56,12 @@
 		            <li><a href="hw.jsp">HARDWARE</a></li>
 		            <li><a href="app.jsp">APP</a></li>
 		            <li><a href="about.jsp">ABOUT</a></li>
-		            <li><a href="javascript:alert('이 페이지는 준비중입니다.')">FAQ</a></li>
 		          </ul>
 		            <ul class="mobile_list">
-		                <li><a href="contact.jsp">Contact Us</a></li>
-		                <li><a href="terms.jsp">Term and Conditions</a></li>
-		                <li><a href="privacy.jsp">Privacy</a></li>
-		                <li><a href="https://www.kickstarter.com/">Kickstarter</a></li>
+		                <li><a href="contact.jsp">문의하기</a></li>
+		                <li><a href="terms.jsp">이용약관</a></li>
+		                <li><a href="privacy.jsp">개인정보방침</a></li>
+		            	<li><a href="javascript:alert('이 페이지는 준비중입니다.')">FAQ</a></li>
 		            </ul>
 		            <p class="mobile_copyright">Copyright ⓒ 2017 by Knowledge-seek &amp; Company</p>
 		        </nav>

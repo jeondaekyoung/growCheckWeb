@@ -128,7 +128,7 @@ Growcheck은 해킹이나 컴퓨터 바이러스 등에 의한 개인정보 유�
 </main>
 
 <div class="js-sticky-stop">
-	<jsp:include page="../include/footer.jsp" flush="true"></jsp:include>
+	<jsp:include page="../include/footer-kr.jsp" flush="true"></jsp:include>
 </div>
                 </div> 
             </article>
