@@ -3,6 +3,9 @@
 <!DOCTYPE html>
 <html lang="en" class="has-smooth-scroll">
 <head>
+	<title>Growcheck - Terms and Conditions</title>
+	<meta property="og:title" content="Growcheck - Terms and Conditions">
+	<meta name="twitter:title" content="Growcheck - Terms and Conditions">
 	<jsp:include page="include/head.jsp" flush="true"></jsp:include>
 </head>
     

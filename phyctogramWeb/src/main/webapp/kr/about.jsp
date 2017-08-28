@@ -3,6 +3,9 @@
 <!DOCTYPE html>
 <html lang="en" class="has-smooth-scroll">
 <head>
+	<title>그로첵 (Growcheck) - 회사소개</title>
+	<meta property="og:title" content="그로첵 (Growcheck) - 회사소개">
+	<meta name="twitter:title" content="그로첵 (Growcheck) - 회사소개">
 	<jsp:include page="../include/head.jsp" flush="true"></jsp:include>
 </head>
     
@@ -22,7 +25,7 @@
 
     <section class="c-home" style="text-align:center; margin-top:3em; padding:0 1em">
         <h3 class="fz60 thin m-s-fz3rem">그로첵 스토리</h3>
-        <p class="fz18">현대 사람들, 특히 여성이라면 항상 체중 관리에 근심을 합니다. 그래서인지 우리는 스스로 매일 체중을 재지요.
+        <p class="fz18">현대 사람들, 특히 여성이라면 항상 체중 관리에 근심이 많습니다. 그래서인지 우리는 매일 체중을 재지요.
         <br>그래서 우리는 룰을 깨고 조금 특별한 것을 만들어 내기로 결심했습니다. 최초의 세로형 스마트 체중계 그로첵을요!<br><br><br></p>
 
         <h3 class="fz60 thin m-s-fz3rem">업적</h3>

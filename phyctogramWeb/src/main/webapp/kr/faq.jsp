@@ -3,6 +3,9 @@
 <!DOCTYPE html>
 <html lang="en" class="has-smooth-scroll">
 <head>
+	<title>그로첵 (Growcheck) - 자주묻는질문</title>
+	<meta property="og:title" content="그로첵 (Growcheck) - 자주묻는질문">
+	<meta name="twitter:title" content="그로첵 (Growcheck) - 자주묻는질문">
 	<jsp:include page="../include/head.jsp" flush="true"></jsp:include>
 </head>
     
@@ -22,7 +25,7 @@
            
 <main class="o-main">
     <section class="c-home">
-        <h3 class="fz60 thin">FAQ</h3>
+        <h3 class="fz60 thin">자주 묻는 질문</h3>
         <ul class="faq">
 		  <li>
 		    <input type="checkbox" checked="">

@@ -1,9 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
 <!DOCTYPE html>
 <html lang="en" class="has-smooth-scroll">
 <head>
+	<title>Growcheck</title>
+	<meta property="og:title" content="Growcheck">
+	<meta name="twitter:title" content="Growcheck">
 	<jsp:include page="/include/head.jsp" flush="true"></jsp:include> 
 </head>
     
