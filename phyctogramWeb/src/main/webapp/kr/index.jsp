@@ -4,9 +4,9 @@
 <!DOCTYPE html>
 <html lang="en" class="has-smooth-scroll">
 <head>
-	<title>그로첵 (Growcheck)</title>
-	<meta property="og:title" content="그로첵 (Growcheck)">
-	<meta name="twitter:title" content="그로첵 (Growcheck)">
+	<title>그로첵 - 최초의 세로형 체중계</title>
+	<meta property="og:title" content="그로첵 - 최초의 세로형 체중계">
+	<meta name="twitter:title" content="그로첵 - 최초의 세로형 체중계">
 	<jsp:include page="/include/head.jsp" flush="true"></jsp:include> 
 </head>
     
@@ -29,7 +29,6 @@
                     <h1 class="c-navigation-header-content_title js-header-title js-scroll is-show" data-position="top" data-speed="2" style="transform: translate3d(0px, 0px, 0px);">
                         <span class="c-navigation-header-content_title_inner" style="margin-top:1em;background:rgba(35,165,255,0.5)">Growcheck</span>
                     </h1>
-                    <!--<p class="c-white" style="font-size:48px;margin:25px 0 10px;line-height:1.3">The most advanced<br>weight &amp; height<br>measuring device</p>-->
                     <p class="c-white m-opacity" style="font-size:1.1em;margin:1.5em 0;font-weight:300">그로첵은 IoT 기반의 세로형 체중계&amp;키재기입니다.<br>편리함과 즐거움을 동시에 느낄 수 있습니다! 다양한 성능을 체험해 보세요.</p>
                 </div>
                 <div class="go-kickstart">
@@ -47,6 +46,7 @@
             <div class="c-home_intro_card_bio_wrapper">
                 <div class="js-scroll  is-show" data-speed="-0.6" data-position="top" style="transform: translate3d(0px, 0px, 0px);">
                     <section class="c-card-bio">
+                    	<a href="hw.jsp">
                             <div class="c-card-bio_overflow">
                                 <div class="c-card-bio_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/main1.jpg);"></div>
                                 <div class="c-card-bio_overlay"></div>
@@ -63,9 +63,11 @@
                                     <p class="c-card-bio_infos_view_label" data-letters="Read more">Read more</p>
                                 </div>
                             </div>
+                        </a>
                     </section>
 
                     <section class="c-card-bio">
+                    	<a href="hw.jsp#allinone">
                             <div class="c-card-bio_overflow">
                                 <div class="c-card-bio_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/main2.jpg);"></div>
                                 <div class="c-card-bio_overlay"></div>
@@ -82,6 +84,7 @@
                                     <p class="c-card-bio_infos_view_label" data-letters="Read more">Read more</p>
                                 </div>
                             </div>
+                        </a>
                     </section>
                 </div>
             </div>
@@ -163,8 +166,8 @@
                     <div class="c-card-calltoaction_overlay"></div>
                 </div>
                 <div class="c-card-calltoaction_content">
-                    <h3 class="c-card-calltoaction_title">구매하기</h3>
-                    <p class="c-card-calltoaction_text">그로첵으로 똑똑한 건강 관리</p>
+                    <a class="c-card-shop_content"><h3 class="c-card-calltoaction_title">그로첵과 함께하는 헬스케어</h3>
+                    <!-- <p class="c-card-calltoaction_text">구매하기</p> --></a>
                 </div>
             </section>
         </div>

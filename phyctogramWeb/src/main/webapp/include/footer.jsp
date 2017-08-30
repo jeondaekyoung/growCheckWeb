@@ -73,8 +73,8 @@ $(document).ready(function(){
 	function remove(){
 		setTimeout(function(){
 			$('body').removeClass('is-transitions-masks');
-			$('.o-scroll').show();
-			$('.c-header_wrapper').show();
+			$('.o-scroll').css('opacity','1');
+			$('.c-header_wrapper').css('opacity','1');
 			scrollControl();
 		}, 1200);
 	}	remove();
@@ -82,7 +82,7 @@ $(document).ready(function(){
 	function scrollControl() {
 		var scroll='<%= request.getParameter("nowScroll") %>';
     	console.log(scroll);
-    	$('html, body').animate({scrollTop : scroll}, 400);
+    	//$('html, body').animate({scrollTop : scroll}, 400);
 	}
 	
 	$('.c-header-burger').click(function(){

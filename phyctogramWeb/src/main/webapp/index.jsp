@@ -3,9 +3,9 @@
 <!DOCTYPE html>
 <html lang="en" class="has-smooth-scroll">
 <head>
-	<title>Growcheck</title>
-	<meta property="og:title" content="Growcheck">
-	<meta name="twitter:title" content="Growcheck">
+	<title>Growcheck - The First Vertical Body Scale</title>
+	<meta property="og:title" content="Growcheck - The First Vertical Body Scale">
+	<meta name="twitter:title" content="Growcheck - The First Vertical Body Scale">
 	<jsp:include page="/include/head.jsp" flush="true"></jsp:include> 
 </head>
     
@@ -46,6 +46,7 @@
             <div class="c-home_intro_card_bio_wrapper">
                 <div class="js-scroll  is-show" data-speed="-0.6" data-position="top" style="transform: translate3d(0px, 0px, 0px);">
                     <section class="c-card-bio">
+                    	<a href="hw.jsp">
                             <div class="c-card-bio_overflow">
                                 <div class="c-card-bio_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/main1.jpg);"></div>
                                 <div class="c-card-bio_overlay"></div>
@@ -62,9 +63,11 @@
                                     <p class="c-card-bio_infos_view_label" data-letters="Read more">Read more</p>
                                 </div>
                             </div>
+                        </a>
                     </section>
 
                     <section class="c-card-bio">
+                    	<a href="hw.jsp#allinone">
                             <div class="c-card-bio_overflow">
                                 <div class="c-card-bio_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/main2.jpg);"></div>
                                 <div class="c-card-bio_overlay"></div>
@@ -81,6 +84,7 @@
                                     <p class="c-card-bio_infos_view_label" data-letters="Read more">Read more</p>
                                 </div>
                             </div>
+                        </a>
                     </section>
                 </div>
             </div>
@@ -162,8 +166,8 @@
                     <div class="c-card-calltoaction_overlay"></div>
                 </div>
                 <div class="c-card-calltoaction_content">
-                    <h3 class="c-card-calltoaction_title">Shop Now</h3>
-                    <p class="c-card-calltoaction_text">Start health care with Growcheck</p>
+                    <a class="c-card-shop_content"><h3 class="c-card-calltoaction_title">Start health care with Growcheck</h3>
+                    <!-- <p class="c-card-calltoaction_text">Shop Now</p> --></a>
                 </div>
             </section>
         </div>

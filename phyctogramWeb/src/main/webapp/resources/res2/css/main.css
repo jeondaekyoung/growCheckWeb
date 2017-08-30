@@ -1580,7 +1580,7 @@ h6, .o-h6 {
 }
 
 .o-scroll {
-	display: none;
+	opacity: 0;
   -webkit-transform: none;
       -ms-transform: none;
           transform: none;
@@ -3319,7 +3319,7 @@ scrollbar .overscroll-glow {
 }
 
 .c-header_wrapper {
-  display:none;
+  opacity: 0;
   position: fixed;
   top:0;
   left:0;
@@ -9712,7 +9712,7 @@ html:not(.has-smooth-scroll) .is-ios .c-article-navigation {
             transform: translateX(-50%);
     width: 67.4038967878vw;
     height: 33.7019483939vw;
-    cursor: pointer;
+    /* cursor: pointer; */
   }
 }
 
@@ -13837,6 +13837,7 @@ section#timeline article:nth-child(2n+2) div.inner {
 
 .mb5em {margin-bottom: 5em}
 .mt1em {margin-top: 1em}
+.pt1em {padding-top: 1em}
 
 .fz80 {font-size: 5rem; line-height: 1; margin-bottom: 0}
 .fz60 {font-size: 3.75rem}

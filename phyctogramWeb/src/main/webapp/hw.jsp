@@ -23,12 +23,11 @@
 				<main class="o-main">
 				    <section class="c-home" style="text-align:center; margin-top:3em">
 				        <h3 class="fz60 thin">The first <span style="color:#0099ff">Vertical</span> body scale</h3>
-				        <img src="<%=application.getContextPath()%>/resources/res2/img/open.jpg?ver=0.2">
-				        
-				        <h4 class="fz60 thin m-s-fz3rem mt1em">Multi-player Body scale</h4>
+				        <img src="<%=application.getContextPath()%>/resources/res2/img/open.jpg?ver=0.2">				        
 				      </section>
 				      
 				      <section class="c-home">
+				        <h4 class="fz60 thin m-s-fz3rem pt1em" id="allinone" style="text-align:center">Multi-player Body scale</h4>
          <div class="c-home_carousel js-scroll js-anim is-show">
             <section class="c-card-carousel" data-module="Carousel">
                 <div class="c-card-carousel_overflow_wrapper">
@@ -49,19 +48,11 @@
                      <h3 class="c-card-carousel_content_title">Stadiometer</h3>
                         <p class="c-card-carousel_content_text">You can also measure height and weight simultaneously with the height measuring bar and laser sensor.<br>
                         Data is automatically synchronized with smart phones to manage and check your child's growth.</p>
-                        <a class="c-card-carousel_content_btn">
-                            <div class="c-card-carousel_content_btn_line"></div>
-                            <p class="c-card-carousel_content_btn_label" data-letters="Find out more">Shop now</p>
-                        </a>
-                    </div>
+                    </div>    
                     <div class="c-card-carousel_content js-carousel-content">                        
                         <h3 class="c-card-carousel_content_title">Body Scale</h3>
                         <p class="c-card-carousel_content_text">When sliding part opens fully, you can weigh yourself.<br>
                         You can also compare the growth of your child by checking growth distribution.</p>
-                        <a class="c-card-carousel_content_btn">
-                            <div class="c-card-carousel_content_btn_line"></div>
-                            <p class="c-card-carousel_content_btn_label" data-letters="Play now">Shop now</p>
-                        </a>
                     </div>
                 </section>
 
