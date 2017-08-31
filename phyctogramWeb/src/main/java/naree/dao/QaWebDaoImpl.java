@@ -7,11 +7,8 @@ import java.util.List;
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.stereotype.Repository;
 
-import naree.db.domain.Notice;
 import naree.db.domain.QaWeb;
-import naree.db.mapper.NoticeMapper;
 import naree.db.mapper.QaWebMapper;
-import naree.db.mapper.UsersMapper;
 import naree.util.factory.ConnectionFactory;
 
 @Repository
