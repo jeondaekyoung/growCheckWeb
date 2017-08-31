@@ -81,8 +81,10 @@ $(document).ready(function(){
 	
 	function scrollControl() {
 		var scroll='<%= request.getParameter("nowScroll") %>';
-    	console.log(scroll);
-    	//$('html, body').animate({scrollTop : scroll}, 400);
+    	 if(!window.location.hash){
+    	$('html, body').animate({scrollTop : scroll}, 400);
+    	} 
+    	
 	}
 	
 	$('.c-header-burger').click(function(){
