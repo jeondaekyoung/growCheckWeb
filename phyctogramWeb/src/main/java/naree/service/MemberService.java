@@ -11,6 +11,13 @@ public interface MemberService {
 	 */
 	int registerMember(Member member);
 
+	
+	/**
+	 * member_seq로 멤버찾기
+	 * @param member_seq
+	 * @return
+	 */
+	Member findMemberByEmail(String email);
 
 	/**
 	 * member_seq로 멤버찾기
@@ -20,13 +27,13 @@ public interface MemberService {
 	Member findMemberByMemberSeq(int member_seq);
 
 
-	/**
+/*	*//**
 	 * member_seq와 pw로 멤버 찾기
 	 * @param member
 	 * @return
-	 */
+	 *//*
 	int findMemberByMemberSeqPw(Member member);
-
+*/
 
 	/**
 	 * 멤버 지우기

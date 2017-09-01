@@ -36,7 +36,7 @@ public class MemberRestController {
 	private QaService qaService;
 	
 	/**
-	 * 픽토그램 멤버가입
+	 * 회원 정보 받기
 	 * @param member
 	 * @return
 	 */
@@ -45,7 +45,9 @@ public class MemberRestController {
 		logger.info("Member 저장");
 		System.out.println(member.toString());
 		
+		
 		int result = memberService.registerMember(member);
+		
 		logger.info("Member 저장 결과 : " + result);
 		
 		if(result == 5){
@@ -53,9 +55,9 @@ public class MemberRestController {
 			return null;
 		} else if(result == 1){
 			//가입했거나, 가입된 상태이다.
-			Member m = new Member();
+			member=memberService.findMemberByEmail(member.getEmail());
 			
-			return m;
+			return member;
 		} else {
 			//그 밖의 에러상황, 발생할 이유가 없다.
 			return null;

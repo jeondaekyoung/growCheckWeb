@@ -26,11 +26,10 @@ public class MemberServiceImpl implements MemberService{
 		int result = 100;
 		
 			result = memberDao.selectMemberExistByEmail(member.getEmail());
-			logger.info("픽토그램 가입확인 : " + result);
+			logger.info("가입확인 : " + result);
 			if(result == 0){
 				//가입
 				result = memberDao.insertMember(member);
-				Member phyctoMember = memberDao.selectMemberByEmail(member.getEmail());
 			} else if(result == 1){
 				logger.info("이미 픽토그램에 가입된 이메일입니다");
 				return 5;
@@ -51,6 +50,19 @@ public class MemberServiceImpl implements MemberService{
 	}
 
 	/**
+	 * e메일로 멤버 찾기
+	 * @param email
+	 * @return
+	 */
+	@Override
+	public Member findMemberByEmail(String email) {
+
+		return memberDao.selectMemberByEmail(email);
+	}
+
+	
+	
+	/**
 	 * 멤버 지우기
 	 * @param member_seq
 	 * @return
@@ -62,9 +74,5 @@ public class MemberServiceImpl implements MemberService{
 		return memberDao.deleteMemberByMemberSeq(member_seq);
 	}
 
-	@Override
-	public int findMemberByMemberSeqPw(Member member) {
-		return 0;
-	}
 
 }
