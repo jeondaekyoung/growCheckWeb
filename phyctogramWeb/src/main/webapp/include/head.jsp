@@ -5,12 +5,12 @@
 <meta http-equiv="Cache-Control" content="no-cache"/> 
 <meta http-equiv="Pragma" content="no-cache"/>
 <meta http-equiv="Expires" content="0"/>
-<meta property="og:description" content="The first vertical smart scale, Weight, Height measure, 스마트체중계, 키재기">
+<meta property="og:description" content="The first vertical smart scale, Weight, Height measure, bodyscale, smart scale">
 <meta property="og:url" content="http://www.i-growcheck.com">
 <meta property="og:image" content="<%=application.getContextPath()%>/resources/res2/img/sns.jpg">
 <meta property="og:type" content="article">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="description" content="The first vertical smart scale, Weight, Height measure, 스마트체중계, 키재기">
+<meta name="description" content="The first vertical smart scale, Weight, Height measure, bodyscale, smart scale">
 <meta name="twitter:card" content="photo">
 <meta name="twitter:url" content="http://www.i-growcheck.com">
 <meta name="twitter:image" content="<%=application.getContextPath()%>/resources/res2/img/sns.jpg">
