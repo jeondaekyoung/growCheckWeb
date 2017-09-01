@@ -55,8 +55,9 @@ public class MemberRestController {
 			return null;
 		} else if(result == 1){
 			//가입했거나, 가입된 상태이다.
-			member=memberService.findMemberByEmail(member.getEmail());
 			
+			member=memberService.findMemberByEmail(member.getEmail());
+			System.out.println("member:"+member.toString());
 			return member;
 		} else {
 			//그 밖의 에러상황, 발생할 이유가 없다.

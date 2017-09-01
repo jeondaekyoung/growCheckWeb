@@ -13,7 +13,7 @@ public interface MemberService {
 
 	
 	/**
-	 * member_seq로 멤버찾기
+	 * e메일로 멤버찾기
 	 * @param member_seq
 	 * @return
 	 */
