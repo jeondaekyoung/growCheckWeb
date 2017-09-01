@@ -2,11 +2,14 @@
     pageEncoding="UTF-8"%>
 
 <!DOCTYPE html>
-<html lang="en" class="has-smooth-scroll">
+<html lang="ko" class="has-smooth-scroll">
 <head>
 	<title>그로첵 - 최초의 세로형 체중계</title>
 	<meta property="og:title" content="그로첵 - 최초의 세로형 체중계">
 	<meta name="twitter:title" content="그로첵 - 최초의 세로형 체중계">
+	<meta name="keywords" content="그로첵,growCheck,체중계, 스마트체중계, 샤오미체중계, 건강관리, 키재기, 키재기자, 아기키재기, 출산선물, 아기용품" />
+	<meta name="description" content="최초의 세로형 체중계, 몸무게, 키재기, 몸무게재기, 스마트체중계">
+	<link rel="canonical" href="http://www.i-growcheck.com/kr">
 	<jsp:include page="/include/head.jsp" flush="true"></jsp:include> 
 </head>
     

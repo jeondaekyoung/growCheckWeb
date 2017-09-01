@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en" class="has-smooth-scroll">
+<html lang="ko" class="has-smooth-scroll">
 <head>
 	<title>그로첵 (Growcheck) - 자주묻는질문</title>
 	<meta property="og:title" content="그로첵 (Growcheck) - 자주묻는질문">

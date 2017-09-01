@@ -6,6 +6,7 @@
 	<title>Growcheck - About Us</title>
 	<meta property="og:title" content="Growcheck - About Us">
 	<meta name="twitter:title" content="Growcheck - About Us">
+	<link rel="canonical" href="http://www.i-growcheck.com/about.jsp">
 	<jsp:include page="include/head.jsp" flush="true"></jsp:include>
 </head>
     

@@ -1,11 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en" class="has-smooth-scroll">
+<html lang="ko" class="has-smooth-scroll">
 <head>
 	<title>그로첵 (Growcheck) - 개인정보정책</title>
 	<meta property="og:title" content="그로첵 (Growcheck) - 개인정보정책">
 	<meta name="twitter:title" content="그로첵 (Growcheck) - 개인정보정책">
+	<link rel="canonical" href="http://www.i-growcheck.com/kr/privacy.jsp">
 	<jsp:include page="../include/head.jsp" flush="true"></jsp:include>
 </head>
     

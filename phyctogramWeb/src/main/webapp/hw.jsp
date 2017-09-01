@@ -6,6 +6,7 @@
 	<title>Growcheck - Hardware</title>
 	<meta property="og:title" content="Growcheck - Hardware">
 	<meta name="twitter:title" content="Growcheck - Hardware">
+	<link rel="canonical" href="http://www.i-growcheck.com/hw.jsp">
 	<jsp:include page="include/head.jsp" flush="true"></jsp:include> 
 </head>
     

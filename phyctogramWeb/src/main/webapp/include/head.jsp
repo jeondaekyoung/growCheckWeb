@@ -10,7 +10,7 @@
 <meta property="og:image" content="<%=application.getContextPath()%>/resources/res2/img/sns.jpg">
 <meta property="og:type" content="article">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="description" content="The first vertical smart scale, Weight, Height measure, bodyscale, smart scale">
+
 <meta name="twitter:card" content="photo">
 <meta name="twitter:url" content="http://www.i-growcheck.com">
 <meta name="twitter:image" content="<%=application.getContextPath()%>/resources/res2/img/sns.jpg">
@@ -18,7 +18,6 @@
 <meta name="theme-color" content="#ffffff">
 <meta name="naver-site-verification" content="b5c6de529108b528bdc4d119fd6a5086e67ad0c3"/>
 <meta name="robots" content="index,follow" />
-<link rel="canonical" href="http://www.i-growcheck.com">
 <link rel="alternate" hreflang="en-us" href="http://www.i-growcheck.com" />
 <link rel="alternate" hreflang="ko-kr" href="http://www.i-growcheck.com/kr/index.jsp" />
 <link rel="apple-touch-icon" sizes="180x180" href="<%=application.getContextPath()%>/resources/res2/img/logo@2x.png">

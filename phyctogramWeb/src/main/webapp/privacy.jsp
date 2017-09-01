@@ -6,6 +6,7 @@
 	<title>Growcheck - Privacy</title>
 	<meta property="og:title" content="Growcheck - Privacy">
 	<meta name="twitter:title" content="Growcheck - Privacy">
+	<link rel="canonical" href="http://www.i-growcheck.com/privacy.jsp">
 	<jsp:include page="include/head.jsp" flush="true"></jsp:include>
 </head>
     

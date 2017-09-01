@@ -6,6 +6,9 @@
 	<title>Growcheck - The First Vertical Body Scale</title>
 	<meta property="og:title" content="Growcheck - The First Vertical Body Scale">
 	<meta name="twitter:title" content="Growcheck - The First Vertical Body Scale">
+	<meta name="description" content="The first vertical smart scale, Weight, Height measure, bodyscale, smart scale">
+	<meta name="keywords" content="growCheck,Growcheck,vertical smart scale,vertical scale, Weight, Height measure, bodyscale, smart scale">
+	<link rel="canonical" href="http://www.i-growcheck.com">
 	<jsp:include page="/include/head.jsp" flush="true"></jsp:include> 
 </head>
     

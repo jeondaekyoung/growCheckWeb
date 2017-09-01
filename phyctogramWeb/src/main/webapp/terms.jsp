@@ -6,6 +6,7 @@
 	<title>Growcheck - Terms and Conditions</title>
 	<meta property="og:title" content="Growcheck - Terms and Conditions">
 	<meta name="twitter:title" content="Growcheck - Terms and Conditions">
+	<link rel="canonical" href="http://www.i-growcheck.com/terms.jsp">
 	<jsp:include page="include/head.jsp" flush="true"></jsp:include>
 </head>
     
