@@ -79,7 +79,7 @@
 		</form>
 		
         <script>
-        function langToggle(e) {
+        function langToggle() {
         	var path=location.pathname.replace("/kr","");
        		var nowScroll = getNowScroll();
        		var frm = document.frm;
