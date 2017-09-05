@@ -4,8 +4,14 @@
 <html lang="en" class="has-smooth-scroll">
 <head>
 	<title>Growcheck - Terms and Conditions</title>
+	<link rel="alternate" hreflang="x-default" href="http://www.i-growcheck.com/terms.jsp"/>
+	<link rel="alternate" hreflang="en-us" href="http://www.i-growcheck.com/terms.jsp" />
+	<link rel="alternate" hreflang="ko-kr" href="http://www.i-growcheck.com/kr/terms.jsp" />
 	<meta property="og:title" content="Growcheck - Terms and Conditions">
+	<meta property="og:url" content="http://www.i-growcheck.com/terms.jsp">
+	<meta property="og:description" content="The first vertical smart scale, Weight, Height measure, bodyscale, smart scale">
 	<meta name="twitter:title" content="Growcheck - Terms and Conditions">
+	<meta name="twitter:url" content="http://www.i-growcheck.com/terms.jsp">
 	<link rel="canonical" href="http://www.i-growcheck.com/terms.jsp">
 	<jsp:include page="include/head.jsp" flush="true"></jsp:include>
 </head>

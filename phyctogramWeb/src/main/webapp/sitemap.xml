@@ -41,7 +41,7 @@
                  />                 
 		<changefreq>daily</changefreq>
 
-		<priority>0.85</priority>
+		<priority>1.00</priority>
 
 	</url>
 
@@ -62,7 +62,7 @@
                  />        	
 		<changefreq>daily</changefreq>
 
-		<priority>0.85</priority>
+		<priority>0.70</priority>
 
 	</url>
 
@@ -82,7 +82,7 @@
                  />
 		<changefreq>daily</changefreq>
 
-		<priority>0.85</priority>
+		<priority>0.70</priority>
 
 	</url>
 
@@ -102,7 +102,7 @@
                  />
 		<changefreq>daily</changefreq>
 
-		<priority>0.85</priority>
+		<priority>0.70</priority>
 
 	</url>
 
@@ -122,7 +122,7 @@
                  />
 		<changefreq>daily</changefreq>
 
-		<priority>0.85</priority>
+		<priority>0.70</priority>
 
 	</url>
 
@@ -142,7 +142,7 @@
                  />
 		<changefreq>daily</changefreq>
 
-		<priority>0.85</priority>
+		<priority>0.70</priority>
 
 	</url>
 
@@ -162,7 +162,7 @@
                  />
 		<changefreq>daily</changefreq>
 
-		<priority>0.85</priority>
+		<priority>0.70</priority>
 
 	</url>
 
@@ -182,7 +182,7 @@
                  />
 		<changefreq>daily</changefreq>
 
-		<priority>0.85</priority>
+		<priority>0.80</priority>
 
 	</url>
 
@@ -202,7 +202,7 @@
                  />
 		<changefreq>daily</changefreq>
 
-		<priority>0.69</priority>
+		<priority>0.55</priority>
 
 	</url>
 
@@ -222,7 +222,7 @@
                  />
 		<changefreq>daily</changefreq>
 
-		<priority>0.69</priority>
+		<priority>0.55</priority>
 
 	</url>
 
@@ -242,7 +242,7 @@
                  />
 		<changefreq>daily</changefreq>
 
-		<priority>0.69</priority>
+		<priority>0.55</priority>
 
 	</url>
 
@@ -262,7 +262,7 @@
                  />
 		<changefreq>daily</changefreq>
 
-		<priority>0.69</priority>
+		<priority>0.55</priority>
 
 	</url>
 
@@ -282,7 +282,7 @@
                  />
 		<changefreq>daily</changefreq>
 
-		<priority>0.69</priority>
+		<priority>0.55</priority>
 
 	</url>
 
@@ -302,7 +302,7 @@
                  />
 		<changefreq>daily</changefreq>
 
-		<priority>0.69</priority>
+		<priority>0.55</priority>
 
 	</url>
 </urlset>

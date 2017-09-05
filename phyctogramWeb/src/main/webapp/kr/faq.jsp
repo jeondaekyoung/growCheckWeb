@@ -4,11 +4,22 @@
 <html lang="ko" class="has-smooth-scroll">
 <head>
 	<title>그로첵 (Growcheck) - 자주묻는질문</title>
+	<link rel="canonical" href="http://www.i-growcheck.com/kr/faq.jsp">
+	<link rel="alternate" hreflang="x-default" href="http://www.i-growcheck.com/kr/faq.jsp"/>
+	<link rel="alternate" hreflang="en-us" href="http://www.i-growcheck.com/faq.jsp" />
+	<link rel="alternate" hreflang="ko-kr" href="http://www.i-growcheck.com/kr/faq.jsp" />
 	<meta property="og:title" content="그로첵 (Growcheck) - 자주묻는질문">
+	<meta property="og:url" content="http://www.i-growcheck.com/kr/faq.jsp">
+	<meta property="og:description" content="최초의 세로형 체중계, 몸무게, 키재기, 몸무게재기, 스마트체중계">
 	<meta name="twitter:title" content="그로첵 (Growcheck) - 자주묻는질문">
+	<meta name="twitter:url" content="http://www.i-growcheck.com/kr/faq.jsp">
 	<jsp:include page="../include/head.jsp" flush="true"></jsp:include>
 </head>
     
+    <script>
+		alert('이 페이지는 준비 중입니다.')
+		history.back();
+	</script>
 <body class="is-volley-grid is-windows search-has-results is-loaded">
 
 <div class="o-barba js-barba" id="js-barba-wrapper" aria-live="polite">

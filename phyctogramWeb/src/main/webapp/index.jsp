@@ -4,11 +4,18 @@
 <html lang="en" class="has-smooth-scroll">
 <head>
 	<title>Growcheck - The First Vertical Body Scale</title>
+	<meta name="naver-site-verification" content="b5c6de529108b528bdc4d119fd6a5086e67ad0c3"/>
+	<link rel="canonical" href="http://www.i-growcheck.com">
+	<link rel="alternate" hreflang="x-default" href="http://www.i-growcheck.com"/>
+	<link rel="alternate" hreflang="en-us" href="http://www.i-growcheck.com" />
+	<link rel="alternate" hreflang="ko-kr" href="http://www.i-growcheck.com/kr/index.jsp" />
 	<meta property="og:title" content="Growcheck - The First Vertical Body Scale">
+	<meta property="og:url" content="http://www.i-growcheck.com">
+	<meta property="og:description" content="The first vertical smart scale, Weight, Height measure, bodyscale, smart scale">
 	<meta name="twitter:title" content="Growcheck - The First Vertical Body Scale">
+	<meta name="twitter:url" content="http://www.i-growcheck.com">
 	<meta name="description" content="The first vertical smart scale, Weight, Height measure, bodyscale, smart scale">
 	<meta name="keywords" content="growCheck,Growcheck,vertical smart scale,vertical scale, Weight, Height measure, bodyscale, smart scale">
-	<link rel="canonical" href="http://www.i-growcheck.com">
 	<jsp:include page="/include/head.jsp" flush="true"></jsp:include> 
 </head>
     
