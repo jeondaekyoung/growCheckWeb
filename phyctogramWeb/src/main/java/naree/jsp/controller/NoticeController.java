@@ -32,14 +32,10 @@ public class NoticeController {
 	public ModelAndView register(Notice notice){
 		logger.info("notice/register.do - " + notice.toString());
 		ModelAndView mv = new ModelAndView();
-		
-		
 		noticeService.registerNotice(notice);
-		
 		mv.setViewName("admin/noticeList");
 		return mv;
 	}
-	
 	/**
 	 * 공지사항 목록읽어오기
 	 * @param pageCnt
@@ -100,7 +96,7 @@ public class NoticeController {
 		logger.info("notice/modeModify.do - " + notice.toString());
 		ModelAndView mv = new ModelAndView();
 		
-		int result = noticeService.modifyByNotice(notice);
+		noticeService.modifyByNotice(notice);
 		mv.setViewName("admin/noticeList");
 		return mv;
 	}
@@ -114,8 +110,7 @@ public class NoticeController {
 	public ModelAndView erase(int notice_seq){
 		logger.info("notice/erase.do - 공지사항 번호 : " + notice_seq);
 		ModelAndView mv = new ModelAndView();
-		
-		int result = noticeService.eraseByNoticeSeq(notice_seq);
+		noticeService.eraseByNoticeSeq(notice_seq);
 		mv.setViewName("admin/noticeList");
 		return mv;
 	}

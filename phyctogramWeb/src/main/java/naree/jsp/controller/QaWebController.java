@@ -8,7 +8,6 @@ import org.apache.ibatis.annotations.Param;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -43,8 +42,6 @@ public class QaWebController {
 		
 		return QaWebs;
 	}
-	
-	
 	/**
 	 * 문의내용 보기
 	 * @param qa_Web_seq
@@ -61,8 +58,6 @@ public class QaWebController {
 		mv.setViewName("admin/qaView-web");
 		return mv;
 	}
-	
-	
 	/**
 	 * 문의내용 저장 (사용자)
 	 * @param qaWeb
@@ -148,6 +143,4 @@ public class QaWebController {
 		mv.setViewName("admin/qaList-web");
 		return mv;
 	}
-	
-	
 }
