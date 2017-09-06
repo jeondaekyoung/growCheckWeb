@@ -11883,6 +11883,7 @@ html:not(.has-smooth-scroll) .is-ios .c-article-navigation {
   z-index: 1;
   -webkit-transition: z-index 0s 0.6s, opacity 0s 0.6s;
   transition: z-index 0s 0.6s, opacity 0s 0.6s;
+  box-shadow: 5px 5px 20px #aaa;
 }
 
 .c-card-carousel_content.is-current {
