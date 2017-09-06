@@ -9,6 +9,7 @@
 	<link rel="alternate" hreflang="x-default" href="http://www.i-growcheck.com/kr/index.jsp"/>
 	<link rel="alternate" hreflang="en-us" href="http://www.i-growcheck.com" />
 	<link rel="alternate" hreflang="ko-kr" href="http://www.i-growcheck.com/kr/index.jsp" />
+	<meta name="naver-site-verification" content="7d9236cf7e95df108ca0bab54628c50d198628cd"/>
 	<meta property="og:title" content="그로첵 - 최초의 세로형 체중계">
 	<meta property="og:url" content="http://www.i-growcheck.com/kr/index.jsp">
 	<meta property="og:description" content="최초의 세로형 체중계, 몸무게, 키재기, 몸무게재기, 스마트체중계">
