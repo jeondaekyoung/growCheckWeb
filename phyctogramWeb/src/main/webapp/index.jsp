@@ -32,10 +32,11 @@
                         <span class="c-navigation-header-content_title_inner" style="margin-top:1em;background:rgba(35,165,255,0.5)">Growcheck</span>
                     </h1>
                     <!--<p class="c-white" style="font-size:48px;margin:25px 0 10px;line-height:1.3">The most advanced<br>weight &amp; height<br>measuring device</p>-->
-                    <p class="c-white m-opacity" style="font-size:1.1em;margin:1.5em 0;font-weight:300">Growcheck is IoT based vertical type body scale &amp; stadiometer.<br>It gives you convenience &amp; joy! Enjoy various performance.</p>
+                    <p class="c-white m-opacity" style="font-size:1.1em;margin:1.5em 0;font-weight:300">Growcheck is IoT based vertical smart body scale &amp; height measurement.
+                    <br>Feel comfort and fun at the same time. Experience various performances.</p>
                 </div>
                 <div class="go-kickstart">
-                    <span>Launching on</span><img src="<%=application.getContextPath()%>/resources/res2/img/logo-kickStarter.png" alt="kickStarter"><span>SEP 25th</span>
+                    <img src="<%=application.getContextPath()%>/resources/res2/img/logo-kickStarter.png" alt="kickStarter"><span>Launch on October</span>
                 </div>        
             </header>
             <!-- No Navigation header -->
@@ -60,7 +61,7 @@
                             <div class="c-card-bio_infos">
                                 <p class="c-card-bio_infos_surtitle"></p>
                                 <h3 class="c-card-bio_infos_name">A slant<br>perspective</h3>
-                                <p class="c-card-bio_infos_type">The first vertical bodyscale</p>
+                                <p class="c-card-bio_infos_type">The first vertical body scale</p>
                                 <div class="c-card-bio_infos_view">
                                     <div class="c-card-bio_infos_view_line"></div>
                                     <p class="c-card-bio_infos_view_label" data-letters="Read more">Read more</p>

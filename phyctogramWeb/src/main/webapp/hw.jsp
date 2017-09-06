@@ -28,7 +28,7 @@
 				      </section>
 				      
 				      <section class="c-home">
-				        <h4 class="fz60 thin m-s-fz3rem pt1em" id="allinone" style="text-align:center">Multi-player Body scale</h4>
+				        <h4 class="fz60 thin m-s-fz3rem pt1em" id="allinone" style="text-align:center">Multifunctional Body scale</h4>
          <div class="c-home_carousel js-scroll js-anim is-show">
             <section class="c-card-carousel" data-module="Carousel">
                 <div class="c-card-carousel_overflow_wrapper">
@@ -47,7 +47,7 @@
                 <section class="c-card-carousel_wrap">
                     <div class="c-card-carousel_content js-carousel-content is-current">
                      <h3 class="c-card-carousel_content_title">Stadiometer</h3>
-                        <p class="c-card-carousel_content_text">You can also measure height and weight simultaneously with the height measuring bar and laser sensor.<br>
+                        <p class="c-card-carousel_content_text">You can measure height by picking up the height measuring bar. Laser sensor guides you where to put the height measuring bar.<br>
                         Data is automatically synchronized with smart phones to manage and check your child's growth.</p>
                     </div>    
                     <div class="c-card-carousel_content js-carousel-content">                        
@@ -72,11 +72,11 @@
 				    </section>    
 				        
 				    <section class="c-home" style="text-align:center; padding-top:3em">
-					    <h3 class="fz60 thin m-s-fz3rem mt1em">Spec</h3>
+					    <h3 class="fz60 thin m-s-fz3rem mt1em">Tech Specs</h3>
 		        		<img src="<%=application.getContextPath()%>/resources/res2/img/spec.jpg?ver=0.7" style="display:block; margin: auto" alt="size:410x330x90, weight:max 180kg, height:max 5m, display:LCD 6 digit, wifi signaling time:802.11b 54Mbps, wifi processing time 11Mbps, charging voltage:12V 1800mA, charging time:3 hours, usage time:100 hours">
 	       
-				        <h4 class="fz60 thin m-s-fz3rem mt1em">Daily Check</h4>
-				        <p class="fz18">You don't need to hide bodyscale anymore. It will always stand in your room</p>
+				        <h4 class="fz60 thin m-s-fz3rem mt1em">Daily Measurement</h4>
+				        <p class="fz18">You do not need to hide your body scale anymore. Growcheck always stands in your room.</p>
 				        
 				        <div style="position:relative"><img src="<%=application.getContextPath()%>/resources/res2/img/banner.jpg?ver=0.2">
 				        <!-- <a class="btn02 fz48 c-white m-m-fz2rem m-s-fz1rem" style="text-decoration:none;position:absolute;top:50%;right:50%;margin-top:-1em" target="_blank">Now on Kickstarter</a> --></div>

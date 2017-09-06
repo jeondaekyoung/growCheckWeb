@@ -32,10 +32,11 @@
                     <h1 class="c-navigation-header-content_title js-header-title js-scroll is-show" data-position="top" data-speed="2" style="transform: translate3d(0px, 0px, 0px);">
                         <span class="c-navigation-header-content_title_inner" style="margin-top:1em;background:rgba(35,165,255,0.5)">Growcheck</span>
                     </h1>
-                    <p class="c-white m-opacity" style="font-size:1.1em;margin:1.5em 0;font-weight:300">그로첵은 IoT 기반의 세로형 체중계&amp;키재기입니다.<br>편리함과 즐거움을 동시에 느낄 수 있습니다! 다양한 성능을 체험해 보세요.</p>
+                    <p class="c-white m-opacity" style="font-size:1.1em;margin:1.5em 0;font-weight:300">그로첵은 IoT 기반의 세로형 스마트 체중계&amp;키재기입니다.
+                    <br>편리함과 즐거움을 동시에 느낄 수 있습니다! 다양한 성능을 체험해 보세요.</p>
                 </div>
                 <div class="go-kickstart">
-                    <span>9월 25일</span><img src="<%=application.getContextPath()%>/resources/res2/img/logo-kickStarter.png" alt="kickStarter"><span>출시</span>
+                    <span>10월</span><img src="<%=application.getContextPath()%>/resources/res2/img/logo-kickStarter.png" alt="kickStarter"><span>출시</span>
                 </div>        
             </header>
             <!-- No Navigation header -->
