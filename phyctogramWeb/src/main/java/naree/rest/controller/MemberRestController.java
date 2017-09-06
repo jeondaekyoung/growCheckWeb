@@ -1,10 +1,5 @@
 package naree.rest.controller;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,11 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.google.android.gcm.server.Message;
-import com.google.android.gcm.server.MulticastResult;
-import com.google.android.gcm.server.Result;
-import com.google.android.gcm.server.Sender;
 
 import naree.db.domain.Member;
 import naree.service.MemberService;
@@ -44,10 +34,7 @@ public class MemberRestController {
 	public Member registerMember(@RequestBody Member member){
 		logger.info("Member 저장");
 		System.out.println(member.toString());
-		
-		
 		int result = memberService.registerMember(member);
-		
 		logger.info("Member 저장 결과 : " + result);
 		
 		if(result == 5){
@@ -93,7 +80,7 @@ public class MemberRestController {
 		member.setMember_seq(member_seq);
 		
 		//문의 지우기
-		int result_qa = qaService.deleteByMember_seq(member_seq);
+		 qaService.deleteByMember_seq(member_seq);
 		
 		//멤버 지우기
 		int result_member = memberService.deleteMemberByMemberSeq(member_seq); 
@@ -104,7 +91,4 @@ public class MemberRestController {
 			return "fail";
 		}
 	}
-	
-	
-	
 }

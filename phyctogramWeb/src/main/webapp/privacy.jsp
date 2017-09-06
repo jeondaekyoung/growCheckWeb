@@ -4,9 +4,15 @@
 <html lang="en" class="has-smooth-scroll">
 <head>
 	<title>Growcheck - Privacy</title>
-	<meta property="og:title" content="Growcheck - Privacy">
-	<meta name="twitter:title" content="Growcheck - Privacy">
 	<link rel="canonical" href="http://www.i-growcheck.com/privacy.jsp">
+	<link rel="alternate" hreflang="x-default" href="http://www.i-growcheck.com/privacy.jsp"/>
+	<link rel="alternate" hreflang="en-us" href="http://www.i-growcheck.com/privacy.jsp" />
+	<link rel="alternate" hreflang="ko-kr" href="http://www.i-growcheck.com/kr/privacy.jsp" />
+	<meta property="og:title" content="Growcheck - Privacy">
+	<meta property="og:url" content="http://www.i-growcheck.com/privacy.jsp">
+	<meta property="og:description" content="The first vertical smart scale, Weight, Height measure, bodyscale, smart scale">
+	<meta name="twitter:title" content="Growcheck - Privacy">
+	<meta name="twitter:url" content="http://www.i-growcheck.com/privacy.jsp">
 	<jsp:include page="include/head.jsp" flush="true"></jsp:include>
 </head>
     

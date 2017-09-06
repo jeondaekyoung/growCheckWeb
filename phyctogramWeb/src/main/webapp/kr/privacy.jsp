@@ -4,9 +4,15 @@
 <html lang="ko" class="has-smooth-scroll">
 <head>
 	<title>그로첵 (Growcheck) - 개인정보정책</title>
-	<meta property="og:title" content="그로첵 (Growcheck) - 개인정보정책">
-	<meta name="twitter:title" content="그로첵 (Growcheck) - 개인정보정책">
 	<link rel="canonical" href="http://www.i-growcheck.com/kr/privacy.jsp">
+	<link rel="alternate" hreflang="x-default" href="http://www.i-growcheck.com/kr/privacy.jsp"/>
+	<link rel="alternate" hreflang="en-us" href="http://www.i-growcheck.com/privacy.jsp" />
+	<link rel="alternate" hreflang="ko-kr" href="http://www.i-growcheck.com/kr/privacy.jsp" />
+	<meta property="og:title" content="그로첵 (Growcheck) - 개인정보정책">
+	<meta property="og:url" content="http://www.i-growcheck.com/kr/privacy.jsp">
+	<meta property="og:description" content="최초의 세로형 체중계, 몸무게, 키재기, 몸무게재기, 스마트체중계">
+	<meta name="twitter:title" content="그로첵 (Growcheck) - 개인정보정책">
+	<meta name="twitter:url" content="http://www.i-growcheck.com/kr/privacy.jsp">
 	<jsp:include page="../include/head.jsp" flush="true"></jsp:include>
 </head>
     

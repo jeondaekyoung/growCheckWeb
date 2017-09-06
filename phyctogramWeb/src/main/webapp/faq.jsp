@@ -4,11 +4,23 @@
 <html lang="en" class="has-smooth-scroll">
 <head>
 	<title>Growcheck - FAQ</title>
+	<link rel="canonical" href="http://www.i-growcheck.com/faq.jsp">
+	<link rel="alternate" hreflang="x-default" href="http://www.i-growcheck.com/faq.jsp"/>
+	<link rel="alternate" hreflang="en-us" href="http://www.i-growcheck.com/faq.jsp" />
+	<link rel="alternate" hreflang="ko-kr" href="http://www.i-growcheck.com/kr/faq.jsp" />
 	<meta property="og:title" content="Growcheck - FAQ">
+	<meta property="og:url" content="http://www.i-growcheck.com/faq.jsp">
+	<meta property="og:description" content="The first vertical smart scale, Weight, Height measure, bodyscale, smart scale">
 	<meta name="twitter:title" content="Growcheck - FAQ">
+	<meta name="twitter:url" content="http://www.i-growcheck.com/faq.jsp">
 	<jsp:include page="include/head.jsp" flush="true"></jsp:include>
 </head>
     
+	<script>
+		alert('Page is under construction.')
+		history.back();
+	</script>
+
 <body class="is-volley-grid is-windows search-has-results is-loaded">
 
 <div class="o-barba js-barba" id="js-barba-wrapper" aria-live="polite">
