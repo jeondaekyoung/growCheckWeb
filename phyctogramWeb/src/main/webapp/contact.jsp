@@ -44,10 +44,10 @@
                     <a class="btn_info" href="mailto:seek-knowledge@knowledge-seek.com">info@knowledge-seek.com</a>
                 </div>
                 
-                <!-- <div class="col-6 m-col-12">
+                <div class="col-6 m-col-12">
                   <div id="map" class="box-map" style="width:100%;height:752px;"></div>
-                </div> -->
-                <div class="col-6 m-col-12  qna">
+                </div> 
+                <%-- <div class="col-6 m-col-12  qna">
                 <form action="<c:url value="/QaWeb/write.do"/>" name="adForm" method="post">
             		<input type="hidden" name="state" value="답변대기">
 	                <input type="text" name="name"  placeholder="NAME">
@@ -56,19 +56,8 @@
 	                <textarea name="contents" placeholder="MESSAGES"></textarea>
 	                <!-- <label for="upload">FILE UPLOAD</label><input type="file" id="upload"> -->
 	                <input type="submit" name="submit" onclick="ecilck('submit')" class="btn" value="CONTACT US"/>
-
             	</form>
-                <%--   	<h3>궁금하신 사항을 문의해주세요</h3>
-            	<form action="<c:url value="/QaWeb/write.do"/>" name="adForm" method="post">
-            	<input type="hidden" name="state" value="답변대기">
-	                <input type="text" name="name"  placeholder="이름">
-	                <input type="text" name="email" placeholder="메일주소">
-	                <input type="text" name="tel" onkeydown='return onlyNumber(event)' onkeyup='removeChar(event)' placeholder="연락처">
-	                <textarea name="contents" placeholder="문의내용"></textarea>
-	                   <!-- <label for="upload">파일 업로드</label><input type="file" id="upload"> -->
-	                <input type="submit" name="submit" onclick="ecilck('submit')" class="btn" value="문의하기"/>
-            	</form> --%>
-                </div>
+                </div> --%>
             </div>
         </section>
 </main>

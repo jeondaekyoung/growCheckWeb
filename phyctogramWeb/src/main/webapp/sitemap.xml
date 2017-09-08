@@ -1,217 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/2001/xhtml"
+	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+	<loc>http://www.i-growcheck.com/</loc>
 	<url>
-
-		<loc>http://www.i-growcheck.com/</loc>
-
 		<xhtml:link rel="alternate" hreflang="ko-kr"
 			href="http://www.i-growcheck.com/kr/index.jsp" />
 		<xhtml:link rel="alternate" hreflang="en-us"
 			href="http://www.i-growcheck.com/" />
-
 		<changefreq>daily</changefreq>
-
 		<priority>1.00</priority>
-
 	</url>
-
-
+	
 	<url>
-
 		<loc>http://www.i-growcheck.com/index.jsp</loc>
-
 		<xhtml:link rel="alternate" hreflang="ko-kr"
 			href="http://www.i-growcheck.com/kr/index.jsp" />
 		<xhtml:link rel="alternate" hreflang="en-us"
 			href="http://www.i-growcheck.com/index.jsp" />
 		<changefreq>daily</changefreq>
-
 		<priority>1.00</priority>
-
 	</url>
-
-
+	
 	<url>
-
 		<loc>http://www.i-growcheck.com/hw.jsp</loc>
-
 		<xhtml:link rel="alternate" hreflang="ko-kr"
 			href="http://www.i-growcheck.com/kr/hw.jsp" />
 		<xhtml:link rel="alternate" hreflang="en-us"
 			href="http://www.i-growcheck.com/hw.jsp" />
 		<changefreq>daily</changefreq>
-
 		<priority>0.70</priority>
-
 	</url>
-
-
+	
 	<url>
-
 		<loc>http://www.i-growcheck.com/app.jsp</loc>
 		<xhtml:link rel="alternate" hreflang="ko-kr"
 			href="http://www.i-growcheck.com/kr/app.jsp" />
 		<xhtml:link rel="alternate" hreflang="en-us"
 			href="http://www.i-growcheck.com/app.jsp" />
 		<changefreq>daily</changefreq>
-
 		<priority>0.70</priority>
-
 	</url>
-
-
+	
 	<url>
-
 		<loc>http://www.i-growcheck.com/about.jsp</loc>
 		<xhtml:link rel="alternate" hreflang="ko-kr"
 			href="http://www.i-growcheck.com/kr/about.jsp" />
 		<xhtml:link rel="alternate" hreflang="en-us"
 			href="http://www.i-growcheck.com/about.jsp" />
 		<changefreq>daily</changefreq>
-
 		<priority>0.70</priority>
-
 	</url>
-
-
+	
 	<url>
-
 		<loc>http://www.i-growcheck.com/contact.jsp</loc>
 		<xhtml:link rel="alternate" hreflang="ko-kr"
 			href="http://www.i-growcheck.com/kr/contact.jsp" />
 		<xhtml:link rel="alternate" hreflang="en-us"
 			href="http://www.i-growcheck.com/contact.jsp" />
 		<changefreq>daily</changefreq>
-
 		<priority>0.70</priority>
-
 	</url>
-
-
+	
 	<url>
-
 		<loc>http://www.i-growcheck.com/terms.jsp</loc>
 		<xhtml:link rel="alternate" hreflang="ko-kr"
 			href="http://www.i-growcheck.com/kr/terms.jsp" />
 		<xhtml:link rel="alternate" hreflang="en-us"
 			href="http://www.i-growcheck.com/terms.jsp" />
 		<changefreq>daily</changefreq>
-
 		<priority>0.70</priority>
-
 	</url>
-
-
+	
 	<url>
-
 		<loc>http://www.i-growcheck.com/privacy.jsp</loc>
 		<xhtml:link rel="alternate" hreflang="ko-kr"
 			href="http://www.i-growcheck.com/kr/privacy.jsp" />
 		<xhtml:link rel="alternate" hreflang="en-us"
 			href="http://www.i-growcheck.com/privacy.jsp" />
 		<changefreq>daily</changefreq>
-
 		<priority>0.70</priority>
-
 	</url>
-
-
+	
 	<url>
-
 		<loc>http://www.i-growcheck.com/kr/index.jsp</loc>
 		<xhtml:link rel="alternate" hreflang="en-us"
 			href="http://www.i-growcheck.com/index.jsp" />
 		<xhtml:link rel="alternate" hreflang="ko-kr"
 			href="http://www.i-growcheck.com/kr/index.jsp" />
 		<changefreq>daily</changefreq>
-
 		<priority>0.80</priority>
-
 	</url>
-
-
+	
 	<url>
-
 		<loc>http://www.i-growcheck.com/kr/hw.jsp</loc>
 		<xhtml:link rel="alternate" hreflang="en-us"
 			href="http://www.i-growcheck.com/hw.jsp" />
 		<xhtml:link rel="alternate" hreflang="ko-kr"
 			href="http://www.i-growcheck.com/kr/hw.jsp" />
 		<changefreq>daily</changefreq>
-
 		<priority>0.55</priority>
-
 	</url>
-
-
+	
 	<url>
-
 		<loc>http://www.i-growcheck.com/kr/app.jsp</loc>
 		<xhtml:link rel="alternate" hreflang="en-us"
 			href="http://www.i-growcheck.com/app.jsp" />
 		<xhtml:link rel="alternate" hreflang="ko-kr"
 			href="http://www.i-growcheck.com/kr/app.jsp" />
 		<changefreq>daily</changefreq>
-
 		<priority>0.55</priority>
-
 	</url>
-
-
+	
 	<url>
-
 		<loc>http://www.i-growcheck.com/kr/about.jsp</loc>
 		<xhtml:link rel="alternate" hreflang="en-us"
 			href="http://www.i-growcheck.com/about.jsp" />
 		<xhtml:link rel="alternate" hreflang="ko-kr"
 			href="http://www.i-growcheck.com/kr/about.jsp" />
 		<changefreq>daily</changefreq>
-
 		<priority>0.55</priority>
-
 	</url>
-
-
+	
 	<url>
-
 		<loc>http://www.i-growcheck.com/kr/contact.jsp</loc>
 		<xhtml:link rel="alternate" hreflang="en-us"
 			href="http://www.i-growcheck.com/contact.jsp" />
 		<xhtml:link rel="alternate" hreflang="ko-kr"
 			href="http://www.i-growcheck.com/kr/contact.jsp" />
 		<changefreq>daily</changefreq>
-
 		<priority>0.55</priority>
-
 	</url>
-
-
+	
 	<url>
-
 		<loc>http://www.i-growcheck.com/kr/terms.jsp</loc>
 		<xhtml:link rel="alternate" hreflang="en-us"
 			href="http://www.i-growcheck.com/terms.jsp" />
 		<xhtml:link rel="alternate" hreflang="ko-kr"
 			href="http://www.i-growcheck.com/kr/terms.jsp" />
 		<changefreq>daily</changefreq>
-
 		<priority>0.55</priority>
-
 	</url>
-
-
+	
 	<url>
-
 		<loc>http://www.i-growcheck.com/kr/privacy.jsp</loc>
 		<xhtml:link rel="alternate" hreflang="en-us"
 			href="http://www.i-growcheck.com/privacy.jsp" />
 		<xhtml:link rel="alternate" hreflang="ko-kr"
 			href="http://www.i-growcheck.com/kr/privacy.jsp" />
 		<changefreq>daily</changefreq>
-
 		<priority>0.55</priority>
-
 	</url>
+
 </urlset>

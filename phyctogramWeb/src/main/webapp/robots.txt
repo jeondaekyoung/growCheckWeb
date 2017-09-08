@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: /views/admin*/
-Disallow: /admin*/
-Sitemap: http://www.knowledge-seek.com/sitemap.xml
+Allow: /
+Sitemap: http://www.i-growcheck.com/sitemap.xml
