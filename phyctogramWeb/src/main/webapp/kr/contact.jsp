@@ -10,7 +10,6 @@
 	<link rel="alternate" hreflang="ko-kr" href="http://www.i-growcheck.com/kr/contact.jsp" />
 	<meta property="og:title" content="그로첵 (Growcheck) - 문의하기">
 	<meta property="og:url" content="http://www.i-growcheck.com/kr/contact.jsp">
-	<meta property="og:description" content="최초의 세로형 체중계, 몸무게, 키재기, 몸무게재기, 스마트체중계">
 	<meta name="twitter:title" content="그로첵 (Growcheck) - 문의하기">
 	<meta name="twitter:url" content="http://www.i-growcheck.com/kr/contact.jsp">
 	<jsp:include page="../include/head.jsp" flush="true"></jsp:include>

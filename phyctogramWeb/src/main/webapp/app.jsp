@@ -10,7 +10,6 @@
 	<link rel="alternate" hreflang="ko-kr" href="http://www.i-growcheck.com/kr/app.jsp" />
 	<meta property="og:title" content="Growcheck - App">
 	<meta property="og:url" content="http://www.i-growcheck.com/app.jsp">
-	<meta property="og:description" content="The first vertical smart scale, Weight, Height measure, bodyscale, smart scale">
 	<meta name="twitter:title" content="Growcheck - App">
 	<meta name="twitter:url" content="http://www.i-growcheck.com/app.jsp">
 	

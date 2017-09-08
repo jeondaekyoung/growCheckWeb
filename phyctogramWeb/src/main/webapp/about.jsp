@@ -10,7 +10,6 @@
 	<link rel="alternate" hreflang="ko-kr" href="http://www.i-growcheck.com/kr/about.jsp" />
 	<meta property="og:title" content="Growcheck - About Us">
 	<meta property="og:url" content="http://www.i-growcheck.com/about.jsp">
-	<meta property="og:description" content="The first vertical smart scale, Weight, Height measure, bodyscale, smart scale">
 	<meta name="twitter:title" content="Growcheck - About Us">
 	<meta name="twitter:url" content="http://www.i-growcheck.com/about.jsp">
 	<jsp:include page="include/head.jsp" flush="true"></jsp:include>
