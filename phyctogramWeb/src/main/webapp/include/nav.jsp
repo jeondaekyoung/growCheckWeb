@@ -23,20 +23,20 @@
 		          </span>
 		        </button>
 		        <div class="logo">
-		          <a class="logo-lg" href="index.jsp"><img src="<%=application.getContextPath()%>/resources/res2/img/logo-hzt.svg"></a>
-		          <a class="logo-sm" href="index.jsp"><img src="<%=application.getContextPath()%>/resources/res2/img/logo.svg"></a>
+		          <a class="logo-lg" href="/index.jsp"><img src="<%=application.getContextPath()%>/resources/res2/img/logo-hzt.svg"></a>
+		          <a class="logo-sm" href="/index.jsp"><img src="<%=application.getContextPath()%>/resources/res2/img/logo.svg"></a>
 		        </div>
 		        <nav class="nav">
 		          <ul>
-		            <li><a href="index.jsp">HOME</a></li>
-		            <li><a href="hw.jsp">HARDWARE</a></li>
-		            <li><a href="app.jsp">APP</a></li>
-		            <li><a href="about.jsp">ABOUT</a></li>
+		            <li><a href="<%=application.getContextPath()%>/index.jsp">HOME</a></li>
+		            <li><a href="<%=application.getContextPath()%>/hw.jsp">HARDWARE</a></li>
+		            <li><a href="<%=application.getContextPath()%>/app.jsp">APP</a></li>
+		            <li><a href="<%=application.getContextPath()%>/about.jsp">ABOUT</a></li>
 		          </ul>
 		            <ul class="mobile_list">
-		                <li><a href="contact.jsp">Contact Us</a></li>
-		                <li><a href="terms.jsp">Term and Conditions</a></li>
-		                <li><a href="privacy.jsp">Privacy</a></li>
+		                <li><a href="<%=application.getContextPath()%>/contact.jsp">Contact Us</a></li>
+		                <li><a href="<%=application.getContextPath()%>/terms.jsp">Term and Conditions</a></li>
+		                <li><a href="<%=application.getContextPath()%>/privacy.jsp">Privacy</a></li>
 		            	<li><a href="javascript:alert('Page is under construction.')">FAQ</a></li>
 		            </ul>
 		            <p class="mobile_copyright">Copyright ⓒ 2017 by Knowledge-seek &amp; Company</p>
@@ -60,6 +60,7 @@
         	    return this.substr(0, index) + replacement+ this.substr(index , this.length);
         	}
         	var path=location.pathname.replaceAt(location.pathname.lastIndexOf("/"),"/kr");
+        	console.log("path:"+path);
         	var nowScroll = getNowScroll();
         	var frm = document.frm;
         	frm.action=path;

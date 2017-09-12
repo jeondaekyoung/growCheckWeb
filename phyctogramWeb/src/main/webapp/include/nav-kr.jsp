@@ -52,15 +52,15 @@
 		        </div>
 		        <nav class="nav">
 		          <ul>
-		            <li><a href="index.jsp">HOME</a></li>
-		            <li><a href="hw.jsp">HARDWARE</a></li>
-		            <li><a href="app.jsp">APP</a></li>
-		            <li><a href="about.jsp">ABOUT</a></li>
+		            <li><a href="<%=application.getContextPath()%>/kr/index.jsp">HOME</a></li>
+		            <li><a href="<%=application.getContextPath()%>/kr/hw.jsp">HARDWARE</a></li>
+		            <li><a href="<%=application.getContextPath()%>/kr/app.jsp">APP</a></li>
+		            <li><a href="<%=application.getContextPath()%>/kr/about.jsp">ABOUT</a></li>
 		          </ul>
 		            <ul class="mobile_list">
-		                <li><a href="contact.jsp">문의하기</a></li>
-		                <li><a href="terms.jsp">이용약관</a></li>
-		                <li><a href="privacy.jsp">개인정보방침</a></li>
+		                <li><a href="<%=application.getContextPath()%>/kr/contact.jsp">문의하기</a></li>
+		                <li><a href="<%=application.getContextPath()%>/kr/terms.jsp">이용약관</a></li>
+		                <li><a href="<%=application.getContextPath()%>/kr/privacy.jsp">개인정보방침</a></li>
 		            	<li><a href="javascript:alert('이 페이지는 준비중입니다.')">자주묻는질문</a></li>
 		            </ul>
 		            <p class="mobile_copyright">Copyright ⓒ 2017 by Knowledge-seek &amp; Company</p>
@@ -81,6 +81,13 @@
         <script>
         function langToggle() {
         	var path=location.pathname.replace("/kr","");
+        	if(path.length == 1){
+        		var nowScroll = getNowScroll();
+           		var frm = document.frm;
+           		frm.action="http://www.i-growcheck.com";
+            	frm.nowScroll.value = nowScroll.Y;
+            	frm.submit();
+        	}
        		var nowScroll = getNowScroll();
        		var frm = document.frm;
        		frm.action=path;
