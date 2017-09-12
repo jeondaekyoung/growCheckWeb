@@ -15,7 +15,7 @@
                     </a>
                 </li>
                 <li class="c-footer-navigation_item -logo">
-                    <a class="c-footer-navigation_link" href="index.jsp">
+                    <a class="c-footer-navigation_link" href="/kr">
                         <img class="c-footer-navigation_logo_image" src="<%=application.getContextPath()%>/resources/res2/img/logo.svg" alt="grow check">
                     </a>
                 </li>

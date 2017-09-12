@@ -47,12 +47,12 @@
 		          </span>
 		        </button>
 		        <div class="logo">
-		          <a class="logo-lg" href="index.jsp"><img src="<%=application.getContextPath()%>/resources/res2/img/logo-hzt.svg"></a>
-		          <a class="logo-sm" href="index.jsp"><img src="<%=application.getContextPath()%>/resources/res2/img/logo.svg"></a>
+		          <a class="logo-lg" href="/kr"><img src="<%=application.getContextPath()%>/resources/res2/img/logo-hzt.svg"></a>
+		          <a class="logo-sm" href="/kr"><img src="<%=application.getContextPath()%>/resources/res2/img/logo.svg"></a>
 		        </div>
 		        <nav class="nav">
 		          <ul>
-		            <li><a href="<%=application.getContextPath()%>/kr/index.jsp">HOME</a></li>
+		            <li><a href="<%=application.getContextPath()%>/kr">HOME</a></li>
 		            <li><a href="<%=application.getContextPath()%>/kr/hw.jsp">HARDWARE</a></li>
 		            <li><a href="<%=application.getContextPath()%>/kr/app.jsp">APP</a></li>
 		            <li><a href="<%=application.getContextPath()%>/kr/about.jsp">ABOUT</a></li>
@@ -81,18 +81,15 @@
         <script>
         function langToggle() {
         	var path=location.pathname.replace("/kr","");
-        	if(path.length == 1){
-        		var nowScroll = getNowScroll();
-           		var frm = document.frm;
-           		frm.action="http://www.i-growcheck.com";
-            	frm.nowScroll.value = nowScroll.Y;
-            	frm.submit();
-        	}
-       		var nowScroll = getNowScroll();
+        	var nowScroll = getNowScroll();
        		var frm = document.frm;
-       		frm.action=path;
+        	if(path.length == 1){
+           		frm.action="http://i-growcheck.com";
+        	}else{
+      		 frm.action=path;
+        	}
         	frm.nowScroll.value = nowScroll.Y;
-        	frm.submit();
+        	frm.submit(); 
 			
 		}
 

@@ -23,12 +23,12 @@
 		          </span>
 		        </button>
 		        <div class="logo">
-		          <a class="logo-lg" href="/index.jsp"><img src="<%=application.getContextPath()%>/resources/res2/img/logo-hzt.svg"></a>
-		          <a class="logo-sm" href="/index.jsp"><img src="<%=application.getContextPath()%>/resources/res2/img/logo.svg"></a>
+		          <a class="logo-lg" href="/"><img src="<%=application.getContextPath()%>/resources/res2/img/logo-hzt.svg"></a>
+		          <a class="logo-sm" href="/"><img src="<%=application.getContextPath()%>/resources/res2/img/logo.svg"></a>
 		        </div>
 		        <nav class="nav">
 		          <ul>
-		            <li><a href="<%=application.getContextPath()%>/index.jsp">HOME</a></li>
+		            <li><a href="<%=application.getContextPath()%>/">HOME</a></li>
 		            <li><a href="<%=application.getContextPath()%>/hw.jsp">HARDWARE</a></li>
 		            <li><a href="<%=application.getContextPath()%>/app.jsp">APP</a></li>
 		            <li><a href="<%=application.getContextPath()%>/about.jsp">ABOUT</a></li>
@@ -60,7 +60,6 @@
         	    return this.substr(0, index) + replacement+ this.substr(index , this.length);
         	}
         	var path=location.pathname.replaceAt(location.pathname.lastIndexOf("/"),"/kr");
-        	console.log("path:"+path);
         	var nowScroll = getNowScroll();
         	var frm = document.frm;
         	frm.action=path;
