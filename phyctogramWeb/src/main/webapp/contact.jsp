@@ -13,6 +13,7 @@
 	<meta property="og:url" content="http://www.i-growcheck.com/contact.jsp">
 	<meta name="twitter:title" content="Growcheck - Contact Us">
 	<meta name="twitter:url" content="http://www.i-growcheck.com/contact.jsp">
+	<meta name="robots" content="noindex" />
 	<jsp:include page="include/head.jsp" flush="true"></jsp:include>
 </head>
     
