@@ -19,7 +19,25 @@
 	<meta name="description" content="최초의 세로형 체중계, 스마트체중계, 샤오미체중계, 건강관리, 키재기, 키재기자, 출산선물">
 	<jsp:include page="/include/head.jsp" flush="true"></jsp:include> 
 </head>
+<script src="<%=application.getContextPath()%>/resources/res2/js/jquery.min.js"></script>
+<script type="text/javascript">
     
+    	$(document).ready(function(){
+	     if(location.host.indexOf("kr.")!=-1){
+    		$("body").find("a").each(function(){
+    			   var href=$(this).attr("href");
+				if (href != null) {
+					if (href.indexOf("javascript") == -1) {
+						if (href.indexOf("http") == -1) {
+							console.log(href);
+							$(this).attr("href", "http://i-growcheck.com"+ href);
+						}
+					}
+				}
+			});
+		}
+	});
+</script>
 <body class="is-volley-grid is-windows search-has-results is-loaded">
 
 <div class="o-barba js-barba" id="js-barba-wrapper" aria-live="polite">
@@ -57,7 +75,7 @@
             <div class="c-home_intro_card_bio_wrapper">
                 <div class="js-scroll  is-show" data-speed="-0.6" data-position="top" style="transform: translate3d(0px, 0px, 0px);">
                     <section class="c-card-bio">
-                    	<a href="hw.jsp">
+                    	<a href="<%=application.getContextPath() %>/kr/hw.jsp">
                             <div class="c-card-bio_overflow">
                                 <div class="c-card-bio_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/main1.jpg);"></div>
                                 <div class="c-card-bio_overlay"></div>
@@ -78,7 +96,7 @@
                     </section>
 
                     <section class="c-card-bio">
-                    	<a href="hw.jsp#allinone">
+                    	<a href="<%=application.getContextPath() %>/kr/hw.jsp#allinone">
                             <div class="c-card-bio_overflow">
                                 <div class="c-card-bio_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/main2.jpg);"></div>
                                 <div class="c-card-bio_overlay"></div>
@@ -104,7 +122,7 @@
         <div class="c-home_news js-scroll o-grid is-show">
             <div class="o-g33_mobile js-scroll is-show" data-speed="1" data-position="middle" >
                 <section class="c-card-news ">
-                    <a class="c-card-news_link" href="app.jsp#app01">
+                    <a class="c-card-news_link" href="<%=application.getContextPath() %>/kr/app.jsp#app01">
                         <div class="c-card-news_overflow">
                             <div class="c-card-news_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/feature1.jpg);"></div>
                             <div class="c-card-news_overlay"></div>
@@ -126,7 +144,7 @@
             </div>
             <div class="o-g33_mobile js-scroll is-show" data-speed="1" data-position="middle" >
                 <section class="c-card-news ">
-                    <a class="c-card-news_link" href="app.jsp#app03">
+                    <a class="c-card-news_link" href="<%=application.getContextPath() %>/kr/app.jsp#app03">
                         <div class="c-card-news_overflow">
                             <div class="c-card-news_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/feature2.jpg);"></div>
                             <div class="c-card-news_overlay"></div>
@@ -148,7 +166,7 @@
             </div>
             <div class="o-g33_mobile js-scroll is-show" data-speed="1" data-position="middle" >
                 <section class="c-card-news ">
-                    <a class="c-card-news_link" href="app.jsp#app05">
+                    <a class="c-card-news_link" href="<%=application.getContextPath() %>/kr/app.jsp#app05">
                         <div class="c-card-news_overflow">
                             <div class="c-card-news_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/feature3.jpg);"></div>
                             <div class="c-card-news_overlay"></div>

@@ -47,12 +47,12 @@
 		          </span>
 		        </button>
 		        <div class="logo">
-		          <a class="logo-lg" href="/kr"><img src="<%=application.getContextPath()%>/resources/res2/img/logo-hzt.svg"></a>
-		          <a class="logo-sm" href="/kr"><img src="<%=application.getContextPath()%>/resources/res2/img/logo.svg"></a>
+		          <a class="logo-lg" href="<%=application.getContextPath()%>/kr/index.jsp"><img src="<%=application.getContextPath()%>/resources/res2/img/logo-hzt.svg"></a>
+		          <a class="logo-sm" href="<%=application.getContextPath()%>/kr/index.jsp"><img src="<%=application.getContextPath()%>/resources/res2/img/logo.svg"></a>
 		        </div>
 		        <nav class="nav">
 		          <ul>
-		            <li><a href="<%=application.getContextPath()%>/kr">HOME</a></li>
+		            <li><a href="<%=application.getContextPath()%>/kr/index.jsp">HOME</a></li>
 		            <li><a href="<%=application.getContextPath()%>/kr/hw.jsp">HARDWARE</a></li>
 		            <li><a href="<%=application.getContextPath()%>/kr/app.jsp">APP</a></li>
 		            <li><a href="<%=application.getContextPath()%>/kr/about.jsp">ABOUT</a></li>
@@ -83,8 +83,8 @@
         	var path=location.pathname.replace("/kr","");
         	var nowScroll = getNowScroll();
        		var frm = document.frm;
-        	if(path.length == 1){
-           		frm.action="http://i-growcheck.com";
+        	if(location.host.indexOf("kr.") != -1 ){
+           		frm.action="http://i-growcheck.com"+path;
         	}else{
       		 frm.action=path;
         	}

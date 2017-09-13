@@ -5,17 +5,17 @@
         <div class="c-footer-navigation_wrap">
             <ul class="c-footer-navigation_list">
                 <li class="c-footer-navigation_item -nav">
-                    <a class="c-footer-navigation_link" href="terms.jsp">
+                    <a class="c-footer-navigation_link" href="<%=application.getContextPath() %>/kr/terms.jsp">
                         <span class="c-footer-navigation_label">이용약관</span>
                     </a>
                 </li>
                 <li class="c-footer-navigation_item -nav">
-                    <a class="c-footer-navigation_link" href="privacy.jsp">
+                    <a class="c-footer-navigation_link" href="<%=application.getContextPath() %>/kr/privacy.jsp">
                         <span class="c-footer-navigation_label">개인정보방침</span>
                     </a>
                 </li>
                 <li class="c-footer-navigation_item -logo">
-                    <a class="c-footer-navigation_link" href="/kr">
+                    <a class="c-footer-navigation_link" href="<%=application.getContextPath() %>/kr/index.jsp">
                         <img class="c-footer-navigation_logo_image" src="<%=application.getContextPath()%>/resources/res2/img/logo.svg" alt="grow check">
                     </a>
                 </li>
@@ -25,7 +25,7 @@
                     </a>
                 </li>
                 <li class="c-footer-navigation_item -nav">
-                    <a class="c-footer-navigation_link" href="contact.jsp">
+                    <a class="c-footer-navigation_link" href="<%=application.getContextPath() %>/kr/contact.jsp">
                         <span class="c-footer-navigation_label">문의하기</span>
                     </a>
                 </li>
@@ -77,6 +77,7 @@ $(document).ready(function(){
 			$('.c-header_wrapper').css('opacity','1');
 			scrollControl();
 		}, 1200);
+		
 	}	remove();
 	
 	function scrollControl() {
