@@ -78,7 +78,7 @@
 				        
 				    <section class="c-home" style="text-align:center; padding-top:3em">
 					    <h3 class="fz60 thin m-s-fz3rem mt1em">Tech Specs</h3>
-		        		<img src="<%=application.getContextPath()%>/resources/res2/img/spec.jpg?ver=0.7" style="display:block; margin: auto" alt="size:410x330x90, weight:max 180kg, height:max 5m, display:LCD 6 digit, wifi signaling time:802.11b 54Mbps, wifi processing time 11Mbps, charging voltage:12V 1800mA, charging time:3 hours, usage time:100 hours">
+		        		<img src="<%=application.getContextPath()%>/resources/res2/img/spec.jpg?ver=0.8" style="display:block; margin: auto" alt="size:410x330x90, weight:max 180kg, height:max 5m, display:LCD 6 digit, wifi signaling time:802.11b 54Mbps, wifi processing time 11Mbps, charging voltage:12V 1800mA, charging time:3 hours, usage time:100 hours">
 	       
 				        <h4 class="fz60 thin m-s-fz3rem mt1em">Daily Measurement</h4>
 				        <p class="fz18">You do not need to hide your body scale anymore. Growcheck always stands in your room.</p>
