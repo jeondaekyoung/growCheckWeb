@@ -134,7 +134,7 @@ public class QaDaoImpl implements QaDao {
 			sqlSession.close();
 		}
 		
-		return result;
-		
+		return result;		
 	}
+	
 }

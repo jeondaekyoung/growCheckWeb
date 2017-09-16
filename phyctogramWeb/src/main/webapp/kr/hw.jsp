@@ -29,7 +29,7 @@
 				<main class="o-main">
 				    <section class="c-home" style="text-align:center; margin-top:3em">
 				        <h3 class="fz60 thin">최초의 <span style="color:#0099ff">세로형</span> 체중계</h3>
-				        <img src="<%=application.getContextPath()%>/resources/res2/img/open.jpg?ver=0.2">
+				        <img src="<%=application.getContextPath()%>/resources/img/open.jpg?ver=0.2">
 				      </section>
 				      
 				      <section class="c-home">
@@ -38,8 +38,8 @@
             <section class="c-card-carousel" data-module="Carousel">
                 <div class="c-card-carousel_overflow_wrapper">
                     <section class="c-card-carousel_overflow">
-                        <div class="c-card-carousel_background o-background js-carousel-background js-scroll is-show is-current" data-speed="0.6" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/fix01.jpg?ver=0.2); transform: translate3d(0px, 56.9761px, 0px);"></div>
-                        <div class="c-card-carousel_background o-background js-carousel-background js-scroll is-show" data-speed="0.6" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/fix02.jpg?ver=0.2); transform: translate3d(0px, 56.9761px, 0px);"></div>
+                        <div class="c-card-carousel_background o-background js-carousel-background js-scroll is-show is-current" data-speed="0.6" style="background-image:url(<%=application.getContextPath()%>/resources/img/fix01.jpg?ver=0.2); transform: translate3d(0px, 56.9761px, 0px);"></div>
+                        <div class="c-card-carousel_background o-background js-carousel-background js-scroll is-show" data-speed="0.6" style="background-image:url(<%=application.getContextPath()%>/resources/img/fix02.jpg?ver=0.2); transform: translate3d(0px, 56.9761px, 0px);"></div>
                         <div class="c-card-carousel_overlay"></div>
                     </section>
                 </div>
@@ -72,12 +72,12 @@
 				        
 				    <section class="c-home" style="text-align:center; padding-top:3em">
 					    <h3 class="fz60 thin m-s-fz3rem mt1em">스펙</h3>
-		        		<img src="<%=application.getContextPath()%>/resources/res2/img/spec-kr.jpg" style="display:block; margin: auto" alt="size:410x330x90, weight:max 180kg, height:max 5m, display:LCD 6 digit, wifi signaling time:802.11b 54Mbps, wifi processing time 11Mbps, charging voltage:12V 1800mA, charging time:3 hours, usage time:100 hours">
+		        		<img src="<%=application.getContextPath()%>/resources/img/spec-kr.jpg" style="display:block; margin: auto" alt="size:410x330x90, weight:max 180kg, height:max 5m, display:LCD 6 digit, wifi signaling time:802.11b 54Mbps, wifi processing time 11Mbps, charging voltage:12V 1800mA, charging time:3 hours, usage time:100 hours">
 	       
 				        <h4 class="fz60 thin m-s-fz3rem mt1em">매일매일 측정</h4>
 				        <p class="fz18">더이상 체중계를 숨겨둘 필요가 없습니다. 그로첵이 항상 당신의 공간에 서있으니까요</p>
 				        
-				        <div style="position:relative"><img src="<%=application.getContextPath()%>/resources/res2/img/banner.jpg?ver=0.2">
+				        <div style="position:relative"><img src="<%=application.getContextPath()%>/resources/img/banner.jpg?ver=0.2">
 				        <!-- <a class="btn02 fz48 c-white m-m-fz2rem m-s-fz1rem" style="text-decoration:none;position:absolute;top:50%;right:50%;margin-top:-1em" target="_blank">키Now on Kickstarter</a> --></div>
 				        
 				        <br><br><br><br><br><br><br><br><br>

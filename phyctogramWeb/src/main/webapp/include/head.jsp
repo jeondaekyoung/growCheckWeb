@@ -5,22 +5,22 @@
 <meta http-equiv="Cache-Control" content="no-cache"/> 
 <meta http-equiv="Pragma" content="no-cache"/>
 <meta http-equiv="Expires" content="0"/>
-<meta property="og:image" content="<%=application.getContextPath()%>/resources/res2/img/sns.jpg">
+<meta property="og:image" content="<%=application.getContextPath()%>/resources/img/sns.jpg">
 <meta property="og:type" content="article">
 <meta name="twitter:card" content="photo">
-<meta name="twitter:image" content="<%=application.getContextPath()%>/resources/res2/img/sns.jpg">
-<meta name="twitter:image:src" content="<%=application.getContextPath()%>/resources/res2/img/sns.jpg">
+<meta name="twitter:image" content="<%=application.getContextPath()%>/resources/img/sns.jpg">
+<meta name="twitter:image:src" content="<%=application.getContextPath()%>/resources/img/sns.jpg">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="theme-color" content="#ffffff">
 <!-- <meta name="robots" content="index,follow" /> -->
-<link rel="apple-touch-icon" sizes="180x180" href="<%=application.getContextPath()%>/resources/res2/img/logo@2x.png">
-<link rel="icon" type="image/png" href="<%=application.getContextPath()%>/resources/res2/img/logo.png" sizes="32x32">
-<link rel="icon" type="image/png" href="<%=application.getContextPath()%>/resources/res2/img/logo.png" sizes="16x16">
-<link rel="icon" href="<%=application.getContextPath()%>/resources/res2/img/favicon.ico">
-<link rel="manifest" href="<%=application.getContextPath()%>/resources/res2/js/manifest.json">
-<link rel="mask-icon" href="<%=application.getContextPath()%>/resources/res2/img/logo.svg" color="#00AEFF">
+<link rel="apple-touch-icon" sizes="180x180" href="<%=application.getContextPath()%>/resources/img/logo@2x.png">
+<link rel="icon" type="image/png" href="<%=application.getContextPath()%>/resources/img/logo.png" sizes="32x32">
+<link rel="icon" type="image/png" href="<%=application.getContextPath()%>/resources/img/logo.png" sizes="16x16">
+<link rel="icon" href="<%=application.getContextPath()%>/resources/img/favicon.ico">
+<link rel="manifest" href="<%=application.getContextPath()%>/resources/js/manifest.json">
+<link rel="mask-icon" href="<%=application.getContextPath()%>/resources/img/logo.svg" color="#00AEFF">
 <link rel="stylesheet" type="text/css" media="all and (min-width: 1024px)" href="http://fonts.googleapis.com/earlyaccess/notosanskr.css">
-<link rel="stylesheet" href="<%=application.getContextPath()%>/resources/res2/css/main.css?ver=0.7.2">
+<link rel="stylesheet" href="<%=application.getContextPath()%>/resources/css/main.css?ver=0.7.2">
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

@@ -1,7 +1,5 @@
 package naree.service;
 
-import java.util.List;
-
 import naree.db.domain.Admin;
 
 public interface AdminService {

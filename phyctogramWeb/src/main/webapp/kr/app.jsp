@@ -35,9 +35,9 @@
         <section class="c-home">
             <div class="app">
             <div class="row" id="app01">
-                <div class="col-6 m-col-12"><img src="<%=application.getContextPath()%>/resources/res2/img/app_01.png" class="app_img" alt="app1"></div>
+                <div class="col-6 m-col-12"><img src="<%=application.getContextPath()%>/resources/img/app_01.png" class="app_img" alt="app1"></div>
                 <div class="col-6 m-col-12 bg-grey">
-                    <img class="icon m-dp-none" src="<%=application.getContextPath()%>/resources/res2/img/ic_app_01.png">
+                    <img class="icon m-dp-none" src="<%=application.getContextPath()%>/resources/img/ic_app_01.png">
                     <h3 class="thin fz80 m-s-fz3rem">데이터 관리</h3>
                     <div class="underline"></div>
                     <p class="fz24">당신과 자녀의 데이터를 관리하세요</p>
@@ -46,9 +46,9 @@
                 </div>
                 
             <div class="row" id="app02">
-                <div class="col-6 m-col-12 fr"><img src="<%=application.getContextPath()%>/resources/res2/img/app_02.png" class="app_img" alt="app2"></div>
+                <div class="col-6 m-col-12 fr"><img src="<%=application.getContextPath()%>/resources/img/app_02.png" class="app_img" alt="app2"></div>
                 <div class="col-6 m-col-12 fr bg-grey">
-                    <img class="icon m-dp-none" src="<%=application.getContextPath()%>/resources/res2/img/ic_app_02.png">
+                    <img class="icon m-dp-none" src="<%=application.getContextPath()%>/resources/img/ic_app_02.png">
                     <h3 class="thin fz80 m-s-fz3rem">셀프체크</h3>
                     <div class="underline"></div>
                     <p class="fz24">당신의 습관을 체크하세요</p>
@@ -57,9 +57,9 @@
                 </div>
                 
             <div class="row" id="app03">    
-                <div class="col-6 m-col-12"><img src="<%=application.getContextPath()%>/resources/res2/img/app_03.png" class="app_img" alt="app3"></div>
+                <div class="col-6 m-col-12"><img src="<%=application.getContextPath()%>/resources/img/app_03.png" class="app_img" alt="app3"></div>
                 <div class="col-6 m-col-12 bg-grey">
-                    <img class="icon m-dp-none" src="<%=application.getContextPath()%>/resources/res2/img/ic_app_03.png">
+                    <img class="icon m-dp-none" src="<%=application.getContextPath()%>/resources/img/ic_app_03.png">
                     <h3 class="thin fz80 m-s-fz3rem">솔루션</h3>
                     <div class="underline"></div>
                     <p class="fz24">아이의 맞춤 솔루션을 받아보세요</p>
@@ -68,9 +68,9 @@
                 </div>
                 
             <div class="row" id="app04">    
-                <div class="col-6 m-col-12 fr"><img src="<%=application.getContextPath()%>/resources/res2/img/app_04.png" class="app_img" alt="app4"></div>
+                <div class="col-6 m-col-12 fr"><img src="<%=application.getContextPath()%>/resources/img/app_04.png" class="app_img" alt="app4"></div>
                 <div class="col-6 m-col-12 fr bg-grey">
-                    <img class="icon m-dp-none" src="<%=application.getContextPath()%>/resources/res2/img/ic_app_04.png">
+                    <img class="icon m-dp-none" src="<%=application.getContextPath()%>/resources/img/ic_app_04.png">
                     <h3 class="thin fz80 m-s-fz3rem">기기 연결</h3>
                     <div class="underline"></div>
                     <p class="fz24">쉽게 기기와 연결하세요</p>
@@ -79,9 +79,9 @@
                 </div>
                 
             <div class="row" id="app05">    
-                <div class="col-6 m-col-12"><img src="<%=application.getContextPath()%>/resources/res2/img/app_05.png" class="app_img" alt="app3"></div>
+                <div class="col-6 m-col-12"><img src="<%=application.getContextPath()%>/resources/img/app_05.png" class="app_img" alt="app3"></div>
                 <div class="col-6 m-col-12 bg-grey">
-                    <img class="icon m-dp-none" src="<%=application.getContextPath()%>/resources/res2/img/ic_app_05.png">
+                    <img class="icon m-dp-none" src="<%=application.getContextPath()%>/resources/img/ic_app_05.png">
                     <h3 class="thin fz80 m-s-fz3rem">팔로우</h3>
                     <div class="underline"></div>
                     <p class="fz24">친구나 가족을 팔로우 하세요</p>

@@ -51,7 +51,6 @@ public interface QaWebMapper {
 	 * @return
 	 */
 	int updateStateQaWeb(int qa_Web_seq);
-
 	
 	/**
 	 * 문의사항 삭제

@@ -44,7 +44,7 @@
                      <div class="jt_grid_thumb">
                          <a class="jt_grid_thumb_anchor" href="http://www.futurekorea.co.kr/news/articleView.html?idxno=41439">
 			                   <figure class="jt_grid_thumb_figure">
-			                       <img src="<%=application.getContextPath()%>/resources/res2/img/about_06.png" class="animation_scale wp-post-image" alt="">
+			                       <img src="<%=application.getContextPath()%>/resources/img/about_06.png" class="animation_scale wp-post-image" alt="">
 			                       <span class="jt_grid_thumb_border animation_border"></span>                               
 			                   </figure>
 			             </a>
@@ -56,7 +56,7 @@
                      <div class="jt_grid_thumb">
                           <a class="jt_grid_thumb_anchor" href="http://www.venturesquare.net/742814">
 			                   <figure class="jt_grid_thumb_figure">
-			                       <img src="<%=application.getContextPath()%>/resources/res2/img/about_05.png" class="animation_scale wp-post-image" alt="">
+			                       <img src="<%=application.getContextPath()%>/resources/img/about_05.png" class="animation_scale wp-post-image" alt="">
 			                       <span class="jt_grid_thumb_border animation_border"></span>                               
 			                   </figure>
 			              </a>
@@ -68,7 +68,7 @@
                      <div class="jt_grid_thumb">
                          <a class="jt_grid_thumb_anchor" href="http://www.venturesquare.net/739663">
 			                 <figure class="jt_grid_thumb_figure">
-			                     <img src="<%=application.getContextPath()%>/resources/res2/img/about_04.png" class="animation_scale wp-post-image" alt="">
+			                     <img src="<%=application.getContextPath()%>/resources/img/about_04.png" class="animation_scale wp-post-image" alt="">
 			                     <span class="jt_grid_thumb_border animation_border"></span>                               
 			                 </figure>
 			             </a>
@@ -80,7 +80,7 @@
                      <div class="jt_grid_thumb">
                          <a class="jt_grid_thumb_anchor" href="http://www.etnews.com/20160614000081">
 			                 <figure class="jt_grid_thumb_figure">
-			                     <img src="<%=application.getContextPath()%>/resources/res2/img/about_03.png" class="animation_scale wp-post-image" alt="">
+			                     <img src="<%=application.getContextPath()%>/resources/img/about_03.png" class="animation_scale wp-post-image" alt="">
 			                     <span class="jt_grid_thumb_border animation_border"></span>                               
 			                 </figure>
 			             </a>
@@ -92,7 +92,7 @@
                      <div class="jt_grid_thumb">
                          <a class="jt_grid_thumb_anchor" href="http://www.venturesquare.net/737130">
 			                   <figure class="jt_grid_thumb_figure">
-			                       <img src="<%=application.getContextPath()%>/resources/res2/img/about_02.png" class="animation_scale wp-post-image" alt="">
+			                       <img src="<%=application.getContextPath()%>/resources/img/about_02.png" class="animation_scale wp-post-image" alt="">
 			                       <span class="jt_grid_thumb_border animation_border"></span>                               
 			                   </figure>
 			              </a>
@@ -104,7 +104,7 @@
                      <div class="jt_grid_thumb">
                          <a class="jt_grid_thumb_anchor" href="http://platum.kr/archives/73832">
 			                   <figure class="jt_grid_thumb_figure">
-			                       <img src="<%=application.getContextPath()%>/resources/res2/img/about_01.png" class="animation_scale wp-post-image" alt="">
+			                       <img src="<%=application.getContextPath()%>/resources/img/about_01.png" class="animation_scale wp-post-image" alt="">
 			                       <span class="jt_grid_thumb_border animation_border"></span>                               
 			                   </figure>
 			              </a>
@@ -123,7 +123,7 @@
         <span class="month">Jan</span>
         <span class="year">2017</span>
       </span>
-      <p class="alt"><img src="<%=application.getContextPath()%>/resources/res2/img/history06.jpg"><br>
+      <p class="alt"><img src="<%=application.getContextPath()%>/resources/img/history06.jpg"><br>
       주식회사 밸런서즈로부터 투자 유치</p>
     </div>
   </article>
@@ -134,7 +134,7 @@
         <span class="month">Dec</span>
         <span class="year">2016</span>
       </span>
-      <p><img src="<%=application.getContextPath()%>/resources/res2/img/history05.jpg"><br>
+      <p><img src="<%=application.getContextPath()%>/resources/img/history05.jpg"><br>
       ICT 유망기업 K-Global 300 선정</p>
     </div>
   </article>
@@ -145,7 +145,7 @@
         <span class="month">Jun</span>
         <span class="year">2016</span>
       </span>
-      <p class="alt"><img src="<%=application.getContextPath()%>/resources/res2/img/history04.jpg"><br>
+      <p class="alt"><img src="<%=application.getContextPath()%>/resources/img/history04.jpg"><br>
       미국 피츠버그 세계발명전시회 INPEX에서 4관 수상</p>
     </div>
   </article>
@@ -156,7 +156,7 @@
         <span class="month">Nov</span>
         <span class="year">2015</span>
       </span>
-      <p><img src="<%=application.getContextPath()%>/resources/res2/img/history03.jpg"><br>
+      <p><img src="<%=application.getContextPath()%>/resources/img/history03.jpg"><br>
       신체정보측정기기 및 관리 시스템 특허 출원</p>
     </div>
   </article>
@@ -167,7 +167,7 @@
         <span class="month">May</span>
         <span class="year">2014</span>
       </span>
-      <p class="alt"><img src="<%=application.getContextPath()%>/resources/res2/img/history02.jpg"><br>
+      <p class="alt"><img src="<%=application.getContextPath()%>/resources/img/history02.jpg"><br>
       지식유료거래시스템 특허 출원</p>
     </div>
   </article>  
@@ -178,7 +178,7 @@
         <span class="month">oct</span>
         <span class="year">2013</span>
       </span>
-      <p><img src="<%=application.getContextPath()%>/resources/res2/img/history01.jpg"><br>
+      <p><img src="<%=application.getContextPath()%>/resources/img/history01.jpg"><br>
       주식회사 나리지식앤컴퍼니 설립</p>
     </div>
   </article>

@@ -27,7 +27,6 @@ public class NoticeDaoImpl implements NoticeDao {
 			sqlSession.commit();
 			sqlSession.close();
 		}
-		
 	}
 
 	/**

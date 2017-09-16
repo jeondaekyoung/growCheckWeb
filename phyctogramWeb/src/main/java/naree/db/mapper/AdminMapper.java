@@ -1,10 +1,8 @@
 package naree.db.mapper;
 
 import java.util.HashMap;
-import java.util.List;
 
 import naree.db.domain.Admin;
-import naree.db.domain.Notice;
 
 public interface AdminMapper {
 

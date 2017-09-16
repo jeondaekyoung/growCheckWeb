@@ -134,7 +134,6 @@ public class QaWebDaoImpl implements QaWebDao {
 		}
 		return result;
 	}
-
 	
 	/**
 	 * 문의사항 삭제

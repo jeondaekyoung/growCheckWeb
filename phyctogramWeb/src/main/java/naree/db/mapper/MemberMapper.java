@@ -39,7 +39,5 @@ public interface MemberMapper {
 	 */
 	int deleteMemberByMemberSeq(int member_seq);
 
-	
 }
-
 

@@ -29,7 +29,7 @@
 				<main class="o-main">
 				    <section class="c-home" style="text-align:center; margin-top:3em">
 				        <h3 class="fz60 thin">The first <span style="color:#0099ff">Vertical</span> body scale</h3>
-				        <img src="<%=application.getContextPath()%>/resources/res2/img/open.jpg?ver=0.2">				        
+				        <img src="<%=application.getContextPath()%>/resources/img/open.jpg?ver=0.2">				        
 				      </section>
 				      
 				      <section class="c-home">
@@ -38,8 +38,8 @@
             <section class="c-card-carousel" data-module="Carousel">
                 <div class="c-card-carousel_overflow_wrapper">
                     <section class="c-card-carousel_overflow">
-                        <div class="c-card-carousel_background o-background js-carousel-background js-scroll is-show is-current" data-speed="0.6" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/fix01.jpg?ver=0.2); transform: translate3d(0px, 56.9761px, 0px);"></div>
-                        <div class="c-card-carousel_background o-background js-carousel-background js-scroll is-show" data-speed="0.6" style="background-image:url(<%=application.getContextPath()%>/resources/res2/img/fix02.jpg?ver=0.2); transform: translate3d(0px, 56.9761px, 0px);"></div>
+                        <div class="c-card-carousel_background o-background js-carousel-background js-scroll is-show is-current" data-speed="0.6" style="background-image:url(<%=application.getContextPath()%>/resources/img/fix01.jpg?ver=0.2); transform: translate3d(0px, 56.9761px, 0px);"></div>
+                        <div class="c-card-carousel_background o-background js-carousel-background js-scroll is-show" data-speed="0.6" style="background-image:url(<%=application.getContextPath()%>/resources/img/fix02.jpg?ver=0.2); transform: translate3d(0px, 56.9761px, 0px);"></div>
                         <div class="c-card-carousel_overlay"></div>
                     </section>
                 </div>
@@ -78,12 +78,12 @@
 				        
 				    <section class="c-home" style="text-align:center; padding-top:3em">
 					    <h3 class="fz60 thin m-s-fz3rem mt1em">Tech Specs</h3>
-		        		<img src="<%=application.getContextPath()%>/resources/res2/img/spec.jpg?ver=0.8" style="display:block; margin: auto" alt="size:410x330x90, weight:max 180kg, height:max 5m, display:LCD 6 digit, wifi signaling time:802.11b 54Mbps, wifi processing time 11Mbps, charging voltage:12V 1800mA, charging time:3 hours, usage time:100 hours">
+		        		<img src="<%=application.getContextPath()%>/resources/img/spec.jpg?ver=0.8" style="display:block; margin: auto" alt="size:410x330x90, weight:max 180kg, height:max 5m, display:LCD 6 digit, wifi signaling time:802.11b 54Mbps, wifi processing time 11Mbps, charging voltage:12V 1800mA, charging time:3 hours, usage time:100 hours">
 	       
 				        <h4 class="fz60 thin m-s-fz3rem mt1em">Daily Measurement</h4>
 				        <p class="fz18">You do not need to hide your body scale anymore. Growcheck always stands in your room.</p>
 				        
-				        <div style="position:relative"><img src="<%=application.getContextPath()%>/resources/res2/img/banner.jpg?ver=0.2">
+				        <div style="position:relative"><img src="<%=application.getContextPath()%>/resources/img/banner.jpg?ver=0.2">
 				        <!-- <a class="btn02 fz48 c-white m-m-fz2rem m-s-fz1rem" style="text-decoration:none;position:absolute;top:50%;right:50%;margin-top:-1em" target="_blank">Now on Kickstarter</a> --></div>
 				        
 				        <br><br><br><br><br><br><br><br><br>

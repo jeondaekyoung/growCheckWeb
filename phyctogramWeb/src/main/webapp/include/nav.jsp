@@ -10,7 +10,7 @@
             <div class="c-transitions_mask o-grid_item -big"></div>
             <div class="c-transitions_mask o-grid_item -small"></div>
             <figure class="c-transitions-masks_logo">
-                <img src="<%=application.getContextPath()%>/resources/res2/img/logo-loading.svg" class="c-header_logo_image" alt="그로우첵">
+                <img src="<%=application.getContextPath()%>/resources/img/logo-loading.svg" class="c-header_logo_image" alt="그로우첵">
             </figure>
         </div>
         <div class="c-header_wrapper js-header-wrapper" data-module="HeaderCategories">
@@ -23,8 +23,8 @@
 		          </span>
 		        </button>
 		        <div class="logo">
-		          <a class="logo-lg" href="/"><img src="<%=application.getContextPath()%>/resources/res2/img/logo-hzt.svg"></a>
-		          <a class="logo-sm" href="/"><img src="<%=application.getContextPath()%>/resources/res2/img/logo.svg"></a>
+		          <a class="logo-lg" href="/"><img src="<%=application.getContextPath()%>/resources/img/logo-hzt.svg"></a>
+		          <a class="logo-sm" href="/"><img src="<%=application.getContextPath()%>/resources/img/logo.svg"></a>
 		        </div>
 		        <nav class="nav">
 		          <ul>
@@ -42,8 +42,8 @@
 		            <p class="mobile_copyright">Copyright ⓒ 2017 by Knowledge-seek &amp; Company</p>
 		        </nav>
 		        <div class="language">
-			        <a href="javascript:langToggle()"><img src="<%=application.getContextPath()%>/resources/res2/img/lang_ko.png" alt="korean" style="opacity: 0.3"></a>
-			        <a><img src="<%=application.getContextPath()%>/resources/res2/img/lang_en.png" alt="english"></a></div>
+			        <a href="javascript:langToggle()"><img src="<%=application.getContextPath()%>/resources/img/lang_ko.png" alt="korean" style="opacity: 0.3"></a>
+			        <a><img src="<%=application.getContextPath()%>/resources/img/lang_en.png" alt="english"></a></div>
 		      </div>
             
             <div class="c-header_overlay js-header-overlay"></div>

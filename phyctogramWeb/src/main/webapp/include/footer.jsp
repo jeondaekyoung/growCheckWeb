@@ -16,7 +16,7 @@
                 </li>
                 <li class="c-footer-navigation_item -logo">
                     <a class="c-footer-navigation_link" href="/">
-                        <img class="c-footer-navigation_logo_image" src="<%=application.getContextPath()%>/resources/res2/img/logo.svg" alt="grow check">
+                        <img class="c-footer-navigation_logo_image" src="<%=application.getContextPath()%>/resources/img/logo.svg" alt="grow check">
                     </a>
                 </li>
                 <li class="c-footer-navigation_item -nav">
@@ -38,26 +38,26 @@
         </div>
         <ul class="c-footer-infos_social o-g33">
             <li class="c-footer-infos_social_item">
-                <a class="c-footer-infos_social_link" href="http://knowledge-seek.com/" target="_blank"><img src="<%=application.getContextPath()%>/resources/res2/img/sns_know.jpg?ver=0.3"></a>
+                <a class="c-footer-infos_social_link" href="http://knowledge-seek.com/" target="_blank"><img src="<%=application.getContextPath()%>/resources/img/sns_know.jpg?ver=0.3"></a>
             </li>
             <li class="c-footer-infos_social_item">
-                <a class="c-footer-infos_social_link" href="https://twitter.com/growcheck" target="_blank"><img src="<%=application.getContextPath()%>/resources/res2/img/sns_twit.jpg"></a>
+                <a class="c-footer-infos_social_link" href="https://twitter.com/growcheck" target="_blank"><img src="<%=application.getContextPath()%>/resources/img/sns_twit.jpg"></a>
             </li>
             <li class="c-footer-infos_social_item">
-                <a class="c-footer-infos_social_link" href="https://www.facebook.com/growcheck/ " target="_blank"><img src="<%=application.getContextPath()%>/resources/res2/img/sns_face.jpg"></a>
+                <a class="c-footer-infos_social_link" href="https://www.facebook.com/growcheck/ " target="_blank"><img src="<%=application.getContextPath()%>/resources/img/sns_face.jpg"></a>
             </li>
             <li class="c-footer-infos_social_item">
-                <a class="c-footer-infos_social_link" href="https://www.instagram.com/grow_check/" target="_blank"><img src="<%=application.getContextPath()%>/resources/res2/img/sns_insta.jpg"></a>
+                <a class="c-footer-infos_social_link" href="https://www.instagram.com/grow_check/" target="_blank"><img src="<%=application.getContextPath()%>/resources/img/sns_insta.jpg"></a>
             </li>
             <li class="c-footer-infos_social_item">
-                <a class="c-footer-infos_social_link" href="https://www.youtube.com/channel/UCKzPFy2eWVDctvtbhp7J1Mg" target="_blank"><img src="<%=application.getContextPath()%>/resources/res2/img/sns_utube.jpg"></a>   
+                <a class="c-footer-infos_social_link" href="https://www.youtube.com/channel/UCKzPFy2eWVDctvtbhp7J1Mg" target="_blank"><img src="<%=application.getContextPath()%>/resources/img/sns_utube.jpg"></a>   
             </li>
         </ul>
         <div class="c-footer-infos_locomotive o-g33">
             <a target="_blank"></a>
         </div>
     </div>
-<script src="<%=application.getContextPath()%>/resources/res2/js/jquery.min.js"></script>
+<script src="<%=application.getContextPath()%>/resources/js/jquery.min.js"></script>
 <script type="text/javascript" src="http://openapi.map.naver.com/openapi/v3/maps.js?clientId=s96duQ89XbZlmLcPnKIc"></script>
 <script type="text/javascript">
 $(window).scroll(function(){

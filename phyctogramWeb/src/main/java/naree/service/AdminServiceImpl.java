@@ -1,13 +1,10 @@
 package naree.service;
 
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import naree.dao.AdminDao;
 import naree.db.domain.Admin;
-import naree.db.domain.Notice;
 import naree.util.exception.GrowCheckWebException;
 
 @Service
@@ -48,7 +45,6 @@ public class AdminServiceImpl implements AdminService {
 	 */
 	@Override
 	public int buy(String price, String etc) {
-		// TODO Auto-generated method stub
 		return adminDao.registerBuy(price, etc);
 	}
 
@@ -60,7 +56,6 @@ public class AdminServiceImpl implements AdminService {
 	 */
 	@Override
 	public int totalPrice() {
-		// TODO Auto-generated method stub
 		return adminDao.totalPrice();
 	}
 	

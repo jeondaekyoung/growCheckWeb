@@ -87,7 +87,6 @@ public class MemberDaoImpl implements MemberDao {
 		return result;
 	}
 
-
 	/**
 	 * 멤버 지우기
 	 * @param member_seq
@@ -106,6 +105,5 @@ public class MemberDaoImpl implements MemberDao {
 		}
 		return result;
 	}
-
-
+	
 }
