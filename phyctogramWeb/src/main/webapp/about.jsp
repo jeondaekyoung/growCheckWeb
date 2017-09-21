@@ -55,7 +55,7 @@
                  <!-- .jt_grid_item -->
                  <div class="jt_grid_item animated fadeInUp dur2">
                      <div class="jt_grid_thumb">
-                          <a class="jt_grid_thumb_anchor" href="http://www.venturesquare.net/742814">
+                          <a class="jt_grid_thumb_anchor" href="http://www.venturesquare.net/world/knowlege-seek-investment-phyctogram/">
 			                   <figure class="jt_grid_thumb_figure">
 			                       <img src="<%=application.getContextPath()%>/resources/img/about_05.png" class="animation_scale wp-post-image" alt="">
 			                       <span class="jt_grid_thumb_border animation_border"></span>                               
