@@ -43,7 +43,7 @@
                  <!-- .jt_grid_item -->
                  <div class="jt_grid_item animated fadeInUp dur2">
                      <div class="jt_grid_thumb">
-                         <a class="jt_grid_thumb_anchor" href="http://www.futurekorea.co.kr/news/articleView.html?idxno=41439">
+                         <a class="jt_grid_thumb_anchor" href="http://www.futurekorea.co.kr/news/articleView.html?idxno=41439" target="_blank">
 			                   <figure class="jt_grid_thumb_figure">
 			                       <img src="<%=application.getContextPath()%>/resources/img/about_06.png" class="animation_scale wp-post-image" alt="">
 			                       <span class="jt_grid_thumb_border animation_border"></span>                               
@@ -55,7 +55,7 @@
                  <!-- .jt_grid_item -->
                  <div class="jt_grid_item animated fadeInUp dur2">
                      <div class="jt_grid_thumb">
-                          <a class="jt_grid_thumb_anchor" href="http://www.venturesquare.net/742814">
+                          <a class="jt_grid_thumb_anchor" href="http://www.venturesquare.net/742814" target="_blank">
 			                   <figure class="jt_grid_thumb_figure">
 			                       <img src="<%=application.getContextPath()%>/resources/img/about_05.png" class="animation_scale wp-post-image" alt="">
 			                       <span class="jt_grid_thumb_border animation_border"></span>                               
@@ -67,7 +67,7 @@
                  <!-- .jt_grid_item -->
                  <div class="jt_grid_item animated fadeInUp dur2">
                      <div class="jt_grid_thumb">
-                         <a class="jt_grid_thumb_anchor" href="http://www.venturesquare.net/739663">
+                         <a class="jt_grid_thumb_anchor" href="http://www.venturesquare.net/739663" target="_blank">
 			                 <figure class="jt_grid_thumb_figure">
 			                     <img src="<%=application.getContextPath()%>/resources/img/about_04.png" class="animation_scale wp-post-image" alt="">
 			                     <span class="jt_grid_thumb_border animation_border"></span>                               
@@ -79,7 +79,7 @@
                  <!-- .jt_grid_item -->
                  <div class="jt_grid_item animated fadeInUp dur2">
                      <div class="jt_grid_thumb">
-                         <a class="jt_grid_thumb_anchor" href="http://www.etnews.com/20160614000081">
+                         <a class="jt_grid_thumb_anchor" href="http://www.etnews.com/20160614000081" target="_blank">
 			                 <figure class="jt_grid_thumb_figure">
 			                     <img src="<%=application.getContextPath()%>/resources/img/about_03.png" class="animation_scale wp-post-image" alt="">
 			                     <span class="jt_grid_thumb_border animation_border"></span>                               
@@ -91,7 +91,7 @@
                  <!-- .jt_grid_item -->
                  <div class="jt_grid_item animated fadeInUp dur2">
                      <div class="jt_grid_thumb">
-                         <a class="jt_grid_thumb_anchor" href="http://www.venturesquare.net/737130">
+                         <a class="jt_grid_thumb_anchor" href="http://www.venturesquare.net/737130" target="_blank">
 			                   <figure class="jt_grid_thumb_figure">
 			                       <img src="<%=application.getContextPath()%>/resources/img/about_02.png" class="animation_scale wp-post-image" alt="">
 			                       <span class="jt_grid_thumb_border animation_border"></span>                               
@@ -103,7 +103,7 @@
                  <!-- .jt_grid_item -->
                  <div class="jt_grid_item animated fadeInUp dur2">
                      <div class="jt_grid_thumb">
-                         <a class="jt_grid_thumb_anchor" href="http://platum.kr/archives/73832">
+                         <a class="jt_grid_thumb_anchor" href="http://platum.kr/archives/73832" target="_blank">
 			                   <figure class="jt_grid_thumb_figure">
 			                       <img src="<%=application.getContextPath()%>/resources/img/about_01.png" class="animation_scale wp-post-image" alt="">
 			                       <span class="jt_grid_thumb_border animation_border"></span>                               
