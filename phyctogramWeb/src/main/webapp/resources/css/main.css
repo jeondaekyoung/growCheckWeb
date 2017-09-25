@@ -13707,6 +13707,55 @@ html:not(.has-smooth-scroll) .is-ios .c-article-navigation {
 .contact h3 {margin-bottom: 1em}
 .contact p {margin-bottom: 2em}
 
+.contact .row {
+	border: 1px solid #00AAFF
+}
+.contact .qna {
+	padding: 8em 0.5em 0.5em
+}
+.contact .qna a,
+.contact .qna input,
+.contact .qna label,
+.contact .qna textarea {
+	display: block;
+    width: 100%;
+    height: 6vh;
+    line-height: 1vh;
+    background: none;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    border: 1px solid #00AAFF;
+    color: #333;
+}
+.contact .qna textarea {
+    height: 13vh;
+}
+.contact .qna label {
+	cursor: pointer;
+	height: 5vh;
+}
+.contact .qna input.btn {
+    display: block;
+    height: 7vh;
+    background: #fff;
+    color: #00AAFF;
+    padding: 1.5em;
+    cursor: pointer;
+}
+.contact .qna a:hover,
+.contact .qna a:focus,
+.contact .qna input:active,
+.contact .qna input:hover,
+.contact .qna input:focus,
+.contact .qna label:hover,
+.contact .qna label:focus,
+.contact .qna textarea:active,
+.contact .qna textarea:focus  {
+	outline: none !important;
+    border-color: #EFB400;
+    color: #EFB400;
+}
+
 @media screen and (max-width:414px){
 .contact .bg-blue {padding: 4em 1em}
 .contact .box-map {height: 400px!important}
