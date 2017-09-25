@@ -20,7 +20,7 @@
 <link rel="manifest" href="<%=application.getContextPath()%>/resources/js/manifest.json">
 <link rel="mask-icon" href="<%=application.getContextPath()%>/resources/img/logo.svg" color="#00AEFF">
 <link rel="stylesheet" type="text/css" media="all and (min-width: 1024px)" href="http://fonts.googleapis.com/earlyaccess/notosanskr.css">
-<link rel="stylesheet" href="<%=application.getContextPath()%>/resources/css/main.css?ver=0.7.2">
+<link rel="stylesheet" href="<%=application.getContextPath()%>/resources/css/main.css?ver=0.7.5">
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
