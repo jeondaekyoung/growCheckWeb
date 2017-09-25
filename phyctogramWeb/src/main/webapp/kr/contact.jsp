@@ -35,15 +35,28 @@
 
         <section class="c-home">
             <div class="row contact">
-                <div class="col-6 m-col-12 bg-blue">
-                    <h3 class="fz60 thin">CONTACT</h3>
-                    <p class="fz18 ic01">경기도 성남시 분당구 판교로 289번길 20 3동 310호</p>
-                    <p class="fz18 ic02">070-8624-4536</p>
-                    <p class="fz18 ic03">050-4194-4532</p>
-                    <a class="btn_info" href="mailto:seek-knowledge@knowledge-seek.com">info@knowledge-seek.com</a>
+	            <div class="row">
+	                <div class="col-6 m-col-12 bg-blue">
+	                    <h3 class="fz60 thin">CONTACT</h3>
+	                    <p class="fz18 ic01">경기도 성남시 분당구 판교로 289번길 20 3동 310호</p>
+	                    <p class="fz18 ic02">070-8624-4536</p>
+	                    <p class="fz18 ic03">050-4194-4532</p>
+	                    <a class="btn_info" href="mailto:seek-knowledge@knowledge-seek.com">info@knowledge-seek.com</a>
+	                </div>
+	                <div class="col-6 m-col-12 qna">
+		                <form action='<c:url value="/QaWeb/write.do"/>' name="adForm" method="post">
+		            		<input type="hidden" name="state" value="답변대기">
+			                <input type="text" name="name"  placeholder="NAME">
+			                <input type="text" name="email"  placeholder="E-MAIL">
+			                <input type="text" name="tel" onkeydown='return onlyNumber(event)' onkeyup='removeChar(event)'  placeholder="PHONE NUMBER">
+			                <textarea name="contents" placeholder="MESSAGES"></textarea>
+			                <!-- <label for="upload">FILE UPLOAD</label><input type="file" id="upload"> -->
+			                <input type="submit" name="submit" onclick="ecilck('submit')" class="btn" value="전송"/>
+		            	</form>
+	                </div>
                 </div>
                 
-                <div class="col-6 m-col-12">
+                <div class="col-12">
                   <div id="map" class="box-map" style="width:100%;height:752px;"></div>
                 </div>
             </div>
