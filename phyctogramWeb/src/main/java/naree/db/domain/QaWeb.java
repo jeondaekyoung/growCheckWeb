@@ -10,11 +10,20 @@ public class QaWeb {
 	private String contents;
 	private Timestamp writng_de;
 	private String state ;
+	private String answer;
 	 	
+	public String getAnswer() {
+		return answer;
+	}
+
+	public void setAnswer(String answer) {
+		this.answer = answer;
+	}
+
 	@Override
 	public String toString() {
 		return "Qa [qa_Web_seq=" + qa_Web_seq + ", name=" + name + ", email=" + email + ", tel=" + tel
-				+ ", contents=" + contents + ", writng_de=" + writng_de + ", state=" + state + "]";
+				+ ", contents=" + contents + ", writng_de=" + writng_de + ", answer=" + answer + ", state=" + state + "]";
 	}	
 	
 	public int getQa_Web_seq() {

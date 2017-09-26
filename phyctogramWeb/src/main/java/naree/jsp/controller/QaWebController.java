@@ -68,14 +68,16 @@ public class QaWebController {
 		logger.info("QaWeb/write.do - 문의 하기 : " + qaWeb);
 		
 		qaWebService.registerQaWeb(qaWeb);
-		//추후에 수정해야함.
 		String sender ="nareejdk@naver.com";
 		String sender_pw ="naree123";
-		String receiver ="aram@knowledge-seek.com";
-		String subject ="문의하기가 등록 되었습니다.( 픽토그램- 관리자)";
-		String content ="<a href='http://117.52.89.229/admin/index.do'>관리자 폼에서 확인해주세요!<a/>";
-		//
-		Sender_mail.send(sender,sender_pw, receiver, subject, content);
+		String subject ="문의하기가 등록 되었습니다.( GrowCheck- 관리자)";
+		String content ="<a href='http://i-growcheck.com/admin/index.do' target='_blank'>관리자 페이지에서 확인해주세요!<!-- Left Click icon by Icons8 --><img src='https://png.icons8.com/left-click/win8/26' title='Left Click' width='15' height='15'></a>"
+				+ "<a target='_blank'></a><br><br>ID:naree<br>PW:개발자에게 문의 해주세요.<br><span style='color: rgb(255, 0, 0);'><b> 문의자에게 답변을 보낸뒤에는 꼭 답변완료를 체크해주세요! </b></span>";
+		String [] receivers ={"fany.noh@gmail.com","job_1253@naver.com","aram@knowledge-seek.com","jdk7167@naver.com","gizemtopal@knowledge-seek.com"};
+		for (int i = 0; i < receivers.length; i++) {
+			String receiver =receivers[i];
+			Sender_mail.send(sender,sender_pw, receiver, subject, content);
+		}
 		return "redirect:/contact.jsp";
 	}
 	/**
@@ -123,14 +125,14 @@ public class QaWebController {
 	 * @return
 	 */
 	@RequestMapping(value = "manual_answer.do", method=RequestMethod.GET)
-	public String manual_answer(@Param("qa_Web_seq")int qa_Web_seq,Model model){
-		
+	public String manual_answer(@Param("qa_Web_seq")int qa_Web_seq,@Param("answer")String answer,Model model){
+		System.out.println("답변자:"+answer);
 		qaWebService.updateStateQaWeb(qa_Web_seq);
-		
+		qaWebService.modifyQaWeb(qa_Web_seq, answer);
 		return "redirect:/views/admin/qaList-web.jsp";
 	}
 	/**
-	 * 공지사항 삭제하기
+	 * 문의사항 삭제하기
 	 * @param qa_Web_seq
 	 * @return
 	 */

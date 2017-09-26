@@ -82,11 +82,11 @@ public class QaWebDaoImpl implements QaWebDao {
 	 * @return
 	 */
 	@Override
-	public int modifyQaWeb(int QaWeb_seq, String answer) {
+	public int modifyQaWeb(int qa_Web_seq, String answer) {
 		SqlSession sqlSession = ConnectionFactory.getInstance().getSqlSession();
 		int result = 0;
 		HashMap<String, Object> map = new HashMap<String, Object>();
-		map.put("QaWeb_seq",  QaWeb_seq);
+		map.put("qa_Web_seq",  qa_Web_seq);
 		map.put("answer", answer);
 		try {
 			QaWebMapper QaWebMapper = sqlSession.getMapper(QaWebMapper.class);
