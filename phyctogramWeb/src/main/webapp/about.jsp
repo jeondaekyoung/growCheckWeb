@@ -54,7 +54,7 @@
                 
                  <!-- .jt_grid_item -->
                  <div class="jt_grid_item animated fadeInUp dur2">
-                     <div class="jt_grid_thumb">
+                     <div class="jt_grid_thumb">                    
                           <a class="jt_grid_thumb_anchor" href="http://www.venturesquare.net/742814" target="_blank">
 			                   <figure class="jt_grid_thumb_figure">
 			                       <img src="<%=application.getContextPath()%>/resources/img/about_05.png" class="animation_scale wp-post-image" alt="">
