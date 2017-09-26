@@ -56,14 +56,176 @@
  	<jsp:include page="include/footer.jsp" flush="false"/>
  <!-- / footer --> 
   
-    
+  <!-- popup -->
+  <div class="overlay" style="display: none;">
+    <div class="login-wrapper">
+        <div class="login-content">
+            <a class="close">x</a>
+            <h3>Answer</h3>
+            		<form action="">
+                   <input type="text" name="answer" id="answer" placeholder="답변 하는 사람" required="required" />
+                   </form>
+             <button onclick="javascript:answer_submit()" >Sign in</button>
+            
+        </div>
+    </div>
+</div>
+    <style>
+    /*
+*   LOG-IN BOX
+*/
+div.overlay {
+    background-color: rgba(0,0,0,.25);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+    div.overlay div.login-wrapper {
+        align-self: center;
+        background-color: rgba(0,0,0,.25);
+        border-radius: 2px;
+        padding: 6px;
+        width: 450px;
+    }
+      
+        div.overlay div.login-wrapper > div.login-content {
+            background-color: rgb(255,255,255);
+            border-radius: 2px;
+            padding: 24px;  
+            position: relative;
+        }
+          
+            div.overlay div.login-wrapper > div.login-content > h3 {
+                color: rgb(0,0,0);
+                font-family: 'Varela Round', sans-serif;
+                font-size: 1.8em;
+                margin: 0 0 1.25em;
+                padding: 0;
+            }
+/*
+*   FORM
+*/
+div.overlay {
+    background-color: rgba(0,0,0,.25);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+    div.overlay > div.login-wrapper {
+        align-self: center;
+        background-color: rgba(0,0,0,.25);
+        border-radius: 2px;
+        padding: 6px;
+        width: 450px;
+    }
+      
+        div.overlay > div.login-wrapper > div.login-content {
+            background-color: rgb(255,255,255);
+            border-radius: 2px;
+            padding: 24px;  
+            position: relative;
+        }
+          
+            div.overlay > div.login-wrapper > div.login-content > h3 {
+                color: rgb(0,0,0);
+                font-family: 'Varela Round', sans-serif;
+                font-size: 1.8em;
+                margin: 0 0 1.25em;
+                padding: 0;
+            }
+/*
+*   FORM
+*/
+form label {
+    color: rgb(0,0,0);
+    display: block;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.25em;
+    margin: .75em 0;    
+}
+  
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="number"],
+    form input[type="search"],
+    form input[type="password"],
+    form textarea {
+        background-color: rgb(255,255,255);
+        border: 1px solid rgb( 186, 186, 186 );
+        border-radius: 1px;
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.08);
+        display: block;
+        font-size: .65em;
+        margin: 6px 0 12px 0;
+        padding: .8em .55em;    
+        text-shadow: 0 1px 1px rgba(255, 255, 255, 1);
+        transition: all 400ms ease;
+        width: 90%;
+    }
+      
+    form input[type="text"]:focus,
+    form input[type="email"]:focus,
+    form input[type="number"]:focus,
+    form input[type="search"]:focus,
+    form input[type="password"]:focus,
+    form textarea:focus,
+    form select:focus { 
+        border-color: #4195fc;
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px #4195fc;
+    }
+      
+        form input[type="text"]:invalid:focus,
+        form input[type="email"]:invalid:focus,
+        form input[type="number"]:invalid:focus,
+        form input[type="search"]:invalid:focus,
+        form input[type="password"]:invalid:focus,
+        form textarea:invalid:focus,
+        form select:invalid:focus { 
+            border-color: rgb(248,66,66);
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px rgb(248,66,66);
+        }
+      
+form button {
+    background-color: #50c1e9;
+    border: 1px solid rgba(0,0,0,.1);
+    color: rgb(255,255,255);
+    font-family: 'Varela Round', sans-serif;
+    font-size: .85em;
+    padding: .55em .9em;
+    transition: all 400ms ease; 
+}
+  
+    form button:hover {
+        background-color: #1bc5b3;
+        cursor: pointer;
+    }
+    </style>
   
   <script type="text/javascript">
-  
   var pageCnt = 0;
   var pageEnd = false;
-  
+  var qa_web_seq = "";
   $(document).ready(function(){
+	  
+	    $(".close").click(function(){
+	        $(".overlay").fadeToggle("fast");
+	    });
+	    $(document).keyup(function(e) {
+	        if(e.keyCode == 27 && $(".overlay").css("display") != "none" ) { 
+	            event.preventDefault();
+	            $(".overlay").fadeToggle("fast");
+	        }
+	    });
 	  //목록읽어오기
 	  qaWebList();
 	  
@@ -89,7 +251,7 @@
 		  ,success: listSuccess
 		  ,error: errorCallback
 	  })
-  }
+  };
   
   
   //공지사항 리스트 조회
@@ -112,7 +274,7 @@
 		  makesbmTr : function(index, item){
 			  var sysdate = new Date(item.writng_de);
 			  var sbmTr = "<li class='list-group-item'><span class='pull-right'>"
-			  +"<a href='javascript:answer("+item.qa_Web_seq+")'  class='pull-left m-r-sm'><i class='fa fa-check text-success text'>수동 답변</i></a>"
+			  +"<a href='javascript:isAnswer("+item.qa_Web_seq+")'  class='pull-left m-r-sm'><i class='fa fa-check text-success text'>수동 답변</i></a>"
 			  +"<a href='javascript:answer_mail("+item.qa_Web_seq+")' class='pull-left m-r-sm'><i class='fa fa-check text-success text'>메일로 답변</i></a>";
 			  			//+ "<i onclick='modify(" + item.qa_Web_seq + ")' class='fa fa-pencil icon-muted fa-fw m-r-xs'></i> &nbsp;"
  					  		if(item.state=='답변대기'){
@@ -124,7 +286,7 @@
  					  			
  					  		}
  					  
- 			   sbmTr=sbmTr.concat( "<i onclick='erase(" + item.qa_Web_seq + ")' class='fa fa-times icon-muted fa-fw'></i></span>"
+ 			   sbmTr=sbmTr.concat( "<i onclick='erase(" + item.qa_Web_seq + ")' style='margin-left: 10px;' class='fa fa-minus-square icon-muted fa-fw'></i></span>"
 			  			+ "<div class='media'><div class='media-body m-b'><div onclick='view(" + item.qa_Web_seq + ")'>"
 			  			+"연락처:"+item.tel +"<br/>이메일:"+item.email + "<br>내용:"+item.contents +"</div></div><div>"
 			  			+ "<small class='text-muted'>" + formatDate(sysdate) + "</small></li>");
@@ -151,16 +313,21 @@
   //삭제하기
   var erase = function(data){
 	  console.log("삭제하기 - " + data);
-	  var f = document.createElement('form');
-	  var objs = document.createElement('input');
-	  objs.setAttribute('type','hidden');
-	  objs.setAttribute('name', 'qa_Web_seq');
-	  objs.setAttribute('value', data);
-	  f.appendChild(objs);
-	  f.setAttribute('action', rootPath+"/QaWeb/erase.do");
-	  f.setAttribute('method','post');
-	  document.body.appendChild(f);
-	  f.submit();
+	  
+	  if(confirm("이 문의사항을 삭제 하시겠어요 ?")){
+		  var f = document.createElement('form');
+		  var objs = document.createElement('input');
+		  objs.setAttribute('type','hidden');
+		  objs.setAttribute('name', 'qa_Web_seq');
+		  objs.setAttribute('value', data);
+		  f.appendChild(objs);
+		  f.setAttribute('action', rootPath+"/QaWeb/erase.do");
+		  f.setAttribute('method','post');
+		  document.body.appendChild(f);
+		  f.submit();  
+	  } else {
+          return false;
+      }
   }
   
   //보기
@@ -174,13 +341,20 @@
 	  //console.log("보기 - " + data);
 	  window.location.href = rootPath + "/QaWeb/answerForm.do?qa_Web_seq=" + data;
   }
-//수동 답변하기
-  var answer = function(data){
-	  //console.log("보기 - " + data);
-	  window.location.href = rootPath + "/QaWeb/manual_answer.do?qa_Web_seq=" + data;
-	  
+//수동 답변 확인 및 답변자 이름 팝업.
+  var isAnswer = function(data){
+	  if(confirm("문의자에게 답변을 하셨나요 ?")){
+		  $(".overlay").fadeToggle("fast");
+		  qa_web_seq = data;
+	  }else{
+		  return false;
+	  }
   }
-  
+//수동 답변 하기
+  var answer_submit = function(){
+	  window.location.href = rootPath + "/QaWeb/manual_answer.do?qa_Web_seq=" + qa_web_seq+"&answer="+$("#answer").val();
+  }
+
   
   //Ajax 에러 콜백함수
   var errorCallback = function(){

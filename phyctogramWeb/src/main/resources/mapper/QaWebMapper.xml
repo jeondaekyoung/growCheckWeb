@@ -10,12 +10,12 @@
 									,email
 									,tel
 									,contents
-									,state ) VALUES (
+									,state,answer ) VALUES (
 									#{name}
 									,#{email}
 									,#{tel}
 									,#{contents}
-									,#{state} )
+									,#{state},'x' )
 	</insert>
 	
 	<select id="listQaWeb" parameterType="hashmap" resultType="QaWeb">
