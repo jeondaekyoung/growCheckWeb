@@ -39,8 +39,9 @@
                         <span class="c-navigation-header-content_title_inner" style="margin-top:1em;background:rgba(35,165,255,0.5)">Growcheck</span>
                     </h1>
                     <!--<p class="c-white" style="font-size:48px;margin:25px 0 10px;line-height:1.3">The most advanced<br>weight &amp; height<br>measuring device</p>-->
-                    <p class="c-white m-opacity" style="font-size:1.1em;margin:1.5em 0;font-weight:300">Growcheck is IoT based vertical smart body scale &amp; height measurement.
-                    <br>Feel comfort and fun at the same time. Experience various performances.</p>
+                    <p class="c-white m-opacity" style="font-size:1.3em;margin:1.5em 0;font-weight:300">Growcheck is The First IoT Body Measurement Device Ever!
+                    <br>Feel comfort and fun at the same time.
+                    <br>Experience various performances.</p>
                 </div>
                 <div class="go-kickstart">
                     <img src="<%=application.getContextPath()%>/resources/img/logo-kickStarter.png" alt="kickStarter"><span>Launch on October 18th</span>
