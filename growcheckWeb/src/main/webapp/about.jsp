@@ -33,7 +33,7 @@
     <section class="c-home" style="text-align:center; margin-top:3em; padding:0 1em">
         <h3 class="fz60 thin m-s-fz3rem">About Growcheck</h3>
         <p class="fz18">For many of us, especially women, weight is always something to worry about. That’s why we weigh ourselves almost every day.
-        <br>So we decided to break the rules and create something different: Growcheck, the world’s first vertical smart body scale ever!
+        <br>So we decided to break the rules and create something different: Growcheck, the world’s first vertical smart weight scale ever!
 <br><br><br></p>
 
         <h3 class="fz60 thin m-s-fz3rem">Our Performance</h3>

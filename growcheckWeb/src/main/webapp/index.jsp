@@ -69,7 +69,7 @@
                             <div class="c-card-bio_infos">
                                 <p class="c-card-bio_infos_surtitle"></p>
                                 <h3 class="c-card-bio_infos_name">A slant<br>perspective</h3>
-                                <p class="c-card-bio_infos_type">The first vertical body scale</p>
+                                <p class="c-card-bio_infos_type">The first vertical weight scale</p>
                                 <div class="c-card-bio_infos_view">
                                     <div class="c-card-bio_infos_view_line"></div>
                                     <p class="c-card-bio_infos_view_label" data-letters="Read more">Read more</p>
@@ -90,7 +90,7 @@
                             <div class="c-card-bio_infos">
                                 <p class="c-card-bio_infos_surtitle"></p>
                                 <h3 class="c-card-bio_infos_name">All-in-one</h3>
-                                <p class="c-card-bio_infos_type">It can measure height and weight simultaneously</p>
+                                <p class="c-card-bio_infos_type">It can measure height and weight at the same time</p>
                                 <div class="c-card-bio_infos_view">
                                     <div class="c-card-bio_infos_view_line"></div>
                                     <p class="c-card-bio_infos_view_label" data-letters="Read more">Read more</p>

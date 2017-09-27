@@ -28,12 +28,12 @@
             <div class="o-grid-wrap">
 				<main class="o-main">
 				    <section class="c-home" style="text-align:center; margin-top:3em">
-				        <h3 class="fz60 thin">The first <span style="color:#0099ff">Vertical</span> body scale</h3>
+				        <h3 class="fz60 thin">The first <span style="color:#0099ff">Vertical</span> weight scale</h3>
 				        <img src="<%=application.getContextPath()%>/resources/img/open.jpg?ver=0.2">				        
 				      </section>
 				      
 				      <section class="c-home">
-				        <h4 class="fz60 thin m-s-fz3rem pt1em" id="allinone" style="text-align:center">Multifunctional Body scale</h4>
+				        <h4 class="fz60 thin m-s-fz3rem pt1em" id="allinone" style="text-align:center">Multifunctional weight scale</h4>
          <div class="c-home_carousel js-scroll js-anim is-show">
             <section class="c-card-carousel" data-module="Carousel">
                 <div class="c-card-carousel_overflow_wrapper">
@@ -51,12 +51,12 @@
 
                 <section class="c-card-carousel_wrap">
                     <div class="c-card-carousel_content js-carousel-content is-current">
-                     <h3 class="c-card-carousel_content_title">Stadiometer</h3>
+                     <h3 class="c-card-carousel_content_title">Height Measure</h3>
                         <p class="c-card-carousel_content_text">You can measure height by picking up the height measuring bar. Laser sensor guides you where to put the height measuring bar.<br>
                         Data is automatically synchronized with smart phones to manage and check your child's growth.</p>
                     </div>    
                     <div class="c-card-carousel_content js-carousel-content">                        
-                        <h3 class="c-card-carousel_content_title">Body Scale</h3>
+                        <h3 class="c-card-carousel_content_title">Weight Scale</h3>
                         <p class="c-card-carousel_content_text">When sliding part opens fully, you can weigh yourself.<br>
                         You can also compare the growth of your child by checking growth distribution.</p>
                     </div>
@@ -64,11 +64,11 @@
 
                 <section class="c-card-carousel_categories">
                     <div class="c-card-carousel_category js-carousel-category is-current">
-                        <p class="c-card-carousel_category_label" data-letters="Play">Stadiometer</p>
+                        <p class="c-card-carousel_category_label" data-letters="Play">Height Measure</p>
                         <div class="c-card-carousel_category_line"></div>
                     </div>
                     <div class="c-card-carousel_category js-carousel-category">
-                        <p class="c-card-carousel_category_label" data-letters="Coach">Body scale</p>
+                        <p class="c-card-carousel_category_label" data-letters="Coach">Weight scale</p>
                         <div class="c-card-carousel_category_line"></div>
                     </div>
                 </section>
@@ -81,7 +81,7 @@
 		        		<img src="<%=application.getContextPath()%>/resources/img/spec.jpg?ver=0.8" style="display:block; margin: auto" alt="size:410x330x90, weight:max 180kg, height:max 5m, display:LCD 6 digit, wifi signaling time:802.11b 54Mbps, wifi processing time 11Mbps, charging voltage:12V 1800mA, charging time:3 hours, usage time:100 hours">
 	       
 				        <h4 class="fz60 thin m-s-fz3rem mt1em">Daily Measurement</h4>
-				        <p class="fz18">You do not need to hide your body scale anymore. Growcheck always stands in your room.</p>
+				        <p class="fz18">You do not need to hide your weight scale anymore. Growcheck always stands in your room.</p>
 				        
 				        <div style="position:relative"><img src="<%=application.getContextPath()%>/resources/img/banner.jpg?ver=0.2">
 				        <!-- <a class="btn02 fz48 c-white m-m-fz2rem m-s-fz1rem" style="text-decoration:none;position:absolute;top:50%;right:50%;margin-top:-1em" target="_blank">Now on Kickstarter</a> --></div>
