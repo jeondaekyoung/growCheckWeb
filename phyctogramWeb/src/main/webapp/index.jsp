@@ -43,7 +43,7 @@
                     <br>Feel comfort and fun at the same time. Experience various performances.</p>
                 </div>
                 <div class="go-kickstart">
-                    <img src="<%=application.getContextPath()%>/resources/img/logo-kickStarter.png" alt="kickStarter"><span>Launch on October</span>
+                    <img src="<%=application.getContextPath()%>/resources/img/logo-kickStarter.png" alt="kickStarter"><span>Launch on October 18th</span>
                 </div>        
             </header>
             <!-- No Navigation header -->
