@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: http://kr.i-growcheck.com/sitemap.xml
+Sitemap: http://www.i-growcheck.co.kr/sitemap.xml

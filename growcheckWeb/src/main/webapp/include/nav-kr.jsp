@@ -83,7 +83,7 @@
         	var path=location.pathname.replace("/kr","");
         	var nowScroll = getNowScroll();
        		var frm = document.frm;
-        	if(location.host.indexOf("kr.") != -1 ){
+        	if(location.host.indexOf(".kr") != -1 ){
            		frm.action="http://i-growcheck.com"+path;
         	}else{
       		 frm.action=path;

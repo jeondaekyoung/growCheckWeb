@@ -5,7 +5,7 @@
 <html lang="ko" class="has-smooth-scroll">
 <head>
 	<title>그로첵 - 최초의 세로형 체중계</title>
-	<link rel="canonical" href="http://www.i-growcheck.com/kr/index.jsp">
+	<link rel="canonical" href="http://i-growcheck.co.kr/">
 	<link rel="alternate" hreflang="x-default" href="http://www.i-growcheck.com/kr/index.jsp"/>
 	<link rel="alternate" hreflang="en-us" href="http://www.i-growcheck.com" />
 	<link rel="alternate" hreflang="ko-kr" href="http://www.i-growcheck.com/kr/index.jsp" />
@@ -15,7 +15,7 @@
 	<meta property="og:description" content="최초의 세로형 체중계, 스마트체중계, 샤오미체중계, 건강관리, 키재기, 키재기자, 출산선물">
 	<meta name="twitter:title" content="그로첵 - 최초의 세로형 체중계">
 	<meta name="twitter:url" content="http://www.i-growcheck.com/kr/index.jsp">
-	<meta name="keywords" content="그로첵,growCheck,체중계, 스마트체중계, 샤오미체중계, 건강관리, 키재기, 키재기자, 아기키재기, 출산선물, 아기용품" />
+	<meta name="keywords" content="그로첵,체중계,growCheck,스마트체중계, 샤오미체중계, 건강관리, 키재기, 키재기자, 아기키재기, 출산선물, 아기용품" />
 	<meta name="description" content="최초의 세로형 체중계, 스마트체중계, 샤오미체중계, 건강관리, 키재기, 키재기자, 출산선물">
 	<jsp:include page="/include/head.jsp" flush="true"></jsp:include> 
 </head>
@@ -23,7 +23,7 @@
 <script type="text/javascript">
     
     	$(document).ready(function(){
-	     if(location.host.indexOf("kr.")!=-1){
+	     if(location.host.indexOf(".kr")!=-1){
     		$("body").find("a").each(function(){
     			   var href=$(this).attr("href");
 				if (href != null) {
