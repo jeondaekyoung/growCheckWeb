@@ -51,6 +51,13 @@ public interface QaWebMapper {
 	 * @return
 	 */
 	int updateStateQaWeb(int qa_Web_seq);
+
+	/**
+	 * 문의사항 답변상태 되돌리기
+	 * @param QaWeb_seq
+	 * @return
+	 */
+	int updateStateResetQaWeb(int qa_Web_seq);
 	
 	/**
 	 * 문의사항 삭제

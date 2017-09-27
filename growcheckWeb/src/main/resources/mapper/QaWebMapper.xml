@@ -38,6 +38,13 @@
 		  
 	</update>
 	
+	<update id="updateStateResetQaWeb" parameterType="Integer">
+	UPDATE qa_web_tb
+		     SET state = '답변대기',answer = 'x'
+		  WHERE qa_Web_seq = #{qa_Web_seq}
+		  
+	</update>
+	
 	<select id="selectByQaWebSeq" parameterType="Integer" resultType="QaWeb">
 		SELECT *
 		  FROM qa_web_tb

@@ -48,6 +48,13 @@ public interface QaWebDao {
 	 * @return
 	 */
 	int updateStateQaWeb(int qa_Web_seq);
+
+	/**
+	 * 문의사항 답변상태 되돌리기
+	 * @param qa_Web_seq
+	 * @return
+	 */
+	int updateStateResetQaWeb(int qa_Web_seq);
 	
 	/**
 	 * 문의사항 삭제

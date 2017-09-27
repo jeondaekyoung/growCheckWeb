@@ -79,7 +79,18 @@ public class QaWebServiceImpl implements QaWebService {
 	public int updateStateQaWeb(int QaWeb_seq) {
 		return QaWebDao.updateStateQaWeb(QaWeb_seq);
 	}
-
+	
+	
+	/**
+	 * 문의사항 답변상태 되돌리기
+	 * @param QaWeb_seq
+	 * @return
+	 */
+	@Override
+	public int updateStateResetQaWeb(int qa_Web_seq) {
+		return QaWebDao.updateStateResetQaWeb(qa_Web_seq);
+	}
+	
 	/**
 	 * 문의사항 삭제
 	 * @param qa_Web_seq
@@ -89,4 +100,5 @@ public class QaWebServiceImpl implements QaWebService {
 	public int eraseByqa_web_Seq(int qa_Web_seq) {
 		return QaWebDao.eraseByqa_web_Seq(qa_Web_seq);
 	}
+
 }

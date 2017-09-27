@@ -68,6 +68,7 @@ public class QaWebController {
 		logger.info("QaWeb/write.do - 문의 하기 : " + qaWeb);
 		
 		qaWebService.registerQaWeb(qaWeb);
+		/*
 		String sender ="nareejdk@naver.com";
 		String sender_pw ="naree123";
 		String subject ="문의하기가 등록 되었습니다.( GrowCheck- 관리자)";
@@ -77,7 +78,7 @@ public class QaWebController {
 		for (int i = 0; i < receivers.length; i++) {
 			String receiver =receivers[i];
 			Sender_mail.send(sender,sender_pw, receiver, subject, content);
-		}
+		}*/
 		return "redirect:/contact.jsp";
 	}
 	/**
@@ -126,9 +127,18 @@ public class QaWebController {
 	 */
 	@RequestMapping(value = "manual_answer.do", method=RequestMethod.GET)
 	public String manual_answer(@Param("qa_Web_seq")int qa_Web_seq,@Param("answer")String answer,Model model){
-		System.out.println("답변자:"+answer);
 		qaWebService.updateStateQaWeb(qa_Web_seq);
 		qaWebService.modifyQaWeb(qa_Web_seq, answer);
+		return "redirect:/views/admin/qaList-web.jsp";
+	}
+	/**
+	 * 문의내용 답변 상태 되돌리기.
+	 * @param qa_Web_seq
+	 * @return
+	 */
+	@RequestMapping(value = "reset_answer.do", method=RequestMethod.GET)
+	public String answer_status(@Param("qa_Web_seq")int qa_Web_seq,Model model){
+		qaWebService.updateStateResetQaWeb(qa_Web_seq);
 		return "redirect:/views/admin/qaList-web.jsp";
 	}
 	/**
