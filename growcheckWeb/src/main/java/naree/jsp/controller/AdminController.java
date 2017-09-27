@@ -12,6 +12,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import naree.db.domain.Admin;
 import naree.service.AdminService;
+import naree.util.exception.GrowCheckWebException;
 
 @Controller
 @RequestMapping("admin")
@@ -44,8 +45,16 @@ public class AdminController {
 	public ModelAndView login(Admin admin, HttpSession session){
 		logger.info("admin/login.do - " + admin.toString());
 		ModelAndView mv = new ModelAndView();
-		Admin resultAdmin = adminService.login(admin.getId(), admin.getPw());
-		session.setAttribute("USERID", resultAdmin.getId());
+		try {
+			Admin resultAdmin = adminService.login(admin.getId(), admin.getPw());
+			session.setAttribute("USERID", resultAdmin.getId());
+			
+		} catch (GrowCheckWebException e) {
+			mv.addObject("loginError", e.getMessage());
+			mv.setViewName("admin/login");
+			
+			return mv;
+		}
 		
 		mv.setViewName("admin/noticeList");
 		return mv;
