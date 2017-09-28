@@ -15,7 +15,7 @@
 	<meta name="twitter:title" content="Growcheck - The First Vertical Body Scale">
 	<meta name="twitter:url" content="http://www.i-growcheck.com">
 	<meta name="description" content="The first vertical smart scale, Weight, Height measure, bodyscale, smart scale">
-	<meta name="keywords" content="growCheck,Growcheck,vertical smart scale,vertical scale, Weight, Height measure, bodyscale, smart scale">
+	<meta name="keywords" content="growCheck,그로첵,vertical smart scale,vertical scale, Weight, Height measure, bodyscale, smart scale">
 	<jsp:include page="/include/head.jsp" flush="true"></jsp:include> 
 </head>
     

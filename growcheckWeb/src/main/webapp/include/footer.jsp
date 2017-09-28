@@ -78,9 +78,19 @@ $(document).ready(function(){
 			scrollControl();
 		}, 1200);
 	}	remove();
-	
+	var href = $("#lang").attr("href");
+	$(window).scroll(function () {
+		var de = document.documentElement;
+    	var b = document.body;
+    	var now = {};
+    	now.X = document.all ? (!de.scrollLeft ? b.scrollLeft : de.scrollLeft) : (window.pageXOffset ? window.pageXOffset : window.scrollX);
+    	now.Y = document.all ? (!de.scrollTop ? b.scrollTop : de.scrollTop) : (window.pageYOffset ? window.pageYOffset : window.scrollY);
+    	
+    	
+    	$("#lang").attr("href",href+"?ns="+now.Y);
+    });
 	function scrollControl() {
-		var scroll='<%= request.getParameter("nowScroll") %>';
+		var scroll='<%= request.getParameter("ns") %>';
     	 if(!window.location.hash){
     	$('html, body').animate({scrollTop : scroll}, 400);
     	} 
