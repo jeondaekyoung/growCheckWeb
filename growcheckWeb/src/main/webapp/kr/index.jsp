@@ -6,15 +6,15 @@
 <head>
 	<title>그로첵 - 최초의 세로형 체중계</title>
 	<link rel="canonical" href="http://i-growcheck.co.kr/">
-	<link rel="alternate" hreflang="x-default" href="http://www.i-growcheck.com/kr/index.jsp"/>
+	<link rel="alternate" hreflang="x-default" href="http://www.i-growcheck.com/kr/"/>
 	<link rel="alternate" hreflang="en-us" href="http://www.i-growcheck.com" />
-	<link rel="alternate" hreflang="ko-kr" href="http://www.i-growcheck.com/kr/index.jsp" />
+	<link rel="alternate" hreflang="ko-kr" href="http://www.i-growcheck.com/kr/" />
 	<meta name="naver-site-verification" content="7d9236cf7e95df108ca0bab54628c50d198628cd"/>
 	<meta property="og:title" content="그로첵 - 최초의 세로형 체중계">
-	<meta property="og:url" content="http://www.i-growcheck.com/kr/index.jsp">
+	<meta property="og:url" content="http://www.i-growcheck.com/kr/">
 	<meta property="og:description" content="최초의 세로형 체중계, 스마트체중계, 샤오미체중계, 건강관리, 키재기, 키재기자, 출산선물">
 	<meta name="twitter:title" content="그로첵 - 최초의 세로형 체중계">
-	<meta name="twitter:url" content="http://www.i-growcheck.com/kr/index.jsp">
+	<meta name="twitter:url" content="http://www.i-growcheck.com/kr/">
 	<meta name="keywords" content="그로첵,체중계,growCheck,스마트체중계, 샤오미체중계, 건강관리, 키재기, 키재기자, 아기키재기, 출산선물, 아기용품" />
 	<meta name="description" content="최초의 세로형 체중계, 스마트체중계, 샤오미체중계, 건강관리, 키재기, 키재기자, 출산선물">
 	<jsp:include page="/include/head.jsp" flush="true"></jsp:include> 

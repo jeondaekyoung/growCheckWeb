@@ -4,23 +4,15 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xmlns:xhtml="http://www.w3.org/1999/xhtml"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-	
+<!-- <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"> -->	
 	<url>
 		<loc>http://www.i-growcheck.com/</loc>
 		<xhtml:link rel="alternate" hreflang="ko-kr"
-			href="http://www.i-growcheck.com/kr/index.jsp" />
+			href="http://www.i-growcheck.com/kr/" />
 		<xhtml:link rel="alternate" hreflang="en-us"
 			href="http://www.i-growcheck.com/" />
-		<changefreq>daily</changefreq>
-		<priority>1.00</priority>
-	</url>
-	
-	<url>
-		<loc>http://www.i-growcheck.com/index.jsp</loc>
-		<xhtml:link rel="alternate" hreflang="ko-kr"
-			href="http://www.i-growcheck.com/kr/index.jsp" />
-		<xhtml:link rel="alternate" hreflang="en-us"
-			href="http://www.i-growcheck.com/index.jsp" />
 		<changefreq>daily</changefreq>
 		<priority>1.00</priority>
 	</url>
@@ -42,7 +34,7 @@
 		<xhtml:link rel="alternate" hreflang="en-us"
 			href="http://www.i-growcheck.com/app.jsp" />
 		<changefreq>daily</changefreq>
-		<priority>0.70</priority>
+		<priority>0.80</priority>
 	</url>
 	
 	<url>
@@ -52,7 +44,7 @@
 		<xhtml:link rel="alternate" hreflang="en-us"
 			href="http://www.i-growcheck.com/about.jsp" />
 		<changefreq>daily</changefreq>
-		<priority>0.70</priority>
+		<priority>0.80</priority>
 	</url>
 	
 	<url>
@@ -62,7 +54,7 @@
 		<xhtml:link rel="alternate" hreflang="en-us"
 			href="http://www.i-growcheck.com/contact.jsp" />
 		<changefreq>daily</changefreq>
-		<priority>0.70</priority>
+		<priority>0.80</priority>
 	</url>
 	
 	<url>
@@ -72,7 +64,7 @@
 		<xhtml:link rel="alternate" hreflang="en-us"
 			href="http://www.i-growcheck.com/terms.jsp" />
 		<changefreq>daily</changefreq>
-		<priority>0.70</priority>
+		<priority>0.80</priority>
 	</url>
 	
 	<url>
@@ -82,15 +74,15 @@
 		<xhtml:link rel="alternate" hreflang="en-us"
 			href="http://www.i-growcheck.com/privacy.jsp" />
 		<changefreq>daily</changefreq>
-		<priority>0.70</priority>
+		<priority>0.80</priority>
 	</url>
 	
 	<url>
-		<loc>http://www.i-growcheck.com/kr/index.jsp</loc>
+		<loc>http://www.i-growcheck.com/kr/</loc>
 		<xhtml:link rel="alternate" hreflang="en-us"
-			href="http://www.i-growcheck.com/index.jsp" />
+			href="http://www.i-growcheck.com/" />
 		<xhtml:link rel="alternate" hreflang="ko-kr"
-			href="http://www.i-growcheck.com/kr/index.jsp" />
+			href="http://www.i-growcheck.com/kr/" />
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
@@ -102,7 +94,7 @@
 		<xhtml:link rel="alternate" hreflang="ko-kr"
 			href="http://www.i-growcheck.com/kr/hw.jsp" />
 		<changefreq>daily</changefreq>
-		<priority>0.55</priority>
+		<priority>0.64</priority>
 	</url>
 	
 	<url>
@@ -112,7 +104,7 @@
 		<xhtml:link rel="alternate" hreflang="ko-kr"
 			href="http://www.i-growcheck.com/kr/app.jsp" />
 		<changefreq>daily</changefreq>
-		<priority>0.55</priority>
+		<priority>0.64</priority>
 	</url>
 	
 	<url>
@@ -122,7 +114,7 @@
 		<xhtml:link rel="alternate" hreflang="ko-kr"
 			href="http://www.i-growcheck.com/kr/about.jsp" />
 		<changefreq>daily</changefreq>
-		<priority>0.55</priority>
+		<priority>0.64</priority>
 	</url>
 	
 	<url>
@@ -132,7 +124,7 @@
 		<xhtml:link rel="alternate" hreflang="ko-kr"
 			href="http://www.i-growcheck.com/kr/contact.jsp" />
 		<changefreq>daily</changefreq>
-		<priority>0.55</priority>
+		<priority>0.64</priority>
 	</url>
 	
 	<url>
@@ -142,7 +134,7 @@
 		<xhtml:link rel="alternate" hreflang="ko-kr"
 			href="http://www.i-growcheck.com/kr/terms.jsp" />
 		<changefreq>daily</changefreq>
-		<priority>0.55</priority>
+		<priority>0.64</priority>
 	</url>
 	
 	<url>
@@ -152,7 +144,7 @@
 		<xhtml:link rel="alternate" hreflang="ko-kr"
 			href="http://www.i-growcheck.com/kr/privacy.jsp" />
 		<changefreq>daily</changefreq>
-		<priority>0.55</priority>
+		<priority>0.64</priority>
 	</url>
 
 </urlset>

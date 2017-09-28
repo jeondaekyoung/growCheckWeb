@@ -52,12 +52,12 @@
 		          </span>
 		        </button>
 		        <div class="logo">
-		          <a class="logo-lg" href="<%=app_path%>/kr/index.jsp"><img src="<%=app_path%>/resources/img/logo-hzt.svg"></a>
-		          <a class="logo-sm" href="<%=app_path%>/kr/index.jsp"><img src="<%=app_path%>/resources/img/logo.svg"></a>
+		          <a class="logo-lg" href="<%=app_path%>/kr/"><img src="<%=app_path%>/resources/img/logo-hzt.svg"></a>
+		          <a class="logo-sm" href="<%=app_path%>/kr/"><img src="<%=app_path%>/resources/img/logo.svg"></a>
 		        </div>
 		        <nav class="nav">
 		          <ul>
-		            <li><a href="<%=app_path%>/kr/index.jsp">HOME</a></li>
+		            <li><a href="<%=app_path%>/kr/">HOME</a></li>
 		            <li><a href="<%=app_path%>/kr/hw.jsp">HARDWARE</a></li>
 		            <li><a href="<%=app_path%>/kr/app.jsp">APP</a></li>
 		            <li><a href="<%=app_path%>/kr/about.jsp">ABOUT</a></li>

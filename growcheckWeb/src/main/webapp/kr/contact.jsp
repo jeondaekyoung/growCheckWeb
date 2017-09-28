@@ -12,7 +12,6 @@
 	<meta property="og:url" content="http://www.i-growcheck.com/kr/contact.jsp">
 	<meta name="twitter:title" content="그로첵 (Growcheck) - 문의하기">
 	<meta name="twitter:url" content="http://www.i-growcheck.com/kr/contact.jsp">
-	<meta name="robots" content="noindex" />
 	<jsp:include page="../include/head.jsp" flush="true"></jsp:include>
 </head>
     

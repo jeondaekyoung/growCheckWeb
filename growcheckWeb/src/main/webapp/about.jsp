@@ -12,7 +12,6 @@
 	<meta property="og:url" content="http://www.i-growcheck.com/about.jsp">
 	<meta name="twitter:title" content="Growcheck - About Us">
 	<meta name="twitter:url" content="http://www.i-growcheck.com/about.jsp">
-	<meta name="robots" content="noindex" />
 	<jsp:include page="include/head.jsp" flush="true"></jsp:include>
 </head>
     
