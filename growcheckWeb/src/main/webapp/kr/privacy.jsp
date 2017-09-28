@@ -12,7 +12,7 @@
 	<meta property="og:url" content="http://www.i-growcheck.com/kr/privacy.jsp">
 	<meta name="twitter:title" content="그로첵 (Growcheck) - 개인정보정책">
 	<meta name="twitter:url" content="http://www.i-growcheck.com/kr/privacy.jsp">
-	<jsp:include page="../include/head.jsp" flush="true"></jsp:include>
+	<jsp:include page="/include/head.jsp" flush="true"></jsp:include>
 </head>
     
 <body class="is-volley-grid is-windows search-has-results is-loaded">
@@ -20,7 +20,7 @@
 <div class="o-barba js-barba" id="js-barba-wrapper" aria-live="polite">
     <div class="js-barba-container o-barba_container" data-template="home">
         
-        <jsp:include page="../include/nav-kr.jsp" flush="true"></jsp:include>
+        <jsp:include page="/include/nav-kr.jsp" flush="true"></jsp:include>
         
         <div class="o-scroll js-scroll is-show" tabindex="1" style="outline: none;">        
         <article class="scroll-content" style="transform: translate3d(0px, 0px, 0px);">
@@ -134,7 +134,7 @@ Growcheck은 해킹이나 컴퓨터 바이러스 등에 의한 개인정보 유�
 </main>
 
 <div class="js-sticky-stop">
-	<jsp:include page="../include/footer-kr.jsp" flush="true"></jsp:include>
+	<jsp:include page="/include/footer-kr.jsp" flush="true"></jsp:include>
 </div>
                 </div> 
             </article>
