@@ -6,6 +6,7 @@ public class Qa {
 
 	private int qa_seq;
 	private String title;
+	private String name;
 	private String contents;
 	private Timestamp writng_de;
 	private String answer;
@@ -24,6 +25,13 @@ public class Qa {
 	public void setTitle(String title) {
 		this.title = title;
 	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+
 	public String getContents() {
 		return contents;
 	}
