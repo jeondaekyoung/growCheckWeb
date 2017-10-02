@@ -18,7 +18,21 @@
 	<meta name="keywords" content="growCheck,그로첵,vertical smart scale,vertical scale, Weight, Height measure, bodyscale, smart scale">
 	<jsp:include page="/include/head.jsp" flush="true"></jsp:include> 
 </head>
-    
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Product",
+  "name" : "Growcheck",
+  "image" : "http://www.i-growcheck.com/resources/img/banner.jpg?ver=0.1",
+  "description" : "Growcheck is The First IoT Body Measurement Device Ever!\n                    <BR/>Feel comfort and fun at the same time.\n                    <BR/>Experience various performances.",
+  "brand" : {
+    "@type" : "Brand",
+    "name" : "Growcheck",
+    "logo" : "http://www.i-growcheck.com/resources/img/logo.svg"
+  }
+}
+</script>
+
 <body class="is-volley-grid is-windows search-has-results is-loaded">
 
 <div class="o-barba js-barba" id="js-barba-wrapper" aria-live="polite">

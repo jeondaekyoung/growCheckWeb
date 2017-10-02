@@ -19,7 +19,21 @@
 	<meta name="description" content="최초의 세로형 체중계, 스마트체중계, 샤오미체중계, 건강관리, 키재기, 키재기자, 출산선물">
 	<jsp:include page="/include/head.jsp" flush="true"></jsp:include> 
 </head>
-
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Product",
+  "name" : "Growcheck",
+  "image" : "http://i-growcheck.co.kr/resources/img/banner.jpg?ver=0.2",
+  "description" : "그로첵은 IoT 기반의 세로형 스마트 체중계&amp;키재기입니다.\n                    <BR/>편리함과 즐거움을 동시에 느낄 수 있습니다! 다양한 성능을 체험해 보세요.",
+  "url" : "http://i-growcheck.co.kr/",
+  "brand" : {
+    "@type" : "Brand",
+    "name" : "Growcheck",
+    "logo" : "http://i-growcheck.co.kr/resources/img/logo.svg"
+  }
+}
+</script>
 <body class="is-volley-grid is-windows search-has-results is-loaded">
 
 <div class="o-barba js-barba" id="js-barba-wrapper" aria-live="polite">
