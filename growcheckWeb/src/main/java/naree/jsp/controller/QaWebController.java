@@ -68,7 +68,7 @@ public class QaWebController {
 		logger.info("QaWeb/write.do - 문의 하기 : " + qaWeb);
 		
 		qaWebService.registerQaWeb(qaWeb);
-		/*
+		
 		String sender ="nareejdk@naver.com";
 		String sender_pw ="naree123";
 		String subject ="문의하기가 등록 되었습니다.( GrowCheck- 관리자)";
@@ -78,7 +78,7 @@ public class QaWebController {
 		for (int i = 0; i < receivers.length; i++) {
 			String receiver =receivers[i];
 			Sender_mail.send(sender,sender_pw, receiver, subject, content);
-		}*/
+		}
 		return "redirect:/contact.jsp";
 	}
 	/**
