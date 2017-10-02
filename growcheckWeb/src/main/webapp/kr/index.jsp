@@ -19,25 +19,7 @@
 	<meta name="description" content="최초의 세로형 체중계, 스마트체중계, 샤오미체중계, 건강관리, 키재기, 키재기자, 출산선물">
 	<jsp:include page="/include/head.jsp" flush="true"></jsp:include> 
 </head>
-<script src="<%=application.getContextPath()%>/resources/js/jquery.min.js"></script>
-<script type="text/javascript">
-    
-    	$(document).ready(function(){
-	     if(location.host.indexOf(".kr")!=-1){
-    		$("body").find("a").each(function(){
-    			   var href=$(this).attr("href");
-				if (href != null) {
-					if (href.indexOf("javascript") == -1) {
-						if (href.indexOf("http") == -1) {
-							console.log(href);
-							$(this).attr("href", "http://i-growcheck.com"+ href);
-						}
-					}
-				}
-			});
-		}
-	});
-</script>
+
 <body class="is-volley-grid is-windows search-has-results is-loaded">
 
 <div class="o-barba js-barba" id="js-barba-wrapper" aria-live="polite">

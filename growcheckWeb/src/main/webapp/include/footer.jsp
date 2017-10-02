@@ -61,6 +61,20 @@
 <script type="text/javascript" src="http://openapi.map.naver.com/openapi/v3/maps.js?clientId=s96duQ89XbZlmLcPnKIc"></script>
 <script type="text/javascript">
 $(window).scroll(function(){
+    if(location.host.indexOf(".kr")!=-1){
+		$("body").find("a").each(function(){
+			   var href=$(this).attr("href");
+			if (href != null) {
+				if (href.indexOf("javascript") == -1) {
+					if (href.indexOf("http") == -1) {
+						console.log(href);
+						$(this).attr("href", "http://i-growcheck.com"+ href);
+					}
+				}
+			}
+		});
+	}
+	
     if($(this).scrollTop()>=60){
       $('.nav_wrap').css({height:60});
     } else {

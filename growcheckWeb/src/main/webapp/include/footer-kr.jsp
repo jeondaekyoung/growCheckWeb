@@ -68,6 +68,21 @@ $(window).scroll(function(){
     }
   });
 $(document).ready(function(){
+	
+    if(location.host.indexOf(".kr")!=-1){
+		$("body").find("a").each(function(){
+			   var href=$(this).attr("href");
+			if (href != null) {
+				if (href.indexOf("javascript") == -1) {
+					if (href.indexOf("http") == -1) {
+						console.log(href);
+						$(this).attr("href", "http://i-growcheck.com"+ href);
+					}
+				}
+			}
+		});
+	}
+	
 	$('body').addClass('is-transitions-masks');
 	
 	function remove(){
@@ -90,7 +105,7 @@ $(document).ready(function(){
     	
     	$("#lang").attr("href",href+"?ns="+now.Y);
     });
-	
+	  
 	function scrollControl() {
 		var scroll='<%= request.getParameter("ns") %>';
     	 if(!window.location.hash){
