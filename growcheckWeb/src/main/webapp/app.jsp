@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<% String app_path=application.getContextPath(); %>    
 <!DOCTYPE html>
 <html lang="en" class="has-smooth-scroll">
 <head>
@@ -36,9 +37,9 @@
         <section class="c-home">
             <div class="app">
             <div class="row" id="app01">
-                <div class="col-6 m-col-12"><img src="<%=application.getContextPath()%>/resources/img/app_01-en.png" class="app_img" alt="app1"></div>
+                <div class="col-6 m-col-12"><img src="<%=app_path%>/resources/img/app_01-en.png" class="app_img" alt="app1"></div>
                 <div class="col-6 m-col-12 bg-grey">
-                    <img class="icon m-dp-none" src="<%=application.getContextPath()%>/resources/img/ic_app_01.png">
+                    <img class="icon m-dp-none" src="<%=app_path%>/resources/img/ic_app_01.png">
                     <h3 class="thin fz80 m-s-fz3rem">Management</h3>
                     <div class="underline"></div>
                     <p class="fz24">Manage Your Own and Kids’ Data</p>
@@ -47,9 +48,9 @@
                 </div>
                 
             <div class="row" id="app02">
-                <div class="col-6 m-col-12 fr"><img src="<%=application.getContextPath()%>/resources/img/app_02-en.png" class="app_img" alt="app2"></div>
+                <div class="col-6 m-col-12 fr"><img src="<%=app_path%>/resources/img/app_02-en.png" class="app_img" alt="app2"></div>
                 <div class="col-6 m-col-12 fr bg-grey">
-                    <img class="icon m-dp-none" src="<%=application.getContextPath()%>/resources/img/ic_app_02.png">
+                    <img class="icon m-dp-none" src="<%=app_path%>/resources/img/ic_app_02.png">
                     <h3 class="thin fz80 m-s-fz3rem">Self Check</h3>
                     <div class="underline"></div>
                     <p class="fz24">Check Your Habits Everyday</p>
@@ -58,9 +59,9 @@
                 </div>
                 
             <div class="row" id="app03">    
-                <div class="col-6 m-col-12"><img src="<%=application.getContextPath()%>/resources/img/app_03-en.png" class="app_img" alt="app3"></div>
+                <div class="col-6 m-col-12"><img src="<%=app_path%>/resources/img/app_03-en.png" class="app_img" alt="app3"></div>
                 <div class="col-6 m-col-12 bg-grey">
-                    <img class="icon m-dp-none" src="<%=application.getContextPath()%>/resources/img/ic_app_03.png">
+                    <img class="icon m-dp-none" src="<%=app_path%>/resources/img/ic_app_03.png">
                     <h3 class="thin fz80 m-s-fz3rem">Solution</h3>
                     <div class="underline"></div>
                     <p class="fz24">Get the Analysis and Solution for Kids</p>
@@ -69,9 +70,9 @@
                 </div>
                 
             <div class="row" id="app04">    
-                <div class="col-6 m-col-12 fr"><img src="<%=application.getContextPath()%>/resources/img/app_04-en.png" class="app_img" alt="app4"></div>
+                <div class="col-6 m-col-12 fr"><img src="<%=app_path%>/resources/img/app_04-en.png" class="app_img" alt="app4"></div>
                 <div class="col-6 m-col-12 fr bg-grey">
-                    <img class="icon m-dp-none" src="<%=application.getContextPath()%>/resources/img/ic_app_04.png">
+                    <img class="icon m-dp-none" src="<%=app_path%>/resources/img/ic_app_04.png">
                     <h3 class="thin fz80 m-s-fz3rem">Connection</h3>
                     <div class="underline"></div>
                     <p class="fz24">Connect Device Easily</p>
@@ -80,9 +81,9 @@
                 </div>
                 
             <div class="row" id="app05">    
-                <div class="col-6 m-col-12"><img src="<%=application.getContextPath()%>/resources/img/app_05-en.png" class="app_img" alt="app3"></div>
+                <div class="col-6 m-col-12"><img src="<%=app_path%>/resources/img/app_05-en.png" class="app_img" alt="app3"></div>
                 <div class="col-6 m-col-12 bg-grey">
-                    <img class="icon m-dp-none" src="<%=application.getContextPath()%>/resources/img/ic_app_05.png">
+                    <img class="icon m-dp-none" src="<%=app_path%>/resources/img/ic_app_05.png">
                     <h3 class="thin fz80 m-s-fz3rem">Monitoring</h3>
                     <div class="underline"></div>
                     <p class="fz24">Follow Your Friends and Family</p>

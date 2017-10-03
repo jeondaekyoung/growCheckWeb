@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<% String app_path=application.getContextPath(); %>
 <!DOCTYPE html>
 <html lang="en" class="has-smooth-scroll">
 <head>
@@ -44,7 +45,7 @@
                      <div class="jt_grid_thumb">
                          <a class="jt_grid_thumb_anchor" href="http://www.futurekorea.co.kr/news/articleView.html?idxno=41439" target="_blank">
 			                   <figure class="jt_grid_thumb_figure">
-			                       <img src="<%=application.getContextPath()%>/resources/img/about_06.png" class="animation_scale wp-post-image" alt="">
+			                       <img src="<%=app_path%>/resources/img/about_06.png" class="animation_scale wp-post-image" alt="">
 			                       <span class="jt_grid_thumb_border animation_border"></span>                               
 			                   </figure>
 			             </a>
@@ -56,7 +57,7 @@
                      <div class="jt_grid_thumb">                    
                           <a class="jt_grid_thumb_anchor" href="http://www.venturesquare.net/742814" target="_blank">
 			                   <figure class="jt_grid_thumb_figure">
-			                       <img src="<%=application.getContextPath()%>/resources/img/about_05.png" class="animation_scale wp-post-image" alt="">
+			                       <img src="<%=app_path%>/resources/img/about_05.png" class="animation_scale wp-post-image" alt="">
 			                       <span class="jt_grid_thumb_border animation_border"></span>                               
 			                   </figure>
 			              </a>
@@ -68,7 +69,7 @@
                      <div class="jt_grid_thumb">
                          <a class="jt_grid_thumb_anchor" href="http://www.venturesquare.net/739663">
 			                 <figure class="jt_grid_thumb_figure">
-			                     <img src="<%=application.getContextPath()%>/resources/img/about_04.png" class="animation_scale wp-post-image" alt="">
+			                     <img src="<%=app_path%>/resources/img/about_04.png" class="animation_scale wp-post-image" alt="">
 			                     <span class="jt_grid_thumb_border animation_border"></span>                               
 			                 </figure>
 			             </a>
@@ -80,7 +81,7 @@
                      <div class="jt_grid_thumb">
                          <a class="jt_grid_thumb_anchor" href="http://www.etnews.com/20160614000081">
 			                 <figure class="jt_grid_thumb_figure">
-			                     <img src="<%=application.getContextPath()%>/resources/img/about_03.png" class="animation_scale wp-post-image" alt="">
+			                     <img src="<%=app_path%>/resources/img/about_03.png" class="animation_scale wp-post-image" alt="">
 			                     <span class="jt_grid_thumb_border animation_border"></span>                               
 			                 </figure>
 			             </a>
@@ -92,7 +93,7 @@
                      <div class="jt_grid_thumb">
                          <a class="jt_grid_thumb_anchor" href="http://www.venturesquare.net/737130">
 			                   <figure class="jt_grid_thumb_figure">
-			                       <img src="<%=application.getContextPath()%>/resources/img/about_02.png" class="animation_scale wp-post-image" alt="">
+			                       <img src="<%=app_path%>/resources/img/about_02.png" class="animation_scale wp-post-image" alt="">
 			                       <span class="jt_grid_thumb_border animation_border"></span>                               
 			                   </figure>
 			              </a>
@@ -104,7 +105,7 @@
                      <div class="jt_grid_thumb">
                          <a class="jt_grid_thumb_anchor" href="http://platum.kr/archives/73832">
 			                   <figure class="jt_grid_thumb_figure">
-			                       <img src="<%=application.getContextPath()%>/resources/img/about_01.png" class="animation_scale wp-post-image" alt="">
+			                       <img src="<%=app_path%>/resources/img/about_01.png" class="animation_scale wp-post-image" alt="">
 			                       <span class="jt_grid_thumb_border animation_border"></span>                               
 			                   </figure>
 			              </a>
@@ -123,7 +124,7 @@
         <span class="month">Jan</span>
         <span class="year">2017</span>
       </span>
-      <p class="alt"><img src="<%=application.getContextPath()%>/resources/img/history06.jpg"><br>
+      <p class="alt"><img src="<%=app_path%>/resources/img/history06.jpg"><br>
       Attracted investement from Balancers co., ltd.</p>
     </div>
   </article>
@@ -134,7 +135,7 @@
         <span class="month">Dec</span>
         <span class="year">2016</span>
       </span>
-      <p><img src="<%=application.getContextPath()%>/resources/img/history05.jpg"><br>
+      <p><img src="<%=app_path%>/resources/img/history05.jpg"><br>
       Selected as K-Global 300 company</p>
     </div>
   </article>
@@ -145,7 +146,7 @@
         <span class="month">Jun</span>
         <span class="year">2016</span>
       </span>
-      <p class="alt"><img src="<%=application.getContextPath()%>/resources/img/history04.jpg"><br>
+      <p class="alt"><img src="<%=app_path%>/resources/img/history04.jpg"><br>
       Pittsburgh USA INPEX 4 gold medals</p>
     </div>
   </article>
@@ -156,7 +157,7 @@
         <span class="month">Nov</span>
         <span class="year">2015</span>
       </span>
-      <p><img src="<%=application.getContextPath()%>/resources/img/history03.jpg"><br>
+      <p><img src="<%=app_path%>/resources/img/history03.jpg"><br>
       Acquired patents on Physical information measuring device and managing system</p>
     </div>
   </article>
@@ -167,7 +168,7 @@
         <span class="month">May</span>
         <span class="year">2014</span>
       </span>
-      <p class="alt"><img src="<%=application.getContextPath()%>/resources/img/history02.jpg"><br>
+      <p class="alt"><img src="<%=app_path%>/resources/img/history02.jpg"><br>
       Acquired patents on Knowledge Pay-per-transaction system</p>
     </div>
   </article>  
@@ -178,7 +179,7 @@
         <span class="month">oct</span>
         <span class="year">2013</span>
       </span>
-      <p><img src="<%=application.getContextPath()%>/resources/img/history01.jpg"><br>
+      <p><img src="<%=app_path%>/resources/img/history01.jpg"><br>
       Established Knowledge-seek co., ltd.</p>
     </div>
   </article>

@@ -15,11 +15,11 @@
 	<jsp:include page="include/head.jsp" flush="true"></jsp:include>
 </head>
     
-<!-- 	<script>
+ 	<script>
 		alert('Page is under construction.')
 		history.back();
 	</script>
- -->
+
 <body class="is-volley-grid is-windows search-has-results is-loaded">
 
 <div class="o-barba js-barba" id="js-barba-wrapper" aria-live="polite">
