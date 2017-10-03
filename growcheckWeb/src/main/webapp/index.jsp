@@ -10,12 +10,12 @@
 	<link rel="alternate" hreflang="x-default" href="http://www.i-growcheck.com"/>
 	<link rel="alternate" hreflang="en-us" href="http://www.i-growcheck.com" />
 	<link rel="alternate" hreflang="ko-kr" href="http://www.i-growcheck.com/kr/index.jsp" />
-	<meta property="og:title" content="Growcheck - The First Vertical Body Scale">
+	<meta property="og:title" content="Growcheck - The First IoT Body Measurement Device Ever">
 	<meta property="og:url" content="http://www.i-growcheck.com">
-	<meta property="og:description" content="The first vertical smart scale, Weight, Height measure, bodyscale, smart scale">
+	<meta property="og:description" content="Weight, Height measure, Weight scale, Smart scale, Bathroom scale">
 	<meta name="twitter:title" content="Growcheck - The First Vertical Body Scale">
 	<meta name="twitter:url" content="http://www.i-growcheck.com">
-	<meta name="description" content="The first vertical smart scale, Weight, Height measure, bodyscale, smart scale">
+	<meta name="description" content="Weight, Height measure, Weight scale, Smart scale, Bathroom scale">
 	<meta name="keywords" content="growCheck,그로첵,vertical smart scale,vertical scale, Weight, Height measure, bodyscale, smart scale">
 	<jsp:include page="/include/head.jsp" flush="true"></jsp:include> 
 </head>
