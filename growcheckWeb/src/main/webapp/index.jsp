@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en" class="has-smooth-scroll">
 <head>
-	<title>Growcheck - The First Vertical Body Scale</title>
+	<title>Growcheck - The First IoT Body Measurement Device Ever</title>
 	<meta name="naver-site-verification" content="b5c6de529108b528bdc4d119fd6a5086e67ad0c3"/>
 	<link rel="canonical" href="http://www.i-growcheck.com">
 	<link rel="alternate" hreflang="x-default" href="http://www.i-growcheck.com"/>
