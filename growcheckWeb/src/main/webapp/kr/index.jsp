@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
+<% String app_path = application.getContextPath(); %>
 <!DOCTYPE html>
 <html lang="ko" class="has-smooth-scroll">
 <head>
@@ -45,7 +45,7 @@
         <article class="scroll-content" style="transform: translate3d(0px, 0px, 0px);z-index:-1;">
             <header class="c-navigation-header">
                 <div class="c-navigation-header_backgrounds">
-                    <div class="o-background js-scroll is-show" data-speed="-1" data-position="top" style="background-image: url(<%=application.getContextPath()%>/resources/img/banner.jpg?ver=0.2);background transform: translate3d(0px, 0px, 0px);"></div>
+                    <div class="o-background js-scroll is-show" data-speed="-1" data-position="top" style="background-image: url(<%=app_path%>/resources/img/banner.jpg?ver=0.2);background transform: translate3d(0px, 0px, 0px);"></div>
                     <div class="c-navigation-header_overlay"></div>
                 </div>
 
@@ -57,7 +57,7 @@
                     <br>편리함과 즐거움을 동시에 느낄 수 있습니다! 다양한 성능을 체험해 보세요.</p>
                 </div>
                 <div class="go-kickstart">
-                    <span>10월 18일</span><img src="<%=application.getContextPath()%>/resources/img/logo-kickStarter.png" alt="kickStarter"><span>출시</span>
+                    <span>10월 18일</span><img src="<%=app_path%>/resources/img/logo-kickStarter.png" alt="kickStarter"><span>출시</span>
                 </div>        
             </header>
             <!-- No Navigation header -->
@@ -71,9 +71,9 @@
             <div class="c-home_intro_card_bio_wrapper">
                 <div class="js-scroll  is-show" data-speed="-0.6" data-position="top" style="transform: translate3d(0px, 0px, 0px);">
                     <section class="c-card-bio">
-                    	<a href="<%=application.getContextPath() %>/kr/hw.jsp">
+                    	<a href="<%=app_path %>/kr/hw.jsp">
                             <div class="c-card-bio_overflow">
-                                <div class="c-card-bio_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/img/main1.jpg);"></div>
+                                <div class="c-card-bio_background o-background" style="background-image:url(<%=app_path%>/resources/img/main1.jpg);"></div>
                                 <div class="c-card-bio_overlay"></div>
                             </div>
                             <div class="c-card-bio_content">
@@ -92,9 +92,9 @@
                     </section>
 
                     <section class="c-card-bio">
-                    	<a href="<%=application.getContextPath() %>/kr/hw.jsp#allinone">
+                    	<a href="<%=app_path %>/kr/hw.jsp#allinone">
                             <div class="c-card-bio_overflow">
-                                <div class="c-card-bio_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/img/main2.jpg);"></div>
+                                <div class="c-card-bio_background o-background" style="background-image:url(<%=app_path%>/resources/img/main2.jpg);"></div>
                                 <div class="c-card-bio_overlay"></div>
                             </div>
                             <div class="c-card-bio_content">
@@ -118,9 +118,9 @@
         <div class="c-home_news js-scroll o-grid is-show">
             <div class="o-g33_mobile js-scroll is-show" data-speed="1" data-position="middle" >
                 <section class="c-card-news ">
-                    <a class="c-card-news_link" href="<%=application.getContextPath() %>/kr/app.jsp#app01">
+                    <a class="c-card-news_link" href="<%=app_path %>/kr/app.jsp#app01">
                         <div class="c-card-news_overflow">
-                            <div class="c-card-news_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/img/feature1.jpg);"></div>
+                            <div class="c-card-news_background o-background" style="background-image:url(<%=app_path%>/resources/img/feature1.jpg);"></div>
                             <div class="c-card-news_overlay"></div>
                         </div>
                         <div class="c-card-news_infos">
@@ -140,9 +140,9 @@
             </div>
             <div class="o-g33_mobile js-scroll is-show" data-speed="1" data-position="middle" >
                 <section class="c-card-news ">
-                    <a class="c-card-news_link" href="<%=application.getContextPath() %>/kr/app.jsp#app03">
+                    <a class="c-card-news_link" href="<%=app_path %>/kr/app.jsp#app03">
                         <div class="c-card-news_overflow">
-                            <div class="c-card-news_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/img/feature2.jpg);"></div>
+                            <div class="c-card-news_background o-background" style="background-image:url(<%=app_path%>/resources/img/feature2.jpg);"></div>
                             <div class="c-card-news_overlay"></div>
                         </div>
                         <div class="c-card-news_infos">
@@ -162,9 +162,9 @@
             </div>
             <div class="o-g33_mobile js-scroll is-show" data-speed="1" data-position="middle" >
                 <section class="c-card-news ">
-                    <a class="c-card-news_link" href="<%=application.getContextPath() %>/kr/app.jsp#app05">
+                    <a class="c-card-news_link" href="<%=app_path %>/kr/app.jsp#app05">
                         <div class="c-card-news_overflow">
-                            <div class="c-card-news_background o-background" style="background-image:url(<%=application.getContextPath()%>/resources/img/feature3.jpg);"></div>
+                            <div class="c-card-news_background o-background" style="background-image:url(<%=app_path%>/resources/img/feature3.jpg);"></div>
                             <div class="c-card-news_overlay"></div>
                         </div>
                         <div class="c-card-news_infos">
@@ -187,7 +187,7 @@
         <div class="c-home_calltoaction js-scroll js-anim is-show">
             <section class="c-card-calltoaction js-scroll is-show">
                 <div class="c-card-calltoaction_overflow">
-                    <div class="c-card-calltoaction_background o-background js-scroll is-show" data-speed="0.5" style="background-image: url(<%=application.getContextPath()%>/resources/img/open.jpg?ver=0.2); "></div>
+                    <div class="c-card-calltoaction_background o-background js-scroll is-show" data-speed="0.5" style="background-image: url(<%=app_path%>/resources/img/open.jpg?ver=0.2); "></div>
                     <div class="c-card-calltoaction_overlay"></div>
                 </div>
                 <div class="c-card-calltoaction_content">

@@ -54,16 +54,3 @@
             <div class="c-header_overlay js-header-overlay"></div>
                 
         </div>
-        
-        <script>
-        
-        var getNowScroll = function(){
-        	var de = document.documentElement;
-        	var b = document.body;
-        	var now = {};
-        	now.X = document.all ? (!de.scrollLeft ? b.scrollLeft : de.scrollLeft) : (window.pageXOffset ? window.pageXOffset : window.scrollX);
-        	now.Y = document.all ? (!de.scrollTop ? b.scrollTop : de.scrollTop) : (window.pageYOffset ? window.pageYOffset : window.scrollY);
-
-        	return now;
-        	}
-        </script>

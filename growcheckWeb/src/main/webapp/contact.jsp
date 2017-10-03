@@ -15,7 +15,6 @@
 	<meta name="twitter:url" content="http://www.i-growcheck.com/contact.jsp">
 	<jsp:include page="include/head.jsp" flush="true"></jsp:include>
 </head>
-    
 <body class="is-volley-grid is-windows search-has-results is-loaded">
 
 <div class="o-barba js-barba" id="js-barba-wrapper" aria-live="polite">
@@ -73,7 +72,4 @@
     		</div> 
         </div> 
     </div> 
-	 
-	
-	</script>
 </body></html>
