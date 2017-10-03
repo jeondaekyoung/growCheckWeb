@@ -1,5 +1,8 @@
 package naree.jsp.controller;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
@@ -68,13 +71,24 @@ public class QaWebController {
 		logger.info("QaWeb/write.do - 문의 하기 : " + qaWeb);
 		
 		qaWebService.registerQaWeb(qaWeb);
+		Calendar cal = Calendar.getInstance();
 		
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH시 ss분");
+		Date date=cal.getTime();
 		String sender ="nareejdk@naver.com";
 		String sender_pw ="naree123";
 		String subject ="문의하기가 등록 되었습니다.( GrowCheck- 관리자)";
-		String content ="<a href='http://i-growcheck.com/admin/index.do' target='_blank'>관리자 페이지에서 확인해주세요!<!-- Left Click icon by Icons8 --><img src='https://png.icons8.com/left-click/win8/26' title='Left Click' width='15' height='15'></a>"
-				+ "<a target='_blank'></a><br><br>ID:naree<br>PW:개발자에게 문의 해주세요.<br><span style='color: rgb(255, 0, 0);'><b> 문의자에게 답변을 보낸뒤에는 꼭 답변완료를 체크해주세요! </b></span>";
-		String [] receivers ={"fany.noh@gmail.com","job_1253@naver.com","aram@knowledge-seek.com","jdk7167@naver.com","gizemtopal@knowledge-seek.com"};
+		String content ="<a href='http://i-growcheck.com/admin/index.do' target='_blank'>관리자 페이지에서 확인해주세요!<!-- Left Click icon by Icons8 --><img src='https://png.icons8.com/left-click/win8/26' title='Left Click' width='15' height='15'></a><br>"
+				+ "<br><div style='display: block;    width: 50%;   line-height: 1vh;    background: none;    padding: 1em;    margin-bottom: 0.5em;    border: 1px solid #00AAFF;    color: #333;'>"
+		+"<h1 style='font-family: courier new, serif;'><span style='font-weight: normal;'><span style='font-family: verdana, sans-serif;'>문의 내용</span> </span></h1><br>"
+		+"<form action=''>"
+		+"<input disabled='true' type='text' value='문의 날짜 : "+sdf.format(date)+"' style='font-family: courier new, serif; display: block;    width: 50%;    height: 6vh;    line-height: 1vh;    background: none;    padding: 1em;    margin-bottom: 0.5em;    border: 1px solid #00AAFF;    color: #333;'>"
+		+"<input disabled='true' type='text' value='이름 : "+qaWeb.getName()+"' style='font-family: courier new, serif; display: block;    width: 50%;    height: 6vh;    line-height: 1vh;    background: none;    padding: 1em;    margin-bottom: 0.5em;    border: 1px solid #00AAFF;    color: #333;'>"
+		+"<input disabled='true' type='text' value='이메일 :"+qaWeb.getEmail()+"' style='font-family: courier new, serif; display: block;    width: 50%;    height: 6vh;    line-height: 1vh;    background: none;    padding: 1em;    margin-bottom: 0.5em;    border: 1px solid #00AAFF;    color: #333;'>"
+		+"<input disabled='true' type='text' value='연락처 : "+qaWeb.getTel()+"' style='font-family: courier new, serif; display: block;    width: 50%;    height: 6vh;    line-height: 1vh;    background: none;    padding: 1em;    margin-bottom: 0.5em;    border: 1px solid #00AAFF;    color: #333;'>"
+		+"<textarea disabled='true' style='font-family: courier new, serif; display: block;    width: 80%; height: 200px;   background: #FFFFFF;    padding: 1em;    margin-bottom: 0.5em;    border: 1px solid #00AAFF;    color: #333;'>내용 : "+qaWeb.getContents()+"</textarea></form></div>"
+		+ "ID:naree<br>PW:개발자에게 문의 해주세요.<br><span style='color: rgb(255, 0, 0);'><b> 문의자에게 답변을 보낸뒤에는 꼭 답변완료를 체크해주세요! </b></span>";
+		String [] receivers ={"jdk7167@naver.com","fany.noh@gmail.com","job_1253@naver.com","aram@knowledge-seek.com","gizemtopal@knowledge-seek.com"};
 		for (int i = 0; i < receivers.length; i++) {
 			String receiver =receivers[i];
 			Sender_mail.send(sender,sender_pw, receiver, subject, content);

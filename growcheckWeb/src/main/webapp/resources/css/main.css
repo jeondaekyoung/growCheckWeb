@@ -13720,7 +13720,7 @@ html:not(.has-smooth-scroll) .is-ios .c-article-navigation {
 	display: block;
     width: 100%;
     height: 6vh;
-    line-height: 1vh;
+    line-height: 2vh;
     background: none;
     padding: 1em;
     margin-bottom: 0.5em;

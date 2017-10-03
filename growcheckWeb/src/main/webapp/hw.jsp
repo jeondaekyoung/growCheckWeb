@@ -53,13 +53,13 @@
                 <section class="c-card-carousel_wrap">
                     <div class="c-card-carousel_content js-carousel-content is-current">
                      <h3 class="c-card-carousel_content_title">Height Measure</h3>
-                        <p class="c-card-carousel_content_text">You can measure height by picking up the height measuring bar. Laser sensor guides you where to put the height measuring bar.<br>
-                        Data is automatically synchronized with smart phones to manage and check your child's growth.</p>
+                        <p class="c-card-carousel_content_text">You can measure height by picking up the height measuring bar. Laser sensor guides you where to put it.
+                        You can also compare the growth of your child by checking growth distribution.</p>
                     </div>    
                     <div class="c-card-carousel_content js-carousel-content">                        
                         <h3 class="c-card-carousel_content_title">Weight Scale</h3>
                         <p class="c-card-carousel_content_text">When sliding part opens fully, you can weigh yourself.<br>
-                        You can also compare the growth of your child by checking growth distribution.</p>
+                        Data is automatically synchronized with smart phones to manage and check your weight.</p>
                     </div>
                 </section>
 
