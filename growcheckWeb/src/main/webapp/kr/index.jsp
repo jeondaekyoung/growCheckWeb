@@ -45,15 +45,14 @@
         <article class="scroll-content" style="transform: translate3d(0px, 0px, 0px);z-index:-1;">
             <header class="c-navigation-header">
                 <div class="c-navigation-header_backgrounds">
-                    <div class="o-background js-scroll is-show" data-speed="-1" data-position="top" style="background-image: url(<%=app_path%>/resources/img/banner.jpg?ver=0.2);background transform: translate3d(0px, 0px, 0px);"></div>
-                    <div class="c-navigation-header_overlay"></div>
+                    <div class="o-background js-scroll is-show" data-position="top" style="background-image: url(<%=app_path%>/resources/img/banner.jpg?ver=0.2);"></div>
                 </div>
 
                 <div class="c-navigation-header-content">
-                    <h1 class="c-navigation-header-content_title js-header-title js-scroll is-show" data-position="top" data-speed="2" style="transform: translate3d(0px, 0px, 0px);">
-                        <span class="c-navigation-header-content_title_inner" style="margin-top:1em;background:rgba(35,165,255,0.5)">Growcheck</span>
+                    <h1 class="c-navigation-header-content_title js-header-title js-scroll is-show" data-position="top" style="transform: translate3d(0px, 0px, 0px);">
+                        <span class="c-navigation-header-content_title_inner" style="margin-top:1em;background:rgba(35,165,255,0.6)">Growcheck</span>
                     </h1>
-                    <p class="c-white m-opacity" style="font-size:1.1em;margin:1.5em 0;font-weight:300">그로첵은 IoT 기반의 세로형 스마트 체중계&amp;키재기입니다.
+                    <p class="m-opacity" style="font-size:1.1em;margin:1.5em 0;font-weight:300">그로첵은 IoT 기반의 세로형 스마트 체중계&amp;키재기입니다.
                     <br>편리함과 즐거움을 동시에 느낄 수 있습니다! 다양한 성능을 체험해 보세요.</p>
                 </div>
                 <div class="go-kickstart">
@@ -187,7 +186,7 @@
         <div class="c-home_calltoaction js-scroll js-anim is-show">
             <section class="c-card-calltoaction js-scroll is-show">
                 <div class="c-card-calltoaction_overflow">
-                    <div class="c-card-calltoaction_background o-background js-scroll is-show" data-speed="0.5" style="background-image: url(<%=app_path%>/resources/img/open.jpg?ver=0.2); "></div>
+                    <div class="c-card-calltoaction_background o-background js-scroll is-show" data-speed="0.5" style="background-image: url(<%=app_path%>/resources/img/startNow.jpg); "></div>
                     <div class="c-card-calltoaction_overlay"></div>
                 </div>
                 <div class="c-card-calltoaction_content">

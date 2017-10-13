@@ -37,7 +37,7 @@
         <section class="c-home">
             <div class="app">
             <div class="row" id="app01">
-                <div class="col-6 m-col-12"><img src="<%=app_path%>/resources/img/app_01-en.png" class="app_img" alt="app1"></div>
+                <div class="col-6 m-col-12"><img src="<%=app_path%>/resources/img/app_01-en.png?ver=0.2" class="app_img" alt="app1"></div>
                 <div class="col-6 m-col-12 bg-grey">
                     <img class="icon m-dp-none" src="<%=app_path%>/resources/img/ic_app_01.png">
                     <h3 class="thin fz80 m-s-fz3rem">Management</h3>
@@ -48,7 +48,7 @@
                 </div>
                 
             <div class="row" id="app02">
-                <div class="col-6 m-col-12 fr"><img src="<%=app_path%>/resources/img/app_02-en.png" class="app_img" alt="app2"></div>
+                <div class="col-6 m-col-12 fr"><img src="<%=app_path%>/resources/img/app_02-en.png?ver=0.2" class="app_img" alt="app2"></div>
                 <div class="col-6 m-col-12 fr bg-grey">
                     <img class="icon m-dp-none" src="<%=app_path%>/resources/img/ic_app_02.png">
                     <h3 class="thin fz80 m-s-fz3rem">Self Check</h3>
@@ -59,7 +59,7 @@
                 </div>
                 
             <div class="row" id="app03">    
-                <div class="col-6 m-col-12"><img src="<%=app_path%>/resources/img/app_03-en.png" class="app_img" alt="app3"></div>
+                <div class="col-6 m-col-12"><img src="<%=app_path%>/resources/img/app_03-en.png?ver=0.2" class="app_img" alt="app3"></div>
                 <div class="col-6 m-col-12 bg-grey">
                     <img class="icon m-dp-none" src="<%=app_path%>/resources/img/ic_app_03.png">
                     <h3 class="thin fz80 m-s-fz3rem">Solution</h3>
@@ -70,7 +70,7 @@
                 </div>
                 
             <div class="row" id="app04">    
-                <div class="col-6 m-col-12 fr"><img src="<%=app_path%>/resources/img/app_04-en.png" class="app_img" alt="app4"></div>
+                <div class="col-6 m-col-12 fr"><img src="<%=app_path%>/resources/img/app_04-en.png?ver=0.3" class="app_img" alt="app4"></div>
                 <div class="col-6 m-col-12 fr bg-grey">
                     <img class="icon m-dp-none" src="<%=app_path%>/resources/img/ic_app_04.png">
                     <h3 class="thin fz80 m-s-fz3rem">Connection</h3>
@@ -81,7 +81,7 @@
                 </div>
                 
             <div class="row" id="app05">    
-                <div class="col-6 m-col-12"><img src="<%=app_path%>/resources/img/app_05-en.png" class="app_img" alt="app3"></div>
+                <div class="col-6 m-col-12"><img src="<%=app_path%>/resources/img/app_05-en.png?ver=0.2" class="app_img" alt="app3"></div>
                 <div class="col-6 m-col-12 bg-grey">
                     <img class="icon m-dp-none" src="<%=app_path%>/resources/img/ic_app_05.png">
                     <h3 class="thin fz80 m-s-fz3rem">Monitoring</h3>
