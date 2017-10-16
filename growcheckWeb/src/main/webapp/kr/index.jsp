@@ -61,7 +61,7 @@
                     <br>편리함과 즐거움을 동시에 느낄 수 있습니다! 다양한 성능을 체험해 보세요.</p> -->
                 </div>
                 <div class="go-kickstart">
-                    <span>10월 18일</span><img src="<%=app_path%>/resources/img/logo-kickStarter.png" alt="kickStarter"><span>출시</span>                    
+                    <span>10월 25일</span><img src="<%=app_path%>/resources/img/logo-kickStarter.png" alt="kickStarter"><span>출시</span>                    
                     <%-- <a href="" targrt="_blank"><img src="<%=app_path%>/resources/img/goKickstarter.png" alt="go kickstarter"></a> --%>
                 </div>        
             </header>

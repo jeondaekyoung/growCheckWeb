@@ -62,7 +62,7 @@
                     <br>Experience various performances.</p> -->
                 </div>
                 <div class="go-kickstart">
-                    <img src="<%=app_path%>/resources/img/logo-kickStarter.png" alt="kickstarter"><span>Launch on OCT 18TH</span>
+                    <img src="<%=app_path%>/resources/img/logo-kickStarter.png" alt="kickstarter"><span>Launch on OCT 25TH</span>
                     <%-- <a href="" targrt="_blank"><img src="<%=app_path%>/resources/img/goKickstarter.png" alt="go kickstarter"></a> --%>
                 </div>        
             </header>
