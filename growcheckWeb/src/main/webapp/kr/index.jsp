@@ -49,14 +49,20 @@
                 </div>
 
                 <div class="c-navigation-header-content">
-                    <h1 class="c-navigation-header-content_title js-header-title js-scroll is-show" data-position="top" style="transform: translate3d(0px, 0px, 0px);">
+                	<div class="video-background">
+					    <div class="video-foreground">
+					      <iframe src="<%=app_path%>/resources/video/kickstarter_growcheck.mp4" frameborder="0" allowfullscreen></iframe>
+					    </div>
+					  </div>                
+                    <!-- <h1 class="c-navigation-header-content_title js-header-title js-scroll is-show" data-position="top" style="transform: translate3d(0px, 0px, 0px);">
                         <span class="c-navigation-header-content_title_inner" style="margin-top:1em;background:rgba(35,165,255,0.6)">Growcheck</span>
                     </h1>
                     <p class="m-opacity" style="font-size:1.1em;margin:1.5em 0;font-weight:300">그로첵은 IoT 기반의 세로형 스마트 체중계&amp;키재기입니다.
-                    <br>편리함과 즐거움을 동시에 느낄 수 있습니다! 다양한 성능을 체험해 보세요.</p>
+                    <br>편리함과 즐거움을 동시에 느낄 수 있습니다! 다양한 성능을 체험해 보세요.</p> -->
                 </div>
                 <div class="go-kickstart">
-                    <span>10월 18일</span><img src="<%=app_path%>/resources/img/logo-kickStarter.png" alt="kickStarter"><span>출시</span>
+                    <span>10월 18일</span><img src="<%=app_path%>/resources/img/logo-kickStarter.png" alt="kickStarter"><span>출시</span>                    
+                    <%-- <a href="" targrt="_blank"><img src="<%=app_path%>/resources/img/goKickstarter.png" alt="go kickstarter"></a> --%>
                 </div>        
             </header>
             <!-- No Navigation header -->
