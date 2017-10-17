@@ -39,7 +39,7 @@
             <section class="c-card-carousel" data-module="Carousel">
                 <div class="c-card-carousel_overflow_wrapper">
                     <section class="c-card-carousel_overflow">
-                        <div class="c-card-carousel_background o-background js-carousel-background js-scroll is-show is-current" data-speed="0.6" style="background-image:url(<%=app_path%>/resources/img/heightMeasure0.jpg?ver=0.2); transform: translate3d(0px, 56.9761px, 0px);"></div>
+                        <div class="c-card-carousel_background o-background js-carousel-background js-scroll is-show is-current" data-speed="0.6" style="background-image:url(<%=app_path%>/resources/img/heightMeasure0.jpg?ver=0.3); transform: translate3d(0px, 56.9761px, 0px);"></div>
                         <div class="c-card-carousel_background o-background js-carousel-background js-scroll is-show" data-speed="0.6" style="background-image:url(<%=app_path%>/resources/img/weightScale00.jpg); transform: translate3d(0px, 56.9761px, 0px);"></div>
                         <div class="c-card-carousel_overlay"></div>
                     </section>

@@ -126,7 +126,7 @@
                 <section class="c-card-news ">
                     <a class="c-card-news_link" href="app.jsp#app01">
                         <div class="c-card-news_overflow">
-                            <div class="c-card-news_background o-background" style="background-image:url(<%=app_path%>/resources/img/feature1.jpg);"></div>
+                            <div class="c-card-news_background o-background" style="background-image:url(<%=app_path%>/resources/img/feature1.png);"></div>
                             <div class="c-card-news_overlay"></div>
                         </div>
                         <div class="c-card-news_infos">
@@ -148,7 +148,7 @@
                 <section class="c-card-news ">
                     <a class="c-card-news_link" href="app.jsp#app03">
                         <div class="c-card-news_overflow">
-                            <div class="c-card-news_background o-background" style="background-image:url(<%=app_path%>/resources/img/feature2.jpg);"></div>
+                            <div class="c-card-news_background o-background" style="background-image:url(<%=app_path%>/resources/img/feature2.png);"></div>
                             <div class="c-card-news_overlay"></div>
                         </div>
                         <div class="c-card-news_infos">
@@ -170,7 +170,7 @@
                 <section class="c-card-news ">
                     <a class="c-card-news_link" href="app.jsp#app05">
                         <div class="c-card-news_overflow">
-                            <div class="c-card-news_background o-background" style="background-image:url(<%=app_path%>/resources/img/feature3.jpg);"></div>
+                            <div class="c-card-news_background o-background" style="background-image:url(<%=app_path%>/resources/img/feature3.png);"></div>
                             <div class="c-card-news_overlay"></div>
                         </div>
                         <div class="c-card-news_infos">
@@ -193,7 +193,7 @@
         <div class="c-home_calltoaction js-scroll js-anim is-show">
             <section class="c-card-calltoaction js-scroll is-show">
                 <div class="c-card-calltoaction_overflow">
-                    <div class="c-card-calltoaction_background o-background js-scroll is-show" style="background-image: url(<%=app_path%>/resources/img/startNow.jpg); "></div>
+                    <div class="c-card-calltoaction_background o-background js-scroll is-show" style="background-image: url(<%=app_path%>/resources/img/startNow.jpg?ver=0.2); "></div>
                     <div class="c-card-calltoaction_overlay"></div>
                 </div>
                 <div class="c-card-calltoaction_content">

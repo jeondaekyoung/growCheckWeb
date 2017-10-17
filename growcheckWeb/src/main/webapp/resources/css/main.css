@@ -10743,7 +10743,7 @@ html:not(.has-smooth-scroll) .is-ios .c-article-navigation {
 @media (min-width: 1000px) {
   .c-card-news {
     width: 30.5767894371vw;
-    height: 30.5767894371vw;
+    height: 22.5767894371vw;
   }
   .c-card-news.-big {
     width: 61.1535788742vw;
@@ -10776,7 +10776,7 @@ html:not(.has-smooth-scroll) .is-ios .c-article-navigation {
 @media (min-width: 700px) and (max-width: 999px) {
   .c-card-news_overflow {
     position: relative;
-    height: 260px;
+    height: 360px;
   }
 }
 
@@ -10867,11 +10867,11 @@ html:not(.has-smooth-scroll) .is-ios .c-article-navigation {
 @media (min-width: 1000px) {
   .c-card-news_infos {
     position: absolute;
-    padding: 2.084781098vw;
+    padding: 1.5vw;
     bottom: -4.169562196vw;
     right: 0;
-    width: 21.403752606vw;
-    height: 15.457957vw;
+    width: 14.403753vw;
+    height: 13.457957vw;
   }
   .-big .c-card-news_infos {
     width: 30.5767894371vw;
@@ -12047,7 +12047,7 @@ html:not(.has-smooth-scroll) .is-ios .c-article-navigation {
 }
 
 .c-card-carousel_content_text {
-  width: 75%;
+  width: 90%;
   font-family: "Noto Sans KR", sans-serif;
   line-height: 1.2;
   color: #949494;

@@ -39,7 +39,7 @@
             <section class="c-card-carousel" data-module="Carousel">
                 <div class="c-card-carousel_overflow_wrapper">
                     <section class="c-card-carousel_overflow">
-                        <div class="c-card-carousel_background o-background js-carousel-background js-scroll is-show is-current" data-speed="0.6" style="background-image:url(<%=app_path%>/resources/img/heightMeasure0.jpg?ver=0.2);"></div>
+                        <div class="c-card-carousel_background o-background js-carousel-background js-scroll is-show is-current" data-speed="0.6" style="background-image:url(<%=app_path%>/resources/img/heightMeasure0.jpg?ver=0.3);"></div>
                         <div class="c-card-carousel_background o-background js-carousel-background js-scroll is-show" data-speed="0.6" style="background-image:url(<%=app_path%>/resources/img/weightScale00.jpg);"></div>
                         <div class="c-card-carousel_overlay"></div>
                     </section>
@@ -53,8 +53,8 @@
                 <section class="c-card-carousel_wrap">
                     <div class="c-card-carousel_content js-carousel-content is-current">
                      <h3 class="c-card-carousel_content_title">Height Measure</h3>
-                        <p class="c-card-carousel_content_text">You can measure height by picking up the height measuring bar. Laser sensor guides you where to put the height measuring bar.<br>
-                        Data is automatically synchronized with smart phones to manage and check your child's growth.</p>
+                        <p class="c-card-carousel_content_text">You can measure height by picking up the height measuring bar.
+                        <br>Laser sensor guides you where to put the height measuring bar.</p>
                     </div>    
                     <div class="c-card-carousel_content js-carousel-content">                        
                         <h3 class="c-card-carousel_content_title">Weight Scale</h3>
