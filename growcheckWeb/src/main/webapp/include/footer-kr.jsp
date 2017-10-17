@@ -60,5 +60,5 @@
     </div>
 <script type="text/javascript" src="http://openapi.map.naver.com/openapi/v3/maps.js?clientId=s96duQ89XbZlmLcPnKIc"></script>
 <script type="text/javascript" src="<%=app_path%>/resources/js/jquery.min.js"></script>
-<script type="text/javascript" src="<%=app_path%>/resources/js/common.js"></script>
+<script type="text/javascript" src="<%=app_path%>/resources/js/common.js?ver=0.2"></script>
 </footer>

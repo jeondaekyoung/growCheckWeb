@@ -48,14 +48,14 @@
                     <div class="o-background js-scroll is-show" data-position="top" style="background-image: url(<%=app_path%>/resources/img/banner.jpg?ver=0.2);"></div>
                 </div>
 
-                <!-- <div class="c-navigation-header-content">
+                <div class="c-navigation-header-content">
                     <h1 class="c-navigation-header-content_title js-header-title js-scroll is-show" data-position="top" data-speed="2" style="transform: translate3d(0px, 0px, 0px);">
                         <span class="c-navigation-header-content_title_inner" style="margin-top:1em;background:rgba(35,165,255,0.6)">Growcheck</span>
                     </h1>
-                    <p class="m-opacity" style="font-size:1.3em;margin:1.5em 0;font-weight:300">Growcheck is The First IoT Body Measurement Device Ever!
+                    <p class="m-opacity c-white" style="font-size:1.3em;margin:1.5em 0;font-weight:300">Growcheck is The First IoT Body Measurement Device Ever!
                     <br>Feel comfort and fun at the same time.
                     <br>Experience various performances.</p>
-                </div> -->
+                </div>
                 <div class="go-kickstart">
                     <img src="<%=app_path%>/resources/img/launchOn.png" alt="kickstarter">
                     <%-- <a href="" targrt="_blank"><img src="<%=app_path%>/resources/img/goKickstarter.png" alt="go kickstarter"></a> --%>
@@ -190,7 +190,7 @@
                 <div class="c-card-calltoaction_overflow">
                 	<div class="video-background">
 					    <div class="video-foreground">
-					      <iframe src="<%=app_path%>/resources/video/growcheckCut.mp4" frameborder="0" allowfullscreen></iframe>
+					      <iframe src="<%=app_path%>/resources/video/growcheckCut.mp4?autohide=0&controls=1" frameborder="0" allowfullscreen></iframe>
 					    </div>
 					</div> 
                     <%-- <div class="c-card-calltoaction_background o-background js-scroll is-show" style="background-image: url(<%=app_path%>/resources/img/startNow.jpg?ver=0.2); "></div>

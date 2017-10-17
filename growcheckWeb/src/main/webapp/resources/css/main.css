@@ -865,7 +865,7 @@ h6, .o-h6 {
   pointer-events: auto;
 }
 
-.nav_wrap {position: fixed; top: 0; left: 0; background: #fff; width: 100%; height: 130px; border-bottom: 1px solid #eee; transition: 0.5s }
+.nav_wrap {position: fixed; top: 0; left: 0; background: #fff; width: 100%; height: 100px; border-bottom: 1px solid #eee; transition: 0.5s }
 .nav_wrap button {display: none}
 .nav_wrap .logo {position: absolute; top: 50%; left: 3vw; margin-top: -24px}
 .nav_wrap .logo .logo-lg img {width: 200px}
@@ -1291,7 +1291,7 @@ h6, .o-h6 {
   right: 0;
   bottom: 0;
   left: 0;
-  background-position: 25% 0;
+  background-position: 57% 0;
   background-size: cover;
 }
 
@@ -9715,7 +9715,7 @@ html:not(.has-smooth-scroll) .is-ios .c-article-navigation {
   }
 }
 
-.c-card-calltoaction::after {
+/* .c-card-calltoaction::after {
   content: '';
   position: absolute;
   top: 0;
@@ -9730,7 +9730,7 @@ html:not(.has-smooth-scroll) .is-ios .c-article-navigation {
 
 .c-card-calltoaction.is-show::after {
   opacity: 0;
-}
+} */
 
 .c-card-calltoaction_overflow {
   position: absolute;
@@ -9756,13 +9756,13 @@ html:not(.has-smooth-scroll) .is-ios .c-article-navigation {
     -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
             transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
-  .c-card-calltoaction:hover .c-card-calltoaction_overflow {
+  /* .c-card-calltoaction:hover .c-card-calltoaction_overflow {
     -webkit-transform: scale(1.05);
         -ms-transform: scale(1.05);
             transform: scale(1.05);
     -webkit-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
             transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-  }
+  } */
 }
 
 .c-card-calltoaction_overlay {
@@ -14055,7 +14055,6 @@ section#timeline article:nth-child(2n+2) div.inner {
   background: #000;
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
-  z-index: -99;
 }
 .video-foreground,
 .video-background iframe {
@@ -14064,7 +14063,6 @@ section#timeline article:nth-child(2n+2) div.inner {
   left: 0;
   width: 100%;
   height: 100%;
-  pointer-events: none;
 }
 
 @media (min-aspect-ratio: 16/9) {
@@ -15071,7 +15069,7 @@ audio:-webkit-full-page-media, video:-webkit-full-page-media {
 
 .c-navigation-header-content {
   position: absolute;
-  top: 0%;
+  top: 58%;
   left: 50%;
   text-align: left;
   font-family: "Noto Sans KR", sans-serif;
@@ -15081,7 +15079,7 @@ audio:-webkit-full-page-media, video:-webkit-full-page-media {
 
 @media (max-width: 999px) {
   .c-navigation-header-content {
-    width: 100%;
+    width: 72%;
     padding-top: 60px;
     -webkit-transform: translate3d(-50%, -50%, 0);
             transform: translate3d(-50%, -50%, 0);
@@ -15090,7 +15088,7 @@ audio:-webkit-full-page-media, video:-webkit-full-page-media {
 
 @media (min-width: 1000px) {
   .c-navigation-header-content {
-    width: 100%;
+    width: 72%;
     -webkit-transform: translate3d(-50%, -38%, 0);
             transform: translate3d(-50%, -38%, 0);
   }

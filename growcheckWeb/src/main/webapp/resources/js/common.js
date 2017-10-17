@@ -126,7 +126,7 @@ function ecilck(mod) {
 	    if($(this).scrollTop()>=60){
 	      $('.nav_wrap').css({height:60});
 	    } else {
-	      $('.nav_wrap').css({height:130});
+	      $('.nav_wrap').css({height:100});
 	    }
 	  });
 	$(document).ready(function(){
