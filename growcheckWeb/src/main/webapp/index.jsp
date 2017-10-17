@@ -45,24 +45,19 @@
         <article class="scroll-content" style="transform: translate3d(0px, 0px, 0px);z-index:-1;">
             <header class="c-navigation-header">
                 <div class="c-navigation-header_backgrounds">
-                    <div class="o-background js-scroll is-show" data-position="top" style="background-image: url(<%=app_path%>/resources/img/banner.jpg?ver=0.1);"></div>
+                    <div class="o-background js-scroll is-show" data-position="top" style="background-image: url(<%=app_path%>/resources/img/banner.jpg?ver=0.2);"></div>
                 </div>
 
-                <div class="c-navigation-header-content">
-                	<div class="video-background">
-					    <div class="video-foreground">
-					      <iframe src="<%=app_path%>/resources/video/kickstarter_growcheck.mp4" frameborder="0" allowfullscreen></iframe>
-					    </div>
-					  </div>
-                    <!-- <h1 class="c-navigation-header-content_title js-header-title js-scroll is-show" data-position="top" data-speed="2" style="transform: translate3d(0px, 0px, 0px);">
+                <!-- <div class="c-navigation-header-content">
+                    <h1 class="c-navigation-header-content_title js-header-title js-scroll is-show" data-position="top" data-speed="2" style="transform: translate3d(0px, 0px, 0px);">
                         <span class="c-navigation-header-content_title_inner" style="margin-top:1em;background:rgba(35,165,255,0.6)">Growcheck</span>
                     </h1>
                     <p class="m-opacity" style="font-size:1.3em;margin:1.5em 0;font-weight:300">Growcheck is The First IoT Body Measurement Device Ever!
                     <br>Feel comfort and fun at the same time.
-                    <br>Experience various performances.</p> -->
-                </div>
+                    <br>Experience various performances.</p>
+                </div> -->
                 <div class="go-kickstart">
-                    <img src="<%=app_path%>/resources/img/logo-kickStarter.png" alt="kickstarter"><span>Launch on OCT 25TH</span>
+                    <img src="<%=app_path%>/resources/img/launchOn.png" alt="kickstarter">
                     <%-- <a href="" targrt="_blank"><img src="<%=app_path%>/resources/img/goKickstarter.png" alt="go kickstarter"></a> --%>
                 </div>        
             </header>
@@ -193,14 +188,19 @@
         <div class="c-home_calltoaction js-scroll js-anim is-show">
             <section class="c-card-calltoaction js-scroll is-show">
                 <div class="c-card-calltoaction_overflow">
-                    <div class="c-card-calltoaction_background o-background js-scroll is-show" style="background-image: url(<%=app_path%>/resources/img/startNow.jpg?ver=0.2); "></div>
-                    <div class="c-card-calltoaction_overlay"></div>
+                	<div class="video-background">
+					    <div class="video-foreground">
+					      <iframe src="<%=app_path%>/resources/video/growcheckCut.mp4" frameborder="0" allowfullscreen></iframe>
+					    </div>
+					</div> 
+                    <%-- <div class="c-card-calltoaction_background o-background js-scroll is-show" style="background-image: url(<%=app_path%>/resources/img/startNow.jpg?ver=0.2); "></div>
+                    <div class="c-card-calltoaction_overlay"></div> --%>
                 </div>
-                <div class="c-card-calltoaction_content">
+                <!-- <div class="c-card-calltoaction_content">
                     <a href="kickstarter_url" class="c-card-shop_content">
                     	<h3 class="c-card-calltoaction_title">Start helath care with Growcheck</h3>
                     </a>
-                </div>
+                </div> -->
             </section>
         </div>
     </section>
