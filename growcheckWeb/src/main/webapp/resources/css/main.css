@@ -871,7 +871,6 @@ h6, .o-h6 {
 .nav_wrap .logo .logo-lg img {width: 200px}
 .nav_wrap .logo .logo-sm {display: none}
 .nav_wrap .nav {position: absolute; top: 50%; right: 10vw; margin-top: -29px}
-.nav {background: #fff}
 .nav ul {overflow: hidden;}
 .nav ul li {float: left; list-style: none; display: block; margin: 0 2.5vw}
 .nav ul li a {text-decoration: none; padding: 5px; color: #000}
@@ -1292,7 +1291,7 @@ h6, .o-h6 {
   right: 0;
   bottom: 0;
   left: 0;
-  background-position: 80% 0;
+  background-position: 25% 0;
   background-size: cover;
 }
 
@@ -9710,7 +9709,7 @@ html:not(.has-smooth-scroll) .is-ios .c-article-navigation {
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
             transform: translateX(-50%);
-    width: 67.4038967878vw;
+    width: 59.903897vw;
     height: 33.7019483939vw;
     /* cursor: pointer; */
   }
@@ -10744,7 +10743,7 @@ html:not(.has-smooth-scroll) .is-ios .c-article-navigation {
 @media (min-width: 1000px) {
   .c-card-news {
     width: 30.5767894371vw;
-    height: 30.5767894371vw;
+    height: 22.5767894371vw;
   }
   .c-card-news.-big {
     width: 61.1535788742vw;
@@ -10777,7 +10776,7 @@ html:not(.has-smooth-scroll) .is-ios .c-article-navigation {
 @media (min-width: 700px) and (max-width: 999px) {
   .c-card-news_overflow {
     position: relative;
-    height: 260px;
+    height: 360px;
   }
 }
 
@@ -10868,11 +10867,11 @@ html:not(.has-smooth-scroll) .is-ios .c-article-navigation {
 @media (min-width: 1000px) {
   .c-card-news_infos {
     position: absolute;
-    padding: 2.084781098vw;
+    padding: 1.5vw;
     bottom: -4.169562196vw;
     right: 0;
-    width: 21.403752606vw;
-    height: 15.457957vw;
+    width: 14.403753vw;
+    height: 13.457957vw;
   }
   .-big .c-card-news_infos {
     width: 30.5767894371vw;
@@ -12048,7 +12047,7 @@ html:not(.has-smooth-scroll) .is-ios .c-article-navigation {
 }
 
 .c-card-carousel_content_text {
-  width: 75%;
+  width: 90%;
   font-family: "Noto Sans KR", sans-serif;
   line-height: 1.2;
   color: #949494;
@@ -13764,7 +13763,8 @@ html:not(.has-smooth-scroll) .is-ios .c-article-navigation {
 .spec h3 {font-weight: 300; border-bottom: 2px solid #333; padding-bottom: 0.5em; padding-top: 2em}
 .spec .row {border-bottom: 1px solid #333; padding-bottom: 4em; margin-bottom: 4em}
 
-.go-kickstart{position:absolute; left:0; bottom:0; width:100%; background:#020621; z-index:3333; padding: 2em; text-align: center}
+/* .go-kickstart{position:absolute; left:0; bottom:0; width:100%; background:#020621; z-index:3333; padding: 2em; text-align: center} */
+.go-kickstart{position:absolute; left:5%; top:20%; z-index:3333;}
 .go-kickstart span {color:#fff; font-size: 36px;}
 .go-kickstart img {display: inline; padding:0 1em; vertical-align: baseline}
 .go-kickstart a {vertical-align: super;}
@@ -13773,7 +13773,7 @@ html:not(.has-smooth-scroll) .is-ios .c-article-navigation {
 .m-fr {float: right}
 .go-kickstart{padding: 1em; text-align: center}
 .go-kickstart span {font-size: 1rem;}
-.go-kickstart img {width: 7.5em}
+.go-kickstart img {width: 16.5em}
 .go-kickstart a {padding: 0 0.5em; vertical-align: baseline}
 }
 
@@ -14051,6 +14051,32 @@ section#timeline article:nth-child(2n+2) div.inner {
     }
 }
 
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 100%; top: 0; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
+audio:-webkit-full-page-media, video:-webkit-full-page-media {
+    max-height: 100%;
+    max-width: 100%;
+}
 
 .c-navigation-categories {
   -webkit-user-select: none;
@@ -15045,7 +15071,7 @@ section#timeline article:nth-child(2n+2) div.inner {
 
 .c-navigation-header-content {
   position: absolute;
-  top: 55%;
+  top: 0%;
   left: 50%;
   text-align: left;
   font-family: "Noto Sans KR", sans-serif;
@@ -15055,7 +15081,7 @@ section#timeline article:nth-child(2n+2) div.inner {
 
 @media (max-width: 999px) {
   .c-navigation-header-content {
-    width: 75%;
+    width: 100%;
     padding-top: 60px;
     -webkit-transform: translate3d(-50%, -50%, 0);
             transform: translate3d(-50%, -50%, 0);
@@ -15064,9 +15090,9 @@ section#timeline article:nth-child(2n+2) div.inner {
 
 @media (min-width: 1000px) {
   .c-navigation-header-content {
-    width: 72%;
-    -webkit-transform: translate3d(-50%, -60%, 0);
-            transform: translate3d(-50%, -60%, 0);
+    width: 100%;
+    -webkit-transform: translate3d(-50%, -38%, 0);
+            transform: translate3d(-50%, -38%, 0);
   }
 }
 
