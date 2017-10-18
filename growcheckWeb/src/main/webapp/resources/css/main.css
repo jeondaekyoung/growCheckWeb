@@ -13764,7 +13764,7 @@ html:not(.has-smooth-scroll) .is-ios .c-article-navigation {
 .spec .row {border-bottom: 1px solid #333; padding-bottom: 4em; margin-bottom: 4em}
 
 /* .go-kickstart{position:absolute; left:0; bottom:0; width:100%; background:#020621; z-index:3333; padding: 2em; text-align: center} */
-.go-kickstart{position:absolute; left:5%; top:20%; z-index:3333;}
+.go-kickstart{position:absolute; right:5%; top:15%; z-index:3333;}
 .go-kickstart span {color:#fff; font-size: 36px;}
 .go-kickstart img {display: inline; padding:0 1em; vertical-align: baseline}
 .go-kickstart a {vertical-align: super;}
