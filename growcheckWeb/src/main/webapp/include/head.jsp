@@ -21,7 +21,7 @@
 <link rel="manifest" href="<%=app_path%>/resources/js/manifest.json">
 <link rel="mask-icon" href="<%=app_path%>/resources/img/logo.svg" color="#00AEFF">
 <link rel="stylesheet" type="text/css" media="all and (min-width: 1024px)" href="http://fonts.googleapis.com/earlyaccess/notosanskr.css">
-<link rel="stylesheet" href="<%=app_path%>/resources/css/main.css?ver=0.9.2">
+<link rel="stylesheet" href="<%=app_path%>/resources/css/main.css?ver=0.9.3">
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

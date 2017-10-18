@@ -14053,7 +14053,7 @@ section#timeline article:nth-child(2n+2) div.inner {
 
 .video-background {
   background: #000;
-  position: fixed;
+  position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
 }
 .video-foreground,

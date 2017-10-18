@@ -190,7 +190,7 @@
                 <div class="c-card-calltoaction_overflow">
                 	<div class="video-background">
 					    <div class="video-foreground">
-					      <iframe src="<%=app_path%>/resources/video/growcheckCut.mp4?autohide=0&controls=1" frameborder="0" allowfullscreen></iframe>
+					      <iframe src="https://www.youtube.com/embed/Z4y-_YAmivY?autoplay=1&autohide=0&controls=1" frameborder="0" allowfullscreen></iframe>
 					    </div>
 					</div> 
                     <%-- <div class="c-card-calltoaction_background o-background js-scroll is-show" style="background-image: url(<%=app_path%>/resources/img/startNow.jpg?ver=0.2); "></div>
