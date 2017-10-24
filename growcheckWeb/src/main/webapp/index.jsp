@@ -57,8 +57,8 @@
                     <br>Experience various performances.</p>
                 </div>
                 <div class="go-kickstart">
-                    <img src="<%=app_path%>/resources/img/launchOn.png" alt="kickstarter">
-                    <%-- <a href="" targrt="_blank"><img src="<%=app_path%>/resources/img/goKickstarter.png" alt="go kickstarter"></a> --%>
+                    <%-- <img src="<%=app_path%>/resources/img/launchOn.png" alt="kickstarter"> --%>
+                    <a href="" targrt="_blank"><img src="<%=app_path%>/resources/img/goKickstarter.png" alt="go kickstarter"></a>
                 </div>        
             </header>
             <!-- No Navigation header -->
