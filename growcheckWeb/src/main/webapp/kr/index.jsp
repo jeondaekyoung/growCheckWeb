@@ -57,7 +57,7 @@
                 </div>
                 <div class="go-kickstart">
                     <%-- <img src="<%=app_path%>/resources/img/launchOn-kr.png" alt="kickstarter"> --%>
-                    <a href="" targrt="_blank"><img src="<%=app_path%>/resources/img/goKickstarter.png" alt="킥스타터로 이동"></a>
+                    <a href="https://www.kickstarter.com/projects/210649161/growcheck-the-first-iot-body-measurement-device-ev" targrt="_blank"><img src="<%=app_path%>/resources/img/goKickstarter.png" alt="킥스타터로 이동"></a>
                 </div>        
             </header>
             <!-- No Navigation header -->
