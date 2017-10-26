@@ -153,7 +153,7 @@ public class QaWebController {
 	@RequestMapping(value = "reset_answer.do", method=RequestMethod.GET)
 	public String answer_status(@Param("qa_Web_seq")int qa_Web_seq,Model model){
 		qaWebService.updateStateResetQaWeb(qa_Web_seq);
-		return "redirect:/views/admin/qaList-web.jsp";
+		return "admin/qaList-web";
 	}
 	/**
 	 * 문의사항 삭제하기
