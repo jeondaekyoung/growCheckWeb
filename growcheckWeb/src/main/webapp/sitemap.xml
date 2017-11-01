@@ -79,10 +79,6 @@
 	
 	<url>
 		<loc>http://www.i-growcheck.com/kr/</loc>
-		<xhtml:link rel="alternate" hreflang="en-us"
-			href="http://www.i-growcheck.com/" />
-		<xhtml:link rel="alternate" hreflang="ko-kr"
-			href="http://www.i-growcheck.com/kr/" />
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
