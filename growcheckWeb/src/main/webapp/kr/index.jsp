@@ -197,8 +197,10 @@
                     <div class="c-card-calltoaction_overlay"></div> --%>
                 </div>
                 <!-- <div class="c-card-calltoaction_content">
-                    <a class="c-card-shop_content"><h3 class="c-card-calltoaction_title">그로첵과 함께하는 헬스케어</h3>
-                    <p class="c-card-calltoaction_text">구매하기</p></a>
+                    <a href="https://www.kickstarter.com/projects/210649161/growcheck-the-first-iot-body-measurement-device-ev" class="c-card-shop_content">
+                    	<h3 class="c-card-calltoaction_title">그로첵과 함께하는 헬스케어</h3>
+                    	<p class="c-card-calltoaction_text">구매하기</p>
+                    </a>
                 </div> -->
             </section>
         </div>
