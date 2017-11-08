@@ -55,10 +55,10 @@
                     <p class="m-opacity c-white" style="font-size:1.1em;margin:1.5em 0;font-weight:300">그로첵은 IoT 기반의 세로형 스마트 체중계&amp;키재기입니다.
                     <br>편리함과 즐거움을 동시에 느낄 수 있습니다! 다양한 성능을 체험해 보세요.</p>
                 </div>
-                <div class="go-kickstart">
-                    <%-- <img src="<%=app_path%>/resources/img/launchOn-kr.png" alt="kickstarter"> --%>
+                <%-- <div class="go-kickstart">
+                    <img src="<%=app_path%>/resources/img/launchOn-kr.png" alt="kickstarter">
                     <a href="https://www.kickstarter.com/projects/210649161/growcheck-the-first-iot-body-measurement-device-ev" targrt="_blank"><img src="<%=app_path%>/resources/img/goKickstarter.png" alt="킥스타터로 이동"></a>
-                </div>        
+                </div>    --%>     
             </header>
             <!-- No Navigation header -->
 

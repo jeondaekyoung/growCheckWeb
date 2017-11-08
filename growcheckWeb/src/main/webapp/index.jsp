@@ -56,10 +56,10 @@
                     <br>Feel comfort and fun at the same time.
                     <br>Experience various performances.</p>
                 </div>
-                <div class="go-kickstart">
-                    <%-- <img src="<%=app_path%>/resources/img/launchOn.png" alt="kickstarter"> --%>
+                <%-- <div class="go-kickstart">
+                    <img src="<%=app_path%>/resources/img/launchOn.png" alt="kickstarter">
                     <a href="https://www.kickstarter.com/projects/210649161/growcheck-the-first-iot-body-measurement-device-ev" targrt="_blank"><img src="<%=app_path%>/resources/img/goKickstarter.png" alt="go kickstarter"></a>
-                </div>        
+                </div>  --%>       
             </header>
             <!-- No Navigation header -->
 
